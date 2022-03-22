@@ -53,11 +53,11 @@ export default {
 <style  scoped lang="less">
 .top {
   width: 100%;
-  height: 50px;
+  height: 100px;
   background-color: #404142;
   .logo {
     width: 110px;
-    height: 25px;
+    height: 50px;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -65,7 +65,7 @@ export default {
   }
   .menuIcon {
     width: 40px;
-    height: 35px;
+    height: 50px;
     float: right;
     color: white;
     position: relative;
