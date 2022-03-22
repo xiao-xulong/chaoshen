@@ -39,7 +39,9 @@ export default {
       if (proxy.$router.currentRoute.value.name == name) {
         show.value = false;
       } else {
+        show.value = false;
         proxy.$router.push({ name: name })
+
       }
 
     }
