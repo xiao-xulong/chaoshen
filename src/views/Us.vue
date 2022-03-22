@@ -31,13 +31,13 @@ export default {
   height: 100%;
 }
 h2 {
-  font-size: 20px;
+  font-size: 35px;
   text-align: center;
   color: white;
 }
 h5 {
   margin-top: 15px;
-  font-size: 14px;
+  font-size: 20px;
   text-align: center;
   color: white;
 }

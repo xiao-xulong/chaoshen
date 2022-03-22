@@ -56,7 +56,7 @@ export default {
   height: 95px;
   background-color: #404142;
   .logo {
-    width: 120px;
+    width: 185px;
     height: 50px;
     position: relative;
     top: 50%;
@@ -64,8 +64,8 @@ export default {
     margin-left: 15px;
   }
   .menuIcon {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     float: right;
     color: white;
     position: relative;
