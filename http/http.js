@@ -20,7 +20,25 @@ const examplePics = [{
   name: '凉冰降临'
 }]
 const allPics = [{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/3c777229-6577-4119-abb0-485203e1d81b.jpg', name: '2022新年三王海报' },
-{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/a95f22cb-18c1-46c8-8f40-a2e52fea252f.jpg', name: ' 鹤熙三八妇女节海报' },
+{
+  url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/a95f22cb-18c1-46c8-8f40-a2e52fea252f.jpg',
+  name: ' 鹤熙三八妇女节海报'
+}, {
+  url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/37969326-617e-4fb4-ba8a-e293bee5157f.jpg', name: '蕾娜战悟空'
+}, {
+  url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/a3c7e5f6-896b-4cee-817b-34050b645fe5.jpg', name: '蕾娜烈阳海报'
+},
+{
+  url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/dab59525-42bf-40ff-af3f-6fbbbf9ce4c3.jpg'
+  , name: '怜风诸天降临'
+}, {
+  url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/79f27a48-92aa-4425-9dbb-c3bab9f951df.jpg',
+  name: '圣诞蕾娜'
+},
+{
+  url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/5cd755ce-bf03-4163-aa9e-7a41058fc80b.jpg',
+  name: '圣诞树蕾娜.'
+},
 {
   url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/a7125adb-2382-4195-b912-93413d0ad37f.png',
   name: '彦降临'
