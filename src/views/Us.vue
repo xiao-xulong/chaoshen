@@ -5,10 +5,7 @@
       <h2>关于我们</h2>
       <h5>ABOUT US</h5>
     </article>
-    <center>
-      该网站属于为个人学习、研究成果，因简历需要所以发布到网上，图片来源于虚拟印象动画工作室官博https://weibo.com/u/2532310695?tabtype=feed&layerid=4511021468080958
-      仅为私人欣赏使用
-    </center>
+    <center>该网站属于为个人学习、研究成果，因简历需要所以发布到网上，图片来源于虚拟印象动画工作室官博已发布的图片https://weibo.com/u/2532310695?tabtype=feed&layerid=4511021468080958</center>
   </div>
 </template>
 
