@@ -1,7 +1,7 @@
 <template>
   <van-notice-bar
     left-icon="volume-o"
-    text="网站来源于超神影业官方微博，不做任何商业行为和盈利，不损失版权方任何利益，仅限于收藏使用，个人欣赏，不注释，改编，不推广和宣传以及引流。"
+    text="网站图片皆来源于超神影业官方微博，不做任何商业行为和盈利，不损失版权方任何利益，仅限于收藏使用，个人欣赏，不注释，改编，不推广和宣传以及引流。"
   />
   <div class="top">
     <img class="logo" src="../assets/logo.png" />
@@ -57,6 +57,9 @@ export default {
 </script>
 
 <style  scoped lang="less">
+:deep(.van-notice-bar__content) {
+  font-size: 24px;
+}
 .top {
   width: 100%;
   height: 95px;
