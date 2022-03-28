@@ -2,12 +2,12 @@
   <pageTop></pageTop>
   <div class="root">
     <article>
-      <h2>帮助我们</h2>
-      <h5>HELP US</h5>
+      <h2>关于我们</h2>
+      <h5>ABOUT US</h5>
     </article>
-    <center>本应用由超神粉丝自行研发，仅供粉丝们下载壁纸之用，不盈利，不引流，不接受广告，会不定期更新官方壁纸的无水印版本,如果该网站对您有帮助的话，请赞助我们以示鼓励，您的每一份支持都将成为我们的动力</center>
     <center>
-      <img style="width: 80vw;" src="../assets/QQpay.png" />
+      该网站属于为个人学习、研究成果，因简历需要所以发布到网上，图片来源于虚拟印象动画工作室官博https://weibo.com/u/2532310695?tabtype=feed&layerid=4511021468080958
+      仅为私人欣赏使用
     </center>
   </div>
 </template>
