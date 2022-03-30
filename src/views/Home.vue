@@ -45,6 +45,7 @@ import { examplePics, allPics, shootreq } from '../../http/http'
 import { onMounted, ref, getCurrentInstance } from 'vue'
 import { useRouter } from "vue-router";
 import pageTop from '../components/pageTop'
+import { Dialog } from 'vant';
 export default {
   name: 'Home',
   components: {
@@ -52,9 +53,11 @@ export default {
   },
   setup() {
     onMounted(async () => {
+
       const res = await shootreq()
       // backPics.value=res.data
       console.log(res.data)
+
     })
     const router = useRouter();
     let { proxy } = getCurrentInstance()
@@ -77,6 +80,7 @@ export default {
       videoPlayState.value = false
     }
     let morePic = function () {
+
       proxy.$router.push({ name: 'WallPaper' })
     }
     let goDownload = function (url) {

@@ -65,7 +65,7 @@ export default {
   height: 95px;
   background-color: #404142;
   .logo {
-    width: 185px;
+    width: 205px;
     height: 80px;
     position: relative;
     top: 50%;
