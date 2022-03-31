@@ -38,9 +38,9 @@
 </template>
 
 <script>
-import s1 from '../assets/swiper1.jpg';
-import s2 from '../assets/swiper2.jpg';
-import s3 from '../assets/swiper3.jpg';
+// import s1 from '../assets/swiper1.jpg';
+// import s2 from '../assets/swiper2.jpg';
+// import s3 from '../assets/swiper3.jpg';
 import { examplePics, allPics, shootreq } from '../../http/http'
 import { onMounted, ref, getCurrentInstance } from 'vue'
 import { useRouter } from "vue-router";
@@ -62,7 +62,8 @@ export default {
     const router = useRouter();
     let { proxy } = getCurrentInstance()
     let backPics = ref(examplePics)
-    const images = [s1, s2, s3]
+    // const images = [s1, s2, s3]
+    const images = ['https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/c4f816cf-4f76-4a67-9010-ba53590b17eb.jpg', 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/1a81d7e1-9049-4274-8f4a-248ad6d024f9.jpg', 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/0d302c95-6bcb-4bbf-ac19-6e5355644d0c.jpg']
 
     let videoPlayState = ref(false)
     let videoAddress = ref('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b5a06f88-fb89-4b85-8d58-960f4cb33c73.mp4')
