@@ -45,9 +45,9 @@ export default {
 
         })
         const login = function () {
-            if (password.value.toLowerCase() == 'angeliclover') {
+            if (password.value.toLowerCase() == 'angel') {
                 sessionStorage.setItem("angle", "Yan");
-                localStorage.setItem('wingKey', 'angeliclover');
+                localStorage.setItem('wingKey', 'angel');
                 proxy.$router.push({
                     path: '/Home'
                 })

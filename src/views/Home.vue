@@ -31,7 +31,7 @@
     </article>
     <div v-for="item in backPics" :key="item">
       <img @click="goDownload(item.url)" class="backImg" :src="item.url" />
-      <center class="imgName">{{ item.name }}</center>
+    <center class="imgName">{{ item.name }}</center>
     </div>
     <button @click="morePic">更多无水印壁纸</button>
   </div>
@@ -53,8 +53,8 @@ export default {
   },
   setup() {
     onMounted(async () => {
-
-      const res = await shootreq()
+ 
+                const res = await shootreq()
       // backPics.value=res.data
       console.log(res.data)
 
