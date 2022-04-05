@@ -20,10 +20,10 @@ const examplePics = [{
   name: '凉冰降临'
 }]
 const allPics = [
-  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9a061ff2-d9a7-4eef-93c5-ea930c2264ba.jpg', name: '雄三海报' }
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9a061ff2-d9a7-4eef-93c5-ea930c2264ba.jpg', name: '雄三海报' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9b946d33-3d16-4a5f-bb66-e4eba2b69f58.jpg', name: '冷清明海报' },
-  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/37eadab7-d089-4109-bf1d-94be4b91d5e0.png', name: ' 天使凉冰玫瑰' }
-  
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/37eadab7-d089-4109-bf1d-94be4b91d5e0.png', name: ' 天使凉冰玫瑰' },
+
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/3c777229-6577-4119-abb0-485203e1d81b.jpg', name: '2022新年三王海报' },
   {
     url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/a95f22cb-18c1-46c8-8f40-a2e52fea252f.jpg',
