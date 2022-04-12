@@ -20,6 +20,9 @@ const examplePics = [{
   name: '凉冰降临'
 }]
 const allPics = [
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/77f5c254-dea0-4b3e-a026-c88d78b0a059.jpg', name: '墨倾词凉冰' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/c5d69733-3cf2-4bc5-aa6b-27772bca9b61.jpg', name: '墨倾词琪琳' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/f1ee674c-9495-4f2b-b98c-e9ed8f54676f.jpg', name: '墨倾词鹤熙' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9a061ff2-d9a7-4eef-93c5-ea930c2264ba.jpg', name: '雄三海报' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9b946d33-3d16-4a5f-bb66-e4eba2b69f58.jpg', name: '冷清明海报' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/37eadab7-d089-4109-bf1d-94be4b91d5e0.png', name: ' 天使凉冰玫瑰' },
@@ -193,6 +196,40 @@ const allPics = [
     , name: '除夕合照'
   }, { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/a5df8f99-db6a-4d27-9549-f07922e47897.png', name: '团队（琪琳怜风悟空）' }]
 
+
+
+const sharePics = [{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/79153330-91de-433a-84ac-caac32a016e1.jpg', name: '鹤熙露肩装' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/93cb50c8-d654-434f-a896-3c8346a4d2d4.jpg', name: '琪琳回眸' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/61cd45bb-dcd7-44c2-9461-78e0d30219e0.jpg', name: '鹤熙旗袍' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/818c3fd4-9838-4c72-8027-aa9eb6a5fa75.jpg', name: '鹤熙正脸' }
+  // { url: '', name: '' },
+  // { url: '', name: '' },
+  // { url: '', name: '' },
+]
+
+const QPics = [{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/62e2972d-a3fa-49c8-9f9b-4339bb7a777c.jpg', name: '老版Q锐雯' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/e33c220e-33f5-4dba-82c6-d963eaa9c5d9.jpg', name: '老版Q蕾娜' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b2d6b40d-f36d-487c-b3e1-801f3256c1f7.jpg', name: '老版Q女王' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/43646b31-c969-4385-b04c-9526e55b17fb.jpg', name: '老版Q阿狸' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/8bf646c3-1c2e-40ac-a679-86ceed01b3cd.jpg', name: '老版Q悟空' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/5a4089a4-15fc-433b-9267-44de1a28e466.jpg', name: '老版Q刘闯' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b4636613-a792-42a4-b3d6-82442befe9e8.jpg', name: '汤圆凉冰' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/adf2dbe2-bcff-4464-8837-f5f70a1d3a3b.jpeg', name: 'Q彦立正' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/0cfcda45-149b-4ca9-8a44-b352dc52893a.jpeg', name: 'Q彦惊讶' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9cab29e9-5155-477d-ae4e-0aabf478c55d.jpeg', name: 'Q彦持剑全身照' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/3d2fab94-5132-4c93-8a55-b09586fb3537.jpg', name: '彦仰望漫画' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/085551d0-9c99-436a-9c92-288f44190869.jpg', name: '抽象彦' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/c5e7cc8e-fe07-4663-b2f9-528a92c85d37.jpg', name: '抽象刘闯' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/71130233-3193-4bef-a62e-6b15129fd922.jpg', name: '抽象莫甘娜' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/2dbc92a9-c847-4979-9bdd-9e9bc6785c9e.jpg', name: '抽象瑞文' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/43d5bbfc-f48c-410c-9863-896735c8c631.jpg', name: '抽象蕾娜' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/7dcdf26c-0444-4a8a-bc62-be15c631a9bb.jpg', name: '抽象蔷薇' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/97111dd7-2b32-49f9-9f5d-5060160f7de2.jpg', name: '抽象凉冰' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b3bbb68f-b9ce-45f9-9a9a-f57fb0c31191.jpg', name: '抽象赵信' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/e5f1cd82-30b3-4cc1-88c0-a394e9142f79.jpg', name: '抽象琪琳' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/093b3b37-c2ae-4a85-9fd0-f825e0f49ded.jpg', name: 'Q凉薇' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/94f7cd54-d87d-434a-8df3-36e87d62a3f7.jpg', name: 'Q元旦' },
+{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/2f816648-2746-4123-83d2-3914bbcaf392.jpg', name: 'Q双女王' }]
 // const allPics=[{url:'http://r.photo.store.qq.com/psc?/V5291Pt944vGI6035cbU234hz53UycII/45NBuzDIW489QBoVep5mccsKENyzo0A5T*SfoYTsnXD5HEZqq0bq45Jg4Yx6HHn.uO7LdvRI2Ff4HEbsxttxZKJRa0xboNAaLsBYDmOD5eY!/r',
 //   name:'彦降临'},{url:'http://r.photo.store.qq.com/psc?/V5291Pt944vGI6035cbU234hz53UycII/45NBuzDIW489QBoVep5mcQZaos6QrklqM3SW*dY8Q6Fs*MLQ*4bas1dN8m9VmmXjXVJlJWkUqfhBrk1TqKJf72C7LBwfFYUOPG5.YAAQJOQ!/r',
 //   name:'小狸 - 烈阳2'},{url:'http://r.photo.store.qq.com/psc?/V5291Pt944vGI6035cbU234hz53UycII/45NBuzDIW489QBoVep5mcQZaos6QrklqM3SW*dY8Q6Ez4SdrDpLunC4NvhIH5Ir5CP8q6RwIa.Y0Gh1W38JnbeCOT54WeuQCokxr3WhJwyc!/r',
@@ -241,4 +278,4 @@ const allPics = [
 //   ,name:'皇冠凉冰'},{url:'http://r.photo.store.qq.com/psc?/V5291Pt944vGI6035cbU234hz53UycII/45NBuzDIW489QBoVep5mcT27e*DZIXc5IswTbWMd5bORn8VzLKJKR*woNbssh6yeTpcmUczRMXFXH1L4Q1.I0fvuJCmZqE300rZ3dDEQkuQ!/r'
 //   ,name:'除夕合照'},{url:'http://r.photo.store.qq.com/psc?/V5291Pt944vGI6035cbU234hz53UycII/45NBuzDIW489QBoVep5mcYSuXjv0uPEwcvju8YZ*scI11nPuyYfDW*Gi0qlpu5yGxH28Scy6OnzI7kjxwU1hE0*06N3uMr3uz9e8AMV*3RM!/r',name:'团队（琪琳怜风悟空）'}]
 
-export { allPics, examplePics, shootreq }
+export { allPics, examplePics, shootreq, sharePics, QPics }

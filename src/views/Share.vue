@@ -1,24 +1,25 @@
 <template>
   <div class="root">
     <pageTop></pageTop>
-    <img class="title_img" src="../assets/wallPicBackGround.png">
+    <article>
+      <h2>网友投稿</h2>
+      <h5>SHARE</h5>
+    </article>
     <div v-for="item in showPic" :key="item" class="itemContain">
       <img class="backImg" :src="item.url" @click="goDownload(item.url)">
       <center class="imgName">{{ item.name }}</center>
     </div>
     <button v-show="!noMorePic" @click="addShowPic">更多无水印壁纸</button>
-    <button style="color: orange" v-show="noMorePic">无更多壁纸了！</button>
-  </div>
+    <button style="color: orange" v-show="noMorePic">无更多壁纸了！</button>  </div>
 </template>
 
 <script>
-import { examplePics, allPics, shootreq } from '../../http/http'
 import pageTop from '../components/pageTop'
-import { onMounted, ref, getCurrentInstance } from 'vue'
-import { useRouter } from 'vue-router'
+import { sharePics } from '../../http/http'
 
+import { onMounted, ref, getCurrentInstance } from 'vue'
 export default {
-  name: 'WallPaper',
+  name: 'Share',
   components: {
     pageTop
   },
@@ -31,14 +32,17 @@ export default {
     let showPic = ref([])
     let showPicNum = ref(5)
     let noMorePic = ref(false)
-
-    showPic.value = allPics.slice(0, showPicNum.value);
+    if (sharePics.length > 5) {
+      showPic.value = sharePics.slice(0, showPicNum.value);
+    } else {
+      showPic.value = sharePics
+    }
     let addShowPic = function () {
       showPicNum.value += 5
-      if (allPics[showPicNum.value - 1] != undefined) {
-        showPic.value = allPics.slice(0, showPicNum.value);
+      if (sharePics[showPicNum.value - 1] != undefined) {
+        showPic.value = sharePics.slice(0, showPicNum.value);
       } else {
-        showPic.value = allPics
+        showPic.value = sharePics
         noMorePic.value = true
       }
     }
@@ -49,16 +53,33 @@ export default {
         }
       })
     }
-    return { allPics, showPic, showPicNum, addShowPic, noMorePic, goDownload }
+    return { sharePics, showPic, showPicNum, addShowPic, noMorePic, goDownload }
   }
 }
 </script>
 
 <style scoped lang="less">
 .root {
-  background-color: #10171A;
+  background-color: #10171a;
   width: 100%;
   height: auto;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
+
+h5 {
+  margin-top: 15px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
 }
 
 .title_img {
@@ -69,6 +90,8 @@ export default {
   left: 50%;
   transform: translateX(-50%);
 }
+
+
 
 .itemContain {
   margin-bottom: 20px;
@@ -82,11 +105,16 @@ export default {
     border: 1px solid #01e7ff;
   }
 
+
+
+
   .imgName {
     color: white;
     font-size: 28px;
   }
 }
+
+
 
 button {
   font-size: 26px;

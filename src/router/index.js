@@ -1,10 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Login from '../views/Login.vue'
-import Home from '../views/Home'
-import WallPaper from '../views/WallPaper'
-import PicDownload from '../views/PicDownload'
-import Us from '../views/Us'
-import UseHelp from '../views/UseHelp'
+
 const routes = [
   {
     path: '/',
@@ -31,9 +26,14 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Us.vue')
   },
   {
-    path: '/UseHelp',
-    name: 'UseHelp',
-    component: () => import(/* webpackChunkName: "about" */ '../views/UseHelp.vue')
+    path: '/Share',
+    name: 'Share',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Share.vue')
+  },
+  {
+    path: '/QPics',
+    name: 'QPics',
+    component: () => import(/* webpackChunkName: "about" */ '../views/QPics.vue')
   }
 ]
 
@@ -44,8 +44,8 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
 
   if (to.path === '/') {
-    console.log('a十大大苏打的')
-    console.log(to.path)
+    // console.log('a十大大苏打的')
+    // console.log(to.path)
     return next()
   } else {
     const token = window.sessionStorage.getItem('angle')
