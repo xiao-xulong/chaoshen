@@ -31,7 +31,7 @@
     </article>
     <div v-for="item in backPics" :key="item">
       <img @click="goDownload(item.url)" class="backImg" :src="item.url" />
-    <center class="imgName">{{ item.name }}</center>
+      <center class="imgName">{{ item.name }}</center>
     </div>
     <button @click="morePic">更多无水印壁纸</button>
   </div>
@@ -53,8 +53,8 @@ export default {
   },
   setup() {
     onMounted(async () => {
- 
-                const res = await shootreq()
+
+      const res = await shootreq()
       // backPics.value=res.data
       console.log(res.data)
 
@@ -81,6 +81,7 @@ export default {
       videoPlayState.value = false
     }
     let morePic = function () {
+      sessionStorage.setItem('i', 1)
 
       proxy.$router.push({ name: 'WallPaper' })
     }
@@ -159,16 +160,19 @@ export default {
     height: 330px;
   }
 }
+
 article {
   padding-top: 25px;
   background: url("../assets/line.png") no-repeat;
   background-size: cover;
   background-position: center;
+
   h2 {
     font-size: 20px;
     text-align: center;
     color: white;
   }
+
   h5 {
     margin-top: 15px;
     font-size: 14px;
@@ -176,6 +180,7 @@ article {
     color: white;
   }
 }
+
 .video {
   position: relative;
   width: 94%;
@@ -184,6 +189,7 @@ article {
   background: url("../assets/videoContain.png") no-repeat;
   background-size: contain;
   background-position: center;
+
   .icon {
     position: absolute;
     width: 80px;
@@ -197,6 +203,7 @@ article {
     z-index: 5;
     transform: translate(-50%, -50%);
   }
+
   video {
     z-index: 2;
     width: 94%;
@@ -208,15 +215,18 @@ article {
     object-fit: cover;
   }
 }
+
 .backImg {
   width: 96%;
   margin: 0 2%;
   margin-top: 16px;
 }
+
 .imgName {
   color: #8c8c8c;
   font-size: 28px;
 }
+
 button {
   font-size: 26px;
   width: 90%;
