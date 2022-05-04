@@ -20,6 +20,7 @@ const examplePics = [{
   name: '凉冰降临'
 }]
 const allPics = [
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/a3ab6ff0-27da-4dce-baaf-a709961e4fb5.png', name: '雄三彦模型' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/77f5c254-dea0-4b3e-a026-c88d78b0a059.jpg', name: '墨倾词凉冰' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/c5d69733-3cf2-4bc5-aa6b-27772bca9b61.jpg', name: '墨倾词琪琳' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/f1ee674c-9495-4f2b-b98c-e9ed8f54676f.jpg', name: '墨倾词鹤熙' },
