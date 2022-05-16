@@ -48,6 +48,8 @@ export default {
                 proxy.$router.push({
                     path: '/Home'
                 })
+            } else {
+                message.error('密码错误');
             }
 
 
