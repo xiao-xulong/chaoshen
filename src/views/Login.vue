@@ -49,7 +49,7 @@ export default {
                     path: '/Home'
                 })
             } else {
-                message.error('密码错误');
+                Notify({ type: 'danger', message: '通知内容' });
             }
 
 
