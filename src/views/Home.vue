@@ -121,7 +121,15 @@ export default {
   }
 }
 </script>
+<style>
+.van-notify {
+  font-size: 30px;
+}
 
+.van-notify {
+  height: 60px;
+}
+</style>
 <style scoped lang="less">
 .root {
   background-color: #10171a;
@@ -168,7 +176,7 @@ article {
   background-position: center;
 
   h2 {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     color: white;
   }
