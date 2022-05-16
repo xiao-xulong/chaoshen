@@ -14,7 +14,7 @@
 <script>
 import { ref, onMounted, getCurrentInstance } from 'vue'
 import { useRouter } from "vue-router";
-
+import { Notify } from 'vant';
 import { Dialog } from 'vant';
 export default {
     name: 'Login',
@@ -45,11 +45,12 @@ export default {
             if (password.value.toLowerCase() == 'angel') {
                 sessionStorage.setItem("angle", "Yan");
                 localStorage.setItem('wingKey', 'angel');
+                Notify({ type: 'success', message: '欢迎进入天使之城' });
                 proxy.$router.push({
                     path: '/Home'
                 })
             } else {
-                Notify({ type: 'danger', message: '通知内容' });
+                Notify({ type: 'danger', message: '密码错误' });
             }
 
 
