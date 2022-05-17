@@ -101,7 +101,7 @@ export default {
 <style  scoped>
 .bg {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: white;
 }
 
