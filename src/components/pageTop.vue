@@ -32,7 +32,9 @@ export default {
 
     let { proxy } = getCurrentInstance()
     console.log(proxy.$router.currentRoute.value.name)
-    const menuList = [{ name: 'Home', text: '首页' }, { name: 'WallPaper', text: '精美壁纸' }, { name: 'QPics', text: 'Q版雄兵连' }, { name: 'Us', text: '关于我们' }]
+    const menuList = [{ name: 'Home', text: '首页' }, { name: 'WallPaper', text: '精美壁纸' },
+    { name: 'QPics', text: 'Q版雄兵连' }, { name: 'xiongThree', text: '雄三在线(测试)' },
+    { name: 'Us', text: '关于我们' }]
     const show = ref(false);
     const act = ref(0)
     const showPopup = () => {
