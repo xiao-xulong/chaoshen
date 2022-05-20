@@ -1,11 +1,14 @@
 <template>
     <div class="root">
-        <pageTop>
-        </pageTop>
+        <div @click="menu">
+            <pageTop>
+            </pageTop>
+        </div>
+
         <div class="video">
             <img :src="icon" v-if="!videoPlayState" class="icon" @click="play">
-            <video ref="v" webkit-playsinline playsinline x5-playsinlin x5-video-player-type="h5" :src="videoAddress"
-                :poster="poster" @click="pause" @timeupdate="timeU" @canplay="timeW" @ended="videoEnd">
+            <video ref="v" crossorigin="anonymous" x5-video-player-type="h5" :src="videoAddress" :poster="poster"
+                @click="pause" @timeupdate="timeU" @canplay="timeW" @ended="videoEnd">
 
             </video>
             <div class="control-bar">
@@ -142,6 +145,11 @@ export default {
             RangeValue.value = v.value.currentTime
             playCurrentTime.value = TimeHandle(v.value.currentTime)
         }
+        const menu = function () {
+            v.value.pause()
+            videoPlayState.value = false
+            console.log('pause')
+        }
         let TimeHandle = function (time) {
             // 转换为式分秒
             let h = parseInt(time / 60 / 60 % 24)
@@ -161,7 +169,7 @@ export default {
 
         return {
             icon, videoPlayState, videoAddress, eps, choosedEp, changeEp, poster, v, play, pause, timeW, timeU,
-            playCurrentTime, videoDuraction, timeC, TimeHandle, TimeD, videoEnd, RangeValue, fullScreen
+            playCurrentTime, videoDuraction, timeC, TimeHandle, TimeD, videoEnd, RangeValue, fullScreen, menu
         }
     }
 }
@@ -173,6 +181,10 @@ export default {
     height: 100%;
 }
 
+.menu {
+    z-index: 10;
+}
+
 .video {
     position: relative;
     width: 100%;
@@ -180,8 +192,8 @@ export default {
 }
 
 video {
-    z-index: 2;
     width: 100%;
+    object-fit: fill;
 }
 
 .icon {
