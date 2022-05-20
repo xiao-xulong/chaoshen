@@ -4,15 +4,36 @@
         </pageTop>
         <div class="video">
             <img :src="icon" v-if="!videoPlayState" class="icon" @click="play">
-            <video ref="v" :poster="poster" @click="pause" @timeupdate="timeU" @canplay="timeW" @ended="videoEnd">
-                <source :src="videoAddress" type="video/mp4" />您的浏览器不支持 mp4文件。
+            <video ref="v" :src="videoAddress" :poster="poster" @click="pause" @timeupdate="timeU" @canplay="timeW"
+                @ended="videoEnd">
+
             </video>
             <div class="control-bar">
 
                 <span class="times"> {{
                         playCurrentTime
                 }} / {{ TimeD }}</span>
+
                 <van-slider active-color="#fb7299" v-model="RangeValue" @change="timeC" :max="videoDuraction" />
+                <i @click="fullScreen" class="fullScreenIcon"><svg viewBox="0 0 22 22"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs>
+                            <path
+                                d="M17.262 9.995a.75.75 0 01.75.75v6.585a.75.75 0 01-.75.75h-6.515a.75.75 0 010-1.5h5.765v-5.835a.75.75 0 01.75-.75zm-6-6a.75.75 0 110 1.5H5.497v5.835a.75.75 0 01-1.5 0V4.745a.75.75 0 01.75-.75h6.515z"
+                                id="pid-2-svgo-a"></path>
+                        </defs>
+                        <g fill="none" fill-rule="evenodd">
+                            <path d="M0 0h22v22H0z"></path>
+                            <mask id="pid-2-svgo-b" fill="#fff">
+                                <use xlink:href="#pid-2-svgo-a"></use>
+                            </mask>
+                            <use fill="#979797" fill-rule="nonzero" xlink:href="#pid-2-svgo-a"></use>
+                            <g mask="url(#pid-2-svgo-b)" fill="#FFF" fill-rule="nonzero">
+                                <path d="M0 0h22v22H0z"></path>
+                            </g>
+                        </g>
+                    </svg></i>
+
             </div>
         </div>
         <div class="info">
@@ -38,7 +59,7 @@
             </div>
             <div class="ep-list-body">
                 <div :class="['ep-item', choosedEp == item.id ? 'ep-item-active' : '']" v-for="item in eps" :key="item"
-                    @click="changeEp(item.id)">
+                    @click="changeEp(item)">
                     {{ item.name }}
                 </div>
             </div>
@@ -58,46 +79,66 @@ export default {
         pageTop
     },
     setup() {
+        //video的dom
         const v = ref()
+        //视频封面
         const poster = ref('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/a3ab6ff0-27da-4dce-baaf-a709961e4fb5.png')
+        //哔哩哔哩电视图标
         const icon = "https://s1.hdslb.com/bfs/static/bangumi/h5/asserts/player-play-tv-icon.png"
+        //视频播放状态
         const videoPlayState = ref(false)
-        const videoAddress = ref('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b5a06f88-fb89-4b85-8d58-960f4cb33c73.mp4')
+        //视频地址
+        const videoAddress = ref('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/39a53aef-ba03-4c82-8b87-148d7e3133df.mp4')
+        //视频长度
         const videoDuraction = ref(0)
+        //格式处理后的时间总长度 00：00
         const TimeD = ref('')
+        //进度条的value
         const RangeValue = ref(0)
+        //格式处理后的正在播放的时间
         const playCurrentTime = ref('00 : 00')
-        const eps = ref([{ id: 1, name: '第1话' }, { id: 2, name: '第2话' }, { id: 3, name: '第3话' }, { id: 4, name: '第4话' }, { id: 5, name: '第5话' }])
+        //剧集详情
+        const eps = ref([{ id: 1, name: '第1话', videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/39a53aef-ba03-4c82-8b87-148d7e3133df.mp4' },
+        { id: 2, name: '第2话', videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b5a06f88-fb89-4b85-8d58-960f4cb33c73.mp4' }, { id: 3, name: '第3话' }, { id: 4, name: '第4话' }, { id: 5, name: '第5话' }])
+        //选中的剧集
         const choosedEp = ref(1)
+        //选中剧集时视频地址重加载 播放状态改为false
         const changeEp = function (i) {
-            choosedEp.value = i
+            choosedEp.value = i.id
+            videoAddress.value = i.videoAddress
+            console.log(videoAddress.value)
+            videoPlayState.value = false
         }
+        //开始播放
         let play = function () {
             v.value.play();
             videoPlayState.value = true
             console.log(v.value)
+            // v.value.webkitRequestFullscreen()
         }
+        //暂停播放
         let pause = function () {
             v.value.pause();
             videoPlayState.value = false
-
         }
+        //视频全屏
+        let fullScreen = function () {
+            v.value.webkitRequestFullscreen()
+        }
+        //播放结束
         let videoEnd = function () {
             videoPlayState.value = false
         }
+        //视频资源加载后获取视频长度
         let timeW = function () {
             console.log(v.value.duration)
             TimeD.value = TimeHandle(v.value.duration)
             videoDuraction.value = v.value.duration
-
         }
         let timeC = function () {
-
             v.value.currentTime = RangeValue.value
-            //    v.value.currentTime
         }
         let timeU = function () {
-
             RangeValue.value = v.value.currentTime
             playCurrentTime.value = TimeHandle(v.value.currentTime)
         }
@@ -113,14 +154,14 @@ export default {
             if (h == "00") {
                 return m + ':' + s
             } else {
-                return Number(h) + ':' + Number(m) + ':' + Number(s)
+                return h + ':' + m + ':' + s
             }
 
         }
 
         return {
             icon, videoPlayState, videoAddress, eps, choosedEp, changeEp, poster, v, play, pause, timeW, timeU,
-            playCurrentTime, videoDuraction, timeC, TimeHandle, TimeD, videoEnd, RangeValue
+            playCurrentTime, videoDuraction, timeC, TimeHandle, TimeD, videoEnd, RangeValue, fullScreen
         }
     }
 }
@@ -146,10 +187,11 @@ video {
 .icon {
     z-index: 5;
     position: absolute;
-    width: 95px;
-    height: 86px;
-    right: 50px;
-    bottom: 50px;
+    width: 99px;
+    height: 90px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .info {
@@ -287,30 +329,46 @@ video {
 
 .control-bar {
     padding-left: 10px;
-    height: 60px;
+    height: 40px;
     position: absolute;
     z-index: 2;
-    bottom: 0;
+    bottom: 15px;
     left: 0;
     right: 0;
     border: 0 solid #e2e2e2;
     background-color: rgba(0, 0, 0, .4);
     opacity: 1;
+    line-height: 40px;
 
     .times {
         display: inline-block;
         height: 100%;
-
         line-height: 60px;
         margin-right: 20px;
-        font-size: 32px;
+        font-size: 28px;
         color: #ffffff;
+
     }
 }
 
+
 :deep(.van-slider) {
     display: inline-block;
-    width: 65%;
+    width: 60%;
     height: 10px;
+    position: relative;
+    bottom: 5px;
+}
+
+.fullScreenIcon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    left: 45px;
+    top: 8px;
 }
 </style>
