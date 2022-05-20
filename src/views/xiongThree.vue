@@ -4,8 +4,8 @@
         </pageTop>
         <div class="video">
             <img :src="icon" v-if="!videoPlayState" class="icon" @click="play">
-            <video ref="v" webkit-playsinline playsinline x5-playsinlin :src="videoAddress" :poster="poster"
-                @click="pause" @timeupdate="timeU" @canplay="timeW" @ended="videoEnd">
+            <video ref="v" webkit-playsinline playsinline x5-playsinlin x5-video-player-type="h5" :src="videoAddress"
+                :poster="poster" @click="pause" @timeupdate="timeU" @canplay="timeW" @ended="videoEnd">
 
             </video>
             <div class="control-bar">
