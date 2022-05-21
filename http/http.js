@@ -229,7 +229,7 @@ const sharePics = [{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b
 ]
 
 const QPics = [
-  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/265fa4a2-9c08-448c-9943-35b82012abd1.jpg', name: 'Q凉薇风筝' },
+  // { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/265fa4a2-9c08-448c-9943-35b82012abd1.jpg', name: 'Q凉薇风筝' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/de3dcd42-3070-439e-8911-0bc5b79f4c2a.jpg', name: '追与冷' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/62e2972d-a3fa-49c8-9f9b-4339bb7a777c.jpg', name: '老版Q锐雯' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/e33c220e-33f5-4dba-82c6-d963eaa9c5d9.jpg', name: '老版Q蕾娜' },
