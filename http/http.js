@@ -302,4 +302,4 @@ const QPics = [
 //   ,name:'皇冠凉冰'},{url:'http://r.photo.store.qq.com/psc?/V5291Pt944vGI6035cbU234hz53UycII/45NBuzDIW489QBoVep5mcT27e*DZIXc5IswTbWMd5bORn8VzLKJKR*woNbssh6yeTpcmUczRMXFXH1L4Q1.I0fvuJCmZqE300rZ3dDEQkuQ!/r'
 //   ,name:'除夕合照'},{url:'http://r.photo.store.qq.com/psc?/V5291Pt944vGI6035cbU234hz53UycII/45NBuzDIW489QBoVep5mcYSuXjv0uPEwcvju8YZ*scI11nPuyYfDW*Gi0qlpu5yGxH28Scy6OnzI7kjxwU1hE0*06N3uMr3uz9e8AMV*3RM!/r',name:'团队（琪琳怜风悟空）'}]
 
-export { allPics, examplePics, shootreq, sharePics, QPics }
+export { allPics, examplePics, sharePics, QPics }
