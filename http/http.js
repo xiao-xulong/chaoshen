@@ -22,10 +22,11 @@ const examplePics = [{
 }]
 const allPics = [
   // {url:'',name:''},
-  // {url:'',name:''},
+  // 
 
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/02f6a990-f926-4a2f-acf8-3e483cb32e4f.jpg', name: '视觉新时空-凉冰' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/018f67d5-2281-48b1-af97-7353888cd1da.jpg', name: '视觉新时空-雄一盔甲彦' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/f457e95c-fa85-4d1e-bb07-ef0a89dc46ae.jpg', name: '妇女节群像 高清修复版' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/eed800fa-a168-4d73-9375-82b1c5b6bae1.jpg', name: ' 视觉新时空-华服彦' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/ed92d5c8-f450-43fe-9888-0d83089c77a5.jpg', name: '视觉新时空-微笑盔甲彦' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/4f62c49c-71ce-4648-9d2f-f74123fce500.jpg', name: '视觉新时空-雄三举剑彦' },
