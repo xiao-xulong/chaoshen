@@ -26,10 +26,11 @@ const allPics = [
 
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/02f6a990-f926-4a2f-acf8-3e483cb32e4f.jpg', name: '视觉新时空-凉冰' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/018f67d5-2281-48b1-af97-7353888cd1da.jpg', name: '视觉新时空-雄一盔甲彦' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/8cae6b7b-c998-428a-a7a4-42b0f1d603fe.png', name: '比耶琪琳' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/f457e95c-fa85-4d1e-bb07-ef0a89dc46ae.jpg', name: '妇女节群像 高清修复版' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/eed800fa-a168-4d73-9375-82b1c5b6bae1.jpg', name: ' 视觉新时空-华服彦' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/ed92d5c8-f450-43fe-9888-0d83089c77a5.jpg', name: '视觉新时空-微笑盔甲彦' },
-  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/4f62c49c-71ce-4648-9d2f-f74123fce500.jpg', name: '视觉新时空-雄三举剑彦' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/a62ef0d9-28ee-406a-8ff4-6ec8f75f2567.png', name: '视觉新时空-雄3举剑彦修复版' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/be53c498-f031-436d-a9a4-2534447da0a6.jpg', name: '视觉新时空-雄三雷霆彦' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/d0572354-a2ed-4900-9c35-967c32c6e152.jpg', name: '视觉新时空-现代装凉冰' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/355bac55-b1ce-4b00-b2a0-2ffbb6b7b5aa.jpg', name: '视觉新时空-凯莎现代照' },
