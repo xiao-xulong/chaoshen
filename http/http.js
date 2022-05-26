@@ -39,6 +39,7 @@ const allPics = [
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/ee5ac7c6-be81-4f59-b0ed-22c72846dbe2.jpg', name: '视觉新时空-现代装彦（白衣牛仔裤' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/371c04f5-0584-411f-b30b-25899d332f1b.jpg', name: '视觉新时空-雄二盔甲彦' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/e4e5e537-acec-4159-90e6-dac940777a4e.png', name: '视觉新时空-琪琳' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/f6caf59e-4515-4372-8f39-5cbdb46c87e6.jpg', name: '雄三海报群像' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/11a5b9f3-41a5-4d01-9a46-d9f686d37deb.jpg', name: '雄三天使彦正面形象' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/3b0948d6-567f-4c52-9b38-bbf399e291b5.jpg', name: '雄三凯莎海报' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/1b9ff6f2-9543-4470-b9e5-ee5e3596e2ff.png', name: '母亲节-青卿海报' },
