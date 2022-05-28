@@ -58,7 +58,7 @@
         <div class="ep-list">
             <div class="ep-list-header">
                 <span class="ep-title"> 选集</span>
-                <span class="ep-last">更新至第3话</span>
+                <span class="ep-last">更新至第2话</span>
             </div>
             <div class="ep-list-body">
                 <div :class="['ep-item', choosedEp == item.id ? 'ep-item-active' : '']" v-for="item in eps" :key="item"
@@ -67,7 +67,7 @@
                 </div>
             </div>
         </div>
-        <h1>测试页面</h1>
+
 
 
     </div>
@@ -102,7 +102,11 @@ export default {
         const playCurrentTime = ref('00 : 00')
         //剧集详情
         const eps = ref([{ id: 1, name: '第1话', videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/39a53aef-ba03-4c82-8b87-148d7e3133df.mp4' },
-        { id: 2, name: '第2话', videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b5a06f88-fb89-4b85-8d58-960f4cb33c73.mp4' }, { id: 3, name: '第3话' }, { id: 4, name: '第4话' }, { id: 5, name: '第5话' }])
+        { id: 2, name: '第2话', videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b5a06f88-fb89-4b85-8d58-960f4cb33c73.mp4' },
+            // { id: 3, name: '第3话' }, 
+            // { id: 4, name: '第4话' }, 
+            // { id: 5, name: '第5话' }
+        ])
         //选中的剧集
         const choosedEp = ref(1)
         //选中剧集时视频地址重加载 播放状态改为false
