@@ -101,8 +101,10 @@ export default {
         //格式处理后的正在播放的时间
         const playCurrentTime = ref('00 : 00')
         //剧集详情
-        const eps = ref([{ id: 1, name: '第1话', videoAddress: 'http://42.192.47.115:16880/xs01.mp4' },
-        { id: 2, name: '第2话', videoAddress: 'http://42.192.47.115:16880/xs02.mp4' },
+        // const eps = ref([{ id: 1, name: '第1话', videoAddress: 'http://42.192.47.115:16880/xs01.mp4' },
+        // { id: 2, name: '第2话', videoAddress: 'http://42.192.47.115:16880/xs02.mp4' },
+        const eps = ref([{ id: 1, name: '第1话', videoAddress: '' },
+        { id: 2, name: '第2话', videoAddress: '' },
             // { id: 3, name: '第3话' }, 
             // { id: 4, name: '第4话' }, 
             // { id: 5, name: '第5话' }
