@@ -102,7 +102,7 @@ export default {
         const playCurrentTime = ref('00 : 00')
         //剧集详情
         const eps = ref([{ id: 1, name: '第1话', videoAddress: 'http://42.192.47.115:16880/xs01.mp4' },
-        { id: 2, name: '第2话', videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b5a06f88-fb89-4b85-8d58-960f4cb33c73.mp4' },
+        { id: 2, name: '第2话', videoAddress: 'http://42.192.47.115:16880/xs02.mp4' },
             // { id: 3, name: '第3话' }, 
             // { id: 4, name: '第4话' }, 
             // { id: 5, name: '第5话' }
