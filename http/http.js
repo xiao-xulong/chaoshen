@@ -23,6 +23,11 @@ const examplePics = [{
 const allPics = [
   // {url:'',name:''},
   // 
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/240c69b1-9ac3-429d-9ffe-5bb69ac973c2.png', name: '雄三彦海报' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/8dd89389-4d1a-4e00-9567-a8aead44eb61.jpg', name: '雄三彦严肃' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9a89e2d5-30bd-4508-a942-8cd2178f2365.jpg', name: '雄三彦忧愁' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/8dd89389-4d1a-4e00-9567-a8aead44eb61.jpg', name: '雄三彦严肃' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/3644aec9-9be4-4d11-a7a3-04a0b21c9e11.jpg', name: '凉冰比基尼' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b6ba5606-7731-4eda-be02-3724376337ce.png', name: '蔷薇海报超清修复版' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/02f6a990-f926-4a2f-acf8-3e483cb32e4f.jpg', name: '视觉新时空-凉冰' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/018f67d5-2281-48b1-af97-7353888cd1da.jpg', name: '视觉新时空-雄一盔甲彦' },
