@@ -91,7 +91,7 @@ export default {
         //视频播放状态
         const videoPlayState = ref(false)
         //视频地址
-        const videoAddress = ref('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/39a53aef-ba03-4c82-8b87-148d7e3133df.mp4')
+        const videoAddress = ref('http://42.192.47.115:16880/xs01.mp4')
         //视频长度
         const videoDuraction = ref(0)
         //格式处理后的时间总长度 00：00
