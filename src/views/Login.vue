@@ -44,7 +44,7 @@ export default {
         const login = function () {
             if (password.value.toLowerCase() == 'skyborn') {
                 sessionStorage.setItem("angle", "Yan");
-                localStorage.setItem('wingKey', 'angel');
+                localStorage.setItem('wingKey', 'skyborn');
                 Notify({ type: 'success', message: '欢迎进入天使之城' });
                 proxy.$router.push({
                     path: '/Home'
