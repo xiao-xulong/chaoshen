@@ -125,7 +125,6 @@ article {
 .root {
   background-color: rgb(245, 240, 240);
   width: 100%;
-  height: auto;
 }
 
 h2 {
