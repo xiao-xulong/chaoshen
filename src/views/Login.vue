@@ -50,7 +50,7 @@ export default {
                     path: '/Home'
                 })
             } else {
-                Notify({ type: 'danger', message: '密码错误' });
+                Notify({ type: 'danger', message: '密码错误,请联系Q2431694726' });
             }
 
 
