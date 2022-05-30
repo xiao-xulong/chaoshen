@@ -42,7 +42,7 @@ export default {
 
         })
         const login = function () {
-            if (password.value.toLowerCase() == 'angel') {
+            if (password.value.toLowerCase() == 'skyborn') {
                 sessionStorage.setItem("angle", "Yan");
                 localStorage.setItem('wingKey', 'angel');
                 Notify({ type: 'success', message: '欢迎进入天使之城' });
