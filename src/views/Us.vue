@@ -9,8 +9,8 @@
     <section>
       <div class="pay">
 
-        <img class="payImg" :src="vxImg">
-        <img class="payImg" :src="zfbImg">
+        <img class="payImg" @click="fullView(vxImg)" :src="vxImg">
+        <img class="payImg" @click="fullView(zfbImg)" :src="zfbImg">
         <span class="payImgText">微信打赏</span>
         <span class="payImgText">支付宝赞助</span>
       </div>
@@ -81,6 +81,7 @@
 <script setup>
 import pageTop from '../components/pageTop';
 import { ref, reactive } from "vue";
+import { ImagePreview } from 'vant';
 const vxImg = ref('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/31230ac8-ad14-4403-a698-fce394bc4da5.jpg')
 const zfbImg = ref('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/cc7446b0-e0d1-48f2-b6fa-219d0f7da47a.jpg')
 const vips = ref([{ qq: '2592526921', name: '青争', money: '50' }, { qq: '430841254', name: '北宸', money: '20' }, { qq: '1834727719', name: '茶杯', money: '15' },
@@ -94,6 +95,9 @@ const backC = reactive({ co: "red" })
 const c = function () {
   backC.co = 'white'
 };
+const fullView = function (url) {
+  ImagePreview([url]);
+}
 </script>
 
 <style scoped lang="less">
