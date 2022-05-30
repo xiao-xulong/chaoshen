@@ -84,7 +84,7 @@ import { ref, reactive } from "vue";
 const vxImg = ref('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/31230ac8-ad14-4403-a698-fce394bc4da5.jpg')
 const zfbImg = ref('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/cc7446b0-e0d1-48f2-b6fa-219d0f7da47a.jpg')
 const vips = ref([{ qq: '2592526921', name: '青争', money: '50' }, { qq: '430841254', name: '北宸', money: '20' }, { qq: '1834727719', name: '茶杯', money: '15' },
-{ qq: '3065699812', name: '四月的阵雨', money: '10' },
+{ qq: '3065699812', name: '四月的阵雨孕育五月的芳香', money: '10' },
 { qq: '450008868', name: '求求你不要在秀啦', money: '3' },
 { qq: '2806266318', name: '无尽', money: '5' }, { qq: '3069636940', name: '•᷄ᯅ•᷅', money: '5' },
 { qq: '1330167188', name: '离离原上草', money: '10' }, { qq: '2641164263', name: '🤔🤔🤔', money: '10' }
