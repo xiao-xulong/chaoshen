@@ -80,21 +80,12 @@
 
 <script setup>
 import pageTop from '../components/pageTop';
+import { vips } from '../../http/vips'
 import { ref, reactive } from "vue";
 import { ImagePreview } from 'vant';
 const vxImg = ref('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/31230ac8-ad14-4403-a698-fce394bc4da5.jpg')
 const zfbImg = ref('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/cc7446b0-e0d1-48f2-b6fa-219d0f7da47a.jpg')
-const vips = ref([{ qq: '2592526921', name: '青争', money: '50' }, { qq: '430841254', name: '北宸', money: '20' }, { qq: '1834727719', name: '茶杯', money: '15' },
-{ qq: '3065699812', name: '四月的阵雨孕育五月的芳香', money: '10' },
-{ qq: '1330167188', name: '离离原上草', money: '10' }, { qq: '2641164263', name: '🤔🤔🤔', money: '10' }
-  , { qq: '459098757', name: '眉间雪', money: '10' },
-{ qq: '2563727567', name: '╰ァ 真爱必将永恒 ℡', money: '10' }, { qq: '807324278', name: '雄灬雷霆万钧', money: '10' },
-{ qq: '1843948100', name: '謎語', money: '10' }, { qq: '1929965449', name: '紅月明[讋]', money: '10' },
-{ qq: '1377419640', name: 'Death', money: '10' },
-{ qq: '2292443696', name: '尘缘如幻梦', money: '5' }, { qq: '2806266318', name: '无尽', money: '5' },
-{ qq: '3069636940', name: '•᷄ᯅ•᷅', money: '5' }, { qq: '1732253807', name: '天逸', money: '3' }, { qq: '2334385343', name: 'Stronger', money: '3' },
-{ qq: '450008868', name: '求求你不要在秀啦', money: '3' },
-])
+
 const backC = reactive({ co: "red" })
 const c = function () {
   backC.co = 'white'

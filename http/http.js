@@ -23,6 +23,8 @@ const examplePics = [{
 const allPics = [
   // {url:'',name:''},
   // 
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/d30c1285-8782-4b38-883a-947c36bd72e0.png', name: '雄三天使彦' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b250c929-7ae9-4e98-b0a4-29f7d9bc83be.jpg', name: '雄三双刃炙心' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/6d2d9b59-99c7-4305-b683-15147ea187e1.jpg', name: '雄三天使彦' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9ed27b81-d0ab-4dd2-b87e-fbda31a48f81.jpg', name: '雄三锐雯' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/cde1d20c-76d7-41a9-bbb6-2767b3fc5f8a.jpg', name: '雄三鹤熙唯美' },
@@ -240,6 +242,9 @@ const sharePics = [{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b
 ]
 
 const QPics = [
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9fbee989-182c-4c82-aafa-810eda6b02ed.jpg', name: '凯莎手绘' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/a3a639e0-a137-459f-8997-095d38f1af64.jpg', name: '鹤熙手绘' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/35c8d58e-8d74-42e0-aa51-ac98a14ca43a.jpg', name: '凉薇漫画' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/e400f151-7b74-49ea-9d59-2a026a0461f8.png', name: '凉薇摩托篝火' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/d92f09c2-9b3e-4b5a-9868-53b171b9a6ba.jpg', name: '三王漫画' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/4d0ef06e-33d8-4013-b5de-673fa64e2938.jpg', name: '凉薇婚纱照' },
