@@ -26,7 +26,7 @@ const allPics = [
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/d30c1285-8782-4b38-883a-947c36bd72e0.png', name: '雄三天使彦' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b250c929-7ae9-4e98-b0a4-29f7d9bc83be.jpg', name: '雄三双刃炙心' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/6d2d9b59-99c7-4305-b683-15147ea187e1.jpg', name: '雄三天使彦' },
-  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9ed27b81-d0ab-4dd2-b87e-fbda31a48f81.jpg', name: '雄三锐雯' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9ed27b81-d0ab-4dd2-b87e-fbda31a48f81.jpg', name: '雄三蔚' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/cde1d20c-76d7-41a9-bbb6-2767b3fc5f8a.jpg', name: '雄三鹤熙唯美' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/240c69b1-9ac3-429d-9ffe-5bb69ac973c2.png', name: '雄三彦海报' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/8dd89389-4d1a-4e00-9567-a8aead44eb61.jpg', name: '雄三彦严肃' },
