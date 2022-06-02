@@ -33,18 +33,18 @@ export default {
     let { proxy } = getCurrentInstance()
     console.log(proxy.$router.currentRoute.value.name)
     const menuList = [{ name: 'Home', text: '首页' }, { name: 'WallPaper', text: '精美壁纸' },
-    { name: 'QPics', text: 'Q版雄兵连' }, { name: 'xiongThree', text: '雄三在线' }, { name: 'activePics', text: '动态壁纸' },
+    { name: 'QPics', text: 'Q版雄兵连' }, { name: 'xiongThree', text: '雄三在线' },
+    //  { name: 'activePics', text: '动态壁纸' },
     { name: 'Us', text: '支持我们' }]
     const show = ref(false);
     const act = ref(0)
     const showPopup = () => {
-
       show.value = true;
-
       act.value = sessionStorage.getItem('i')
       console.log(act.value)
     };
     let jump = function (name, i) {
+
       console.log(typeof i)
       sessionStorage.setItem('i', i)
 
