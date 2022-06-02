@@ -39,6 +39,11 @@ const routes = [
     path: '/xiongThree',
     name: 'xiongThree',
     component: () => import(/* webpackChunkName: "about" */ '../views/xiongThree.vue')
+  },
+  {
+    path: '/activePics',
+    name: 'activePics',
+    component: () => import(/* webpackChunkName: "about" */ '../views/activePics.vue')
   }
 ]
 
