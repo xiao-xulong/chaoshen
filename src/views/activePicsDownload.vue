@@ -49,8 +49,8 @@ h1 {
     text-align: center;
     font-family: fz;
     letter-spacing: 5px;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .video {
