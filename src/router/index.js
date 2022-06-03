@@ -44,6 +44,11 @@ const routes = [
     path: '/activePics',
     name: 'activePics',
     component: () => import(/* webpackChunkName: "about" */ '../views/activePics.vue')
+  },
+  {
+    path: '/activePicsDownload',
+    name: 'activePicsDownload',
+    component: () => import(/* webpackChunkName: "about" */ '../views/activePicsDownload.vue')
   }
 ]
 

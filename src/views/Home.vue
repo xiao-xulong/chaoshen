@@ -54,9 +54,7 @@ export default {
   setup() {
     onMounted(async () => {
 
-      const res = await shootreq()
       // backPics.value=res.data
-      console.log(res.data)
 
     })
     const router = useRouter();
