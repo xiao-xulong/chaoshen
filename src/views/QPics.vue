@@ -8,7 +8,7 @@
     </center>
     <div class="allQcontain">
       <div v-for="item in QPics" :key="item" class="itemContain">
-        <img class="backImg" :src="item.url" @click="goDownload(item.url)">
+        <img class="backImg" v-lazy="item.url" @click="goDownload(item.url)">
         <center class="imgName">{{ item.name }}</center>
       </div>
     </div>
