@@ -23,7 +23,7 @@ const activePics = ref([
     { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/75ef0ced-b946-46e1-afc6-54cfa728c430.mp4', name: '凉薇牵手动态壁纸' },
     { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/e3912a2c-33b6-480b-86d8-c4f9d93ea40a.mp4', name: '凯莎持剑动态' }
 ])
-const videoAddress = ref('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/720528f9-8e7f-41cc-a2a8-c761cb7340ed.mp4')
+
 let goDownload = function (url) {
     proxy.$router.push({
         path: '/activePicsDownload', query: {

@@ -9,6 +9,7 @@ const vips = [{ qq: '2592526921', name: '靜', money: '50' },
 { qq: '1929965449', name: '紅月明[讋]', money: '10' },
 { qq: '1377419640', name: 'Death', money: '10' },
 { qq: '2530893953', name: '咖啡', money: "10" },
+{ qq: '1391650267', name: '沧海横流', money: "10" },
 { qq: '1123638862', name: '墨心', money: '6.66' },
 { qq: '2292443696', name: '尘缘如幻梦', money: '5' }, { qq: '2806266318', name: '无尽', money: '5' },
 { qq: '3069636940', name: '•᷄ᯅ•᷅', money: '5' }, { qq: '1139806843', name: '薄荷微凉', money: '5' },
@@ -16,6 +17,7 @@ const vips = [{ qq: '2592526921', name: '靜', money: '50' },
 { qq: '1732253807', name: '天逸', money: '3' },
 { qq: '2334385343', name: 'Stronger', money: '3' },
 { qq: '450008868', name: '求求你不要在秀啦', money: '3' },
-{ qq: '634978080', name: '有点意思', money: '3' }
+{ qq: '634978080', name: '有点意思', money: '3' },
+{ qq: '1731946771', name: 'товарищ', money: '3' }
 ]
 export { vips }

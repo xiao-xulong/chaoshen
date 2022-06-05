@@ -22,7 +22,7 @@ const examplePics = [{
 }]
 const allPics = [
   // {url:'',name:''},
-  // 
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/14c44e2a-1b47-449e-b3d8-f90cbaa52b90.png', name: '凉薇红酒' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/d30c1285-8782-4b38-883a-947c36bd72e0.png', name: '雄三天使彦' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b250c929-7ae9-4e98-b0a4-29f7d9bc83be.jpg', name: '雄三双刃炙心' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/6d2d9b59-99c7-4305-b683-15147ea187e1.jpg', name: '雄三天使彦' },
@@ -236,12 +236,15 @@ const sharePics = [{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b
 { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/93cb50c8-d654-434f-a896-3c8346a4d2d4.jpg', name: '琪琳回眸' },
 { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/61cd45bb-dcd7-44c2-9461-78e0d30219e0.jpg', name: '鹤熙旗袍' },
 { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/818c3fd4-9838-4c72-8027-aa9eb6a5fa75.jpg', name: '鹤熙正脸' }
-  // { url: '', name: '' },
-  // { url: '', name: '' },
-  // 
+
+
+
 ]
 
 const QPics = [
+  // { url: '', name: '' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9922e05b-8e1c-4530-b1d5-533340969f76.jpg', name: '凯鹤Q' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/415e949c-9a1b-4132-bac4-84f93a189f99.jpg', name: '雄三凉薇手绘' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9fbee989-182c-4c82-aafa-810eda6b02ed.jpg', name: '凯莎手绘' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/a3a639e0-a137-459f-8997-095d38f1af64.jpg', name: '鹤熙手绘' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/35c8d58e-8d74-42e0-aa51-ac98a14ca43a.jpg', name: '凉薇漫画' },
