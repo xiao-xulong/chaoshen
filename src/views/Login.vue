@@ -25,31 +25,31 @@
         </div>
 
         <van-button type="success" native-type="submit" @click="login">Sign In</van-button>
+        <svg width="100%" height="200" id="svg" viewBox="0 0 1440 700" xmlns="http://www.w3.org/2000/svg"
+            class="transition duration-300 ease-in-out delay-150">
+            <defs>
+                <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+                    <stop offset="5%" stop-color="#002bdc88"></stop>
+                    <stop offset="95%" stop-color="#32ded488"></stop>
+                </linearGradient>
+            </defs>
+            <path
+                d="M 0,700 C 0,700 0,233 0,233 C 126.89285714285717,217.53571428571428 253.78571428571433,202.07142857142858 384,185 C 514.2142857142857,167.92857142857142 647.75,149.25 747,158 C 846.25,166.75 911.2142857142858,202.92857142857144 1021,220 C 1130.7857142857142,237.07142857142856 1285.392857142857,235.03571428571428 1440,233 C 1440,233 1440,700 1440,700 Z"
+                stroke="none" stroke-width="0" fill="url(#gradient)"
+                class="transition-all duration-300 ease-in-out delay-150 path-0"></path>
 
-    </div> <svg width="100%" height="200" id="svg" viewBox="0 0 1440 700" xmlns="http://www.w3.org/2000/svg"
-        class="transition duration-300 ease-in-out delay-150">
-        <defs>
-            <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
-                <stop offset="5%" stop-color="#002bdc88"></stop>
-                <stop offset="95%" stop-color="#32ded488"></stop>
-            </linearGradient>
-        </defs>
-        <path
-            d="M 0,700 C 0,700 0,233 0,233 C 126.89285714285717,217.53571428571428 253.78571428571433,202.07142857142858 384,185 C 514.2142857142857,167.92857142857142 647.75,149.25 747,158 C 846.25,166.75 911.2142857142858,202.92857142857144 1021,220 C 1130.7857142857142,237.07142857142856 1285.392857142857,235.03571428571428 1440,233 C 1440,233 1440,700 1440,700 Z"
-            stroke="none" stroke-width="0" fill="url(#gradient)"
-            class="transition-all duration-300 ease-in-out delay-150 path-0"></path>
-
-        <defs>
-            <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
-                <stop offset="5%" stop-color="#002bdcff"></stop>
-                <stop offset="95%" stop-color="#32ded4ff"></stop>
-            </linearGradient>
-        </defs>
-        <path
-            d="M 0,700 C 0,700 0,466 0,466 C 86.92857142857142,478.75 173.85714285714283,491.5 310,492 C 446.14285714285717,492.5 631.5000000000001,480.74999999999994 775,486 C 918.4999999999999,491.25000000000006 1020.1428571428571,513.5 1124,513 C 1227.857142857143,512.5 1333.9285714285716,489.25 1440,466 C 1440,466 1440,700 1440,700 Z"
-            stroke="none" stroke-width="0" fill="url(#gradient)"
-            class="transition-all duration-300 ease-in-out delay-150 path-1"></path>
-    </svg>
+            <defs>
+                <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+                    <stop offset="5%" stop-color="#002bdcff"></stop>
+                    <stop offset="95%" stop-color="#32ded4ff"></stop>
+                </linearGradient>
+            </defs>
+            <path
+                d="M 0,700 C 0,700 0,466 0,466 C 86.92857142857142,478.75 173.85714285714283,491.5 310,492 C 446.14285714285717,492.5 631.5000000000001,480.74999999999994 775,486 C 918.4999999999999,491.25000000000006 1020.1428571428571,513.5 1124,513 C 1227.857142857143,512.5 1333.9285714285716,489.25 1440,466 C 1440,466 1440,700 1440,700 Z"
+                stroke="none" stroke-width="0" fill="url(#gradient)"
+                class="transition-all duration-300 ease-in-out delay-150 path-1"></path>
+        </svg>
+    </div>
 </template>
 
 <script>
@@ -216,8 +216,8 @@ export default {
 svg {
     /* width: 100vw;
     height: 300px; */
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    bottom: 10px;
     z-index: 1;
 }
 
