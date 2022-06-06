@@ -3,25 +3,39 @@
         <center>
             <img src="../assets/login_logo.png" style="margin-top: 20px;" />
         </center>
+
+
         <div class="pwd">
-            <van-field ref="input" v-model="password" label="密码" left-icon="lock" placeholder="password"
-                type="password" />
+
+            <van-field ref="input" v-model="userId" label="账号" left-icon="user-o" placeholder="请输入账号"
+                :rules="[{ required: true, message: '请填写用户名' }]" />
+            <van-field v-model="password" label="密码" left-icon="lock" placeholder="请输入密码"
+                :rules="[{ required: true, message: '请填写用户名' }]" type="password" />
+
+
+
         </div>
-        <van-button type="success" @click="login">Sign In</van-button>
+
+        <van-button type="success" native-type="submit" @click="login">Sign In</van-button>
+
     </div>
 </template>
 
 <script>
-import { ref, onMounted, getCurrentInstance } from 'vue'
+import { ref, onMounted, getCurrentInstance } from 'vue';
 import { useRouter } from "vue-router";
 import { Notify } from 'vant';
+import { Form, Field, CellGroup } from 'vant';
 import { Dialog } from 'vant';
+import { users } from '../../http/user';
 export default {
     name: 'Login',
     setup() {
         const router = useRouter();
         let { proxy } = getCurrentInstance()
-
+        const onSubmit = (values) => {
+            console.log('submit', values);
+        };
         onMounted(() => {
             Dialog.alert({
                 title: '提示',
@@ -30,9 +44,10 @@ export default {
                 message: '受超神影业法务部警告，原网站改为私人学习，欣赏使用，如仍需要超神无水印壁纸请联系QQ2431694726',
             }).then(() => {
 
-
+                const uId = localStorage.getItem('userId')
                 const pwd = localStorage.getItem('wingKey')
-                if (pwd) {
+                if (uId) {
+                    userId.value = uId
                     password.value = pwd
                 } else {
                     input.value.focus()
@@ -42,30 +57,37 @@ export default {
 
         })
         const login = function () {
-            if (password.value.toLowerCase() == 'skyborn') {
-                sessionStorage.setItem("angle", "Yan");
-                localStorage.setItem('wingKey', 'skyborn');
-                Notify({ type: 'success', message: '欢迎进入天使之城' });
-                proxy.$router.push({
-                    path: '/Home'
-                })
+
+            let isUser = users.indexOf(Number(userId.value))
+            if (isUser === -1) {
+                Notify({ type: 'danger', message: '账号不存在' });
             } else {
-                Notify({ type: 'danger', message: '密码错误,请联系Q2431694726' });
+                if (password.value.toLowerCase() == 'skyborn') {
+                    sessionStorage.setItem("angle", "Yan");
+                    localStorage.setItem('userId', userId.value);
+                    localStorage.setItem('wingKey', 'skyborn');
+                    Notify({ type: 'success', message: '欢迎进入天使之城' });
+                    proxy.$router.push({
+                        path: '/Home'
+                    })
+                } else {
+                    Notify({ type: 'danger', message: '密码错误,请联系Q2431694726' });
+                }
             }
+
 
 
         }
         const input = ref()
 
         const password = ref('');
+        const userId = ref('');
         return {
-            login, input, password
+            login, input, password, userId, onSubmit
         }
     }
 
 }
-
-
 </script>
 <style lang="less">
 /* .van-dialog__message {
@@ -75,6 +97,8 @@ export default {
 /* .tip-dialog + .van-dialog .van-dialog__message {
     font-size: 24px;
 } */
+
+
 .van-dialog__footer {
     .van-button {
         font-size: 24px !important;
@@ -99,6 +123,10 @@ export default {
 </style>
 
 <style  scoped>
+:deep(.van-cell) {
+    border: 0;
+}
+
 .bg {
     width: 100%;
     height: 100vh;
@@ -114,8 +142,9 @@ export default {
 
 :deep(.van-field) {
     font-size: 28px;
-    border: #d3d3d3 solid 1px;
+    border-bottom: #d3d3d3 solid 1px;
     height: 80px;
+    margin-bottom: 30px;
 }
 
 :deep(.van-icon) {
