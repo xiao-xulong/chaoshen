@@ -217,7 +217,7 @@ svg {
     /* width: 100vw;
     height: 300px; */
     position: absolute;
-    top: 970px;
+    bottom: 0;
     z-index: 1;
 }
 
@@ -231,6 +231,7 @@ svg {
     background-color: white;
     overflow: hidden;
     z-index: 2;
+
 }
 
 .pwd {
