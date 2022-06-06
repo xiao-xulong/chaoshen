@@ -17,11 +17,13 @@ import { ref, getCurrentInstance } from 'vue';
 import pageTop from '../components/pageTop'
 const { proxy } = getCurrentInstance()
 const activePics = ref([
+    { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/5123c26e-fe10-45d5-8b26-c860fa5014d1.mp4', name: '鹤熙樱花唯美动态壁纸' },
     { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/720528f9-8e7f-41cc-a2a8-c761cb7340ed.mp4', name: '凉薇展翼动态壁纸' },
     { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/6b16823b-ca04-4508-a584-e6ab5af23236.mp4', name: '凯莎动态壁纸' },
     { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/84b387eb-9d59-481e-b794-0616487b9104.mp4', name: '阿狸动态壁纸' },
     { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/75ef0ced-b946-46e1-afc6-54cfa728c430.mp4', name: '凉薇牵手动态壁纸' },
     { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/e3912a2c-33b6-480b-86d8-c4f9d93ea40a.mp4', name: '凯莎持剑动态' }
+
 ])
 
 let goDownload = function (url) {
