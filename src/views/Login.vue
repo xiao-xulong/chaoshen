@@ -158,6 +158,7 @@ svg {
     font-size: 28px;
     border-bottom: #d3d3d3 solid 1px;
     height: 80px;
+    z-index: 2;
     margin-bottom: 30px;
 }
 
@@ -187,10 +188,11 @@ svg {
 
 .i {
     width: 100%;
-    position: absolute;
-    bottom: -135px;
+    position: relative;
+    bottom: 250px;
     left: 50%;
     transform: translateX(-50%);
     /* height: 100px; */
+    z-index: 1;
 }
 </style>
