@@ -17,7 +17,8 @@
         </div>
 
         <van-button type="success" native-type="submit" @click="login">Sign In</van-button>
-        <img src="../../img/cw.gif" class="i" />
+        <!-- <img :src="wave" class="i" /> -->
+        <img src="../../img/c.gif" class="i" />
     </div>
 </template>
 
@@ -32,7 +33,7 @@ export default {
     name: 'Login',
     setup() {
         const router = useRouter();
-        const wave = ref('https://media.giphy.com/media/Jbb3KS22397YQ/giphy.gif')
+        const wave = ref('https://wimg.588ku.com/gif620/20/09/18/8a9bbe9b029179e4d4560eea7618e4b3.gif')
         let { proxy } = getCurrentInstance()
         const onSubmit = (values) => {
             console.log('submit', values);
@@ -185,8 +186,9 @@ svg {
 }
 
 .i {
-    width: 20%;
-    position: relative;
+    width: 100%;
+    position: absolute;
+    bottom: -135px;
     left: 50%;
     transform: translateX(-50%);
     /* height: 100px; */
