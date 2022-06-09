@@ -22,6 +22,7 @@ const examplePics = [{
 }]
 const allPics = [
   // {url:'',name:''}, 
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/c456ea6e-a9f3-4618-bc0c-3d3a321dd7e2.png', name: '雄三凉冰降临日海报' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/dc1bf5ca-b6bc-4604-b89b-0bfdce77c73b.png', name: '阿狸端午' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b2f88f39-742f-4856-9afb-45cb9f065051.png', name: '凉薇睡觉' },
 
