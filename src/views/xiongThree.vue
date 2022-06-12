@@ -58,7 +58,7 @@
         <div class="ep-list">
             <div class="ep-list-header">
                 <span class="ep-title"> 选集</span>
-                <span class="ep-last">更新至第3话</span>
+                <span class="ep-last">更新至第4话</span>
             </div>
             <div class="ep-list-body">
                 <div :class="['ep-item', choosedEp == item.id ? 'ep-item-active' : '']" v-for="item in eps" :key="item"
@@ -104,7 +104,7 @@ export default {
         const eps = ref([{ id: 1, name: '第1话', videoAddress: 'http://42.192.47.115:16880/xs01.mp4' },
         { id: 2, name: '第2话', videoAddress: 'http://42.192.47.115:16880/xs02.mp4' },
         { id: 3, name: '第3话', videoAddress: 'http://42.192.47.115:16880/xs03.mp4' },
-
+        { id: 4, name: '第4话', videoAddress: 'http://42.192.47.115:16880/xs04.mp4' }
             // { id: 3, name: '第3话' }, 
             // { id: 4, name: '第4话' }, 
             // { id: 5, name: '第5话' }
