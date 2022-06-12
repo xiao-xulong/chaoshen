@@ -18,6 +18,7 @@ const vips = [{ qq: '2592526921', name: '靜', money: '50' },
 { qq: '3069636940', name: '•᷄ᯅ•᷅', money: '5' }, { qq: '1139806843', name: '薄荷微凉', money: '5' },
 { qq: '1058237230', name: 'kiúliuà', money: '5' },
 { qq: '1090994366', name: '难免散场', money: '5' },
+{ qq: '3195239296', name: '依旧ZQ', money: '4' },
 { qq: '1732253807', name: '天逸', money: '3' },
 { qq: '2334385343', name: 'Stronger', money: '3' },
 { qq: '450008868', name: '求求你不要在秀啦', money: '3' },
@@ -26,5 +27,7 @@ const vips = [{ qq: '2592526921', name: '靜', money: '50' },
 { qq: '2214075596', name: 'WIND', money: '3' },
 { qq: '296252098', name: '寒殇', money: '3' },
 { qq: '2283703730', name: '无冕之王', money: '3' }
+
+
 ]
 export { vips }
