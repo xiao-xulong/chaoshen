@@ -5,7 +5,8 @@
     </keep-alive>
   </router-view>
 </template>
-
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id: "JiZpAIsCKJn5udo1",ck: "JiZpAIsCKJn5udo1",hashMode:true})</script>
 <script>
 export default {
   name: "index",
