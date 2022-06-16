@@ -21,7 +21,10 @@ const examplePics = [{
 
 }]
 const allPics = [
-  // {url:'',name:''}, 
+  // {url:'',name:''},、
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/f4cf20c8-d63f-4fba-8c2f-91a07837c219.png', name: '618凉薇海报精修版' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/c7af1da6-8e5e-48ac-bdbc-95ecef17255f.jpg', name: '5周年海报彦单人照' },
+
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/2e66a901-b446-4893-88c4-971a384ed11b.jpg', name: '追忆雄二阿追妆容照' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/0671dceb-66f6-4f02-80c6-f08ab1eb9b4a.jpg', name: '雄三青卿' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/c456ea6e-a9f3-4618-bc0c-3d3a321dd7e2.png', name: '雄三凉冰降临日海报' },
