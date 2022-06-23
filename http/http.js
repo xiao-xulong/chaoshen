@@ -72,7 +72,7 @@ const allPics = [
 
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/3c777229-6577-4119-abb0-485203e1d81b.jpg', name: '2022新年三王海报' },
   {
-    url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/a95f22cb-18c1-46c8-8f40-a2e52fea252f.jpg',
+    url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/ff6fbf85-0adf-482b-afd9-5c648fafac92.jpg',
     name: ' 鹤熙三八妇女节海报'
   }, {
     url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/37969326-617e-4fb4-ba8a-e293bee5157f.jpg', name: '蕾娜战悟空'
