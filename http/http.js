@@ -27,6 +27,7 @@ const allPics = [
 
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/2e66a901-b446-4893-88c4-971a384ed11b.jpg', name: '追忆雄二阿追妆容照' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/0671dceb-66f6-4f02-80c6-f08ab1eb9b4a.jpg', name: '雄三青卿' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/7c0c7e24-47c0-4cf2-b609-1a73cda9490b.jpg', name: '灵溪' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/716ecb67-b8d8-42db-8367-b61b5399df5a.png', name: '雄三凉冰降临日海报' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/dc1bf5ca-b6bc-4604-b89b-0bfdce77c73b.png', name: '阿狸端午' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b2f88f39-742f-4856-9afb-45cb9f065051.png', name: '凉薇睡觉' },
@@ -235,8 +236,8 @@ const allPics = [
     url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/d3eb1e7e-32af-4d41-9d43-291262ddac93.png'
     , name: '皇冠凉冰'
   }, {
-    url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/2dd4aa06-0892-4ad5-a476-3574ea6e08c8.png'
-    , name: '除夕合照'
+    url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/94d3e05c-6715-434f-a23f-e7da5da5fa3d.PNG'
+    , name: '除夕合照精修版'
   }, { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/a5df8f99-db6a-4d27-9549-f07922e47897.png', name: '团队（琪琳怜风悟空）' }]
 
 
