@@ -34,8 +34,8 @@ const vips = [{ qq: '2592526921', name: '靜', money: '50' },
 { qq: '1731946771', name: 'товарищ', money: '3' },
 { qq: '2214075596', name: 'WIND', money: '3' },
 { qq: '296252098', name: '寒殇', money: '3' },
-{ qq: '2283703730', name: '无冕之王', money: '3' }
-
+{ qq: '2283703730', name: '无冕之王', money: '3' },
+{ qq: '209333524', name: '神话', money: '3' }
 
 ]
 export { vips }
