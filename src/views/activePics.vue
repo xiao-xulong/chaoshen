@@ -17,6 +17,12 @@ import { ref, getCurrentInstance } from 'vue';
 import pageTop from '../components/pageTop'
 const { proxy } = getCurrentInstance()
 const activePics = ref([
+    { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9d1b96bb-fa80-4972-b47c-0568882f294a.mp4', name: '蔷薇机甲动态' }
+    ,
+    { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/48d06cad-9ea7-4981-908f-324803541ade.mp4', name: '悟空动态' }
+    ,
+    { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/d0b8d62f-af18-411c-9a74-d2c22beca20f.mp4', name: '蔷薇短发星命动态' }
+    ,
     { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/5123c26e-fe10-45d5-8b26-c860fa5014d1.mp4', name: '鹤熙樱花唯美动态壁纸' },
     { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/720528f9-8e7f-41cc-a2a8-c761cb7340ed.mp4', name: '凉薇展翼动态壁纸' },
     { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/6b16823b-ca04-4508-a584-e6ab5af23236.mp4', name: '凯莎动态壁纸' },
