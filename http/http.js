@@ -32,7 +32,7 @@ const allPics = [
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/dc1bf5ca-b6bc-4604-b89b-0bfdce77c73b.png', name: '阿狸端午' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b2f88f39-742f-4856-9afb-45cb9f065051.png', name: '凉薇睡觉' },
 
-  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/14c44e2a-1b47-449e-b3d8-f90cbaa52b90.png', name: '凉薇红酒' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/60a1eb17-405e-4ad5-89e8-c76a204d05b8.jpg', name: '凉薇红酒' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/d30c1285-8782-4b38-883a-947c36bd72e0.png', name: '雄三天使彦' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b250c929-7ae9-4e98-b0a4-29f7d9bc83be.jpg', name: '雄三双刃炙心' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/6d2d9b59-99c7-4305-b683-15147ea187e1.jpg', name: '雄三天使彦' },
