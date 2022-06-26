@@ -105,7 +105,8 @@ export default {
         { id: 2, name: '第2话', videoAddress: 'http://42.192.47.115:16880/xs02.mp4' },
         { id: 3, name: '第3话', videoAddress: 'http://42.192.47.115:16880/xs03.mp4' },
         { id: 4, name: '第4话', videoAddress: 'http://42.192.47.115:16880/xs04.mp4' },
-        { id: 5, name: '第5话', videoAddress: 'http://42.192.47.115:16880/xs05.mp4' }
+        { id: 5, name: '第5话', videoAddress: 'http://42.192.47.115:16880/xs05.mp4' },
+        { id: 6, name: '第6话', videoAddress: 'http://42.192.47.115:16880/xs06.mp4' }
             // { id: 3, name: '第3话' }, 
             // { id: 4, name: '第4话' }, 
             // { id: 5, name: '第5话' }
