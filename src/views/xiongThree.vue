@@ -58,7 +58,7 @@
         <div class="ep-list">
             <div class="ep-list-header">
                 <span class="ep-title"> 选集</span>
-                <span class="ep-last">更新至第5话</span>
+                <span class="ep-last">更新至第6话</span>
             </div>
             <div class="ep-list-body">
                 <div :class="['ep-item', choosedEp == item.id ? 'ep-item-active' : '']" v-for="item in eps" :key="item"
