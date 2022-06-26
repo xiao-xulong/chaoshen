@@ -89,7 +89,7 @@ export default {
                 if (testInfo.value.pwd == password.value) {
                     sessionStorage.setItem("angle", "Yan");
                     localStorage.setItem('userId', userId.value);
-                    localStorage.setItem('wingKey', item.pwd);
+                    localStorage.setItem('wingKey', password.value);
                     Notify({ type: 'success', message: '欢迎进入天使之城' });
                     proxy.$router.push({
                         path: '/Home'
