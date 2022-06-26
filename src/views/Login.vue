@@ -45,7 +45,6 @@ export default {
                 width: '80%',
                 message: '受超神影业法务部警告，原网站改为私人学习，欣赏使用，如仍需要超神无水印壁纸请联系QQ2431694726',
             }).then(() => {
-
                 const uId = localStorage.getItem('userId')
                 const pwd = localStorage.getItem('wingKey')
                 if (uId) {
@@ -59,15 +58,38 @@ export default {
 
         })
         const login = function () {
+            testInfo.value = undefined
+            const r = users.forEach((item) => {
+                if (item.qq === Number(userId.value)) {
+                    testInfo.value = item
+                    // console.log(item.qq === Number(userId.value))
+                    // if (item.pwd == password.value) {
+                    //     console.log(1)
+                    //     sessionStorage.setItem("angle", "Yan");
+                    //     localStorage.setItem('userId', userId.value);
+                    //     localStorage.setItem('wingKey', item.pwd);
+                    //     Notify({ type: 'success', message: '欢迎进入天使之城' });
+                    //     proxy.$router.push({
+                    //         path: '/Home'
+                    //     })
+                    // } else {
+                    //     Notify({ type: 'danger', message: '密码错误,请联系Q2431694726' });
+                    // }
 
-            let isUser = users.indexOf(Number(userId.value))
-            if (isUser === -1) {
+                }
+
+                //  else {
+                //     
+                // }
+            })
+            if (testInfo.value === undefined) {
                 Notify({ type: 'danger', message: '账号不存在' });
+
             } else {
-                if (password.value.toLowerCase() == 'skyborn') {
+                if (testInfo.value.pwd == password.value) {
                     sessionStorage.setItem("angle", "Yan");
                     localStorage.setItem('userId', userId.value);
-                    localStorage.setItem('wingKey', 'skyborn');
+                    localStorage.setItem('wingKey', item.pwd);
                     Notify({ type: 'success', message: '欢迎进入天使之城' });
                     proxy.$router.push({
                         path: '/Home'
@@ -78,14 +100,14 @@ export default {
             }
 
 
-
         }
+        const testInfo = ref()
         const input = ref()
 
         const password = ref('');
         const userId = ref('');
         return {
-            login, input, password, userId, onSubmit, wave
+            login, input, password, userId, onSubmit, wave, testInfo
         }
     }
 
