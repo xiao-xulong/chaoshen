@@ -22,6 +22,7 @@ const examplePics = [{
 }]
 const allPics = [
   // {url:'',name:''},
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b58084f2-ef63-43a2-8db4-73c3b2e45268.png', name: '老版54青年节海报' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/cb91b13f-388d-4ec7-aab6-8334e14935a0.jpg', name: '琪琳与蔷薇' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/014347a0-3df0-4a23-a9b2-5b80c45c6aab.jpg', name: '雄三琪琳微笑' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/f4cf20c8-d63f-4fba-8c2f-91a07837c219.png', name: '618凉薇海报精修版' },
