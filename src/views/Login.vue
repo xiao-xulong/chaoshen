@@ -43,7 +43,7 @@ export default {
                 title: '提示',
                 overlayClass: "tip-dialog",
                 width: '80%',
-                message: '受超神影业法务部警告，原网站改为私人学习，欣赏使用，如仍需要超神无水印壁纸请联系QQ2431694726',
+                message: '受超神影业法务部警告，原网站改为私人学习，欣赏使用，如仍需要超神无水印壁纸请进Q群760844036',
             }).then(() => {
                 const uId = localStorage.getItem('userId')
                 const pwd = localStorage.getItem('wingKey')
