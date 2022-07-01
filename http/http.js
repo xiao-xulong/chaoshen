@@ -22,7 +22,7 @@ const examplePics = [{
 }]
 const allPics = [
   // {url:'',name:''},
-  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/ebd940ec-a1ba-4173-9e42-df6623507f3c.png', name: '琪琳破亿海报' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9beac3dc-d699-416e-965a-292b4af0804f.png', name: '琪琳破亿海报' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/fd312e89-f4a3-4065-9bd0-59051b28771d.png', name: '老版凉薇夕阳海报' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b58084f2-ef63-43a2-8db4-73c3b2e45268.png', name: '老版54青年节海报' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/cb91b13f-388d-4ec7-aab6-8334e14935a0.jpg', name: '琪琳与蔷薇' },
