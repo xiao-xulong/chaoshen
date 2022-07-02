@@ -258,6 +258,10 @@ const sharePics = [{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b
 
 const QPics = [
   // { url: '', name: '' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/7f7f9ff6-c17d-4764-bec7-866dc6a3a701.jpg', name: 'q群像红毯' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/696572c2-a119-40be-ba26-2f849a0df274.jpg', name: 'q彦国旗' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/84e9280d-f40f-4c65-9b45-81707851fb7f.jpg', name: 'q蔷薇生日' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9073333a-e279-41fb-8ddc-02978bd5ef8b.jpg', name: 'q彦生日' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/f6778c96-945b-4404-924d-3ae7099ee6ec.jpg', name: 'Q琪琳警服' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/11d473ba-7c54-4c5e-84bd-b35fce466501.jpg', name: 'Q凉薇结婚' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9922e05b-8e1c-4530-b1d5-533340969f76.jpg', name: '凯鹤Q' },
