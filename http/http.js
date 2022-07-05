@@ -260,6 +260,7 @@ const sharePics = [{ url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b
 
 const QPics = [
   // { url: '', name: '' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/0d58c5e2-1138-41d9-8013-3f121082bbd4.jpg', name: '三王油画' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/7f7f9ff6-c17d-4764-bec7-866dc6a3a701.jpg', name: 'q群像红毯' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/696572c2-a119-40be-ba26-2f849a0df274.jpg', name: 'q彦国旗' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/84e9280d-f40f-4c65-9b45-81707851fb7f.jpg', name: 'q蔷薇生日' },
