@@ -83,6 +83,10 @@ const allPics = [
   {
     url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/ff6fbf85-0adf-482b-afd9-5c648fafac92.jpg',
     name: ' 鹤熙三八妇女节海报'
+  },
+  {
+    url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/94d3e05c-6715-434f-a23f-e7da5da5fa3d.PNG'
+    , name: '除夕合照精修版'
   }, {
     url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/37969326-617e-4fb4-ba8a-e293bee5157f.jpg', name: '蕾娜战悟空'
   }, {
@@ -243,9 +247,6 @@ const allPics = [
   }, {
     url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/d3eb1e7e-32af-4d41-9d43-291262ddac93.png'
     , name: '皇冠凉冰'
-  }, {
-    url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/94d3e05c-6715-434f-a23f-e7da5da5fa3d.PNG'
-    , name: '除夕合照精修版'
   }, { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/a5df8f99-db6a-4d27-9549-f07922e47897.png', name: '团队（琪琳怜风悟空）' }]
 
 
