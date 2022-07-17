@@ -335,7 +335,7 @@ video {
     }
 
     .content {
-      font-size: 12px;
+      font-size: 16px;
       color: #999;
       line-height: 40px;
     }
