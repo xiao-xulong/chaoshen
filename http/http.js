@@ -22,6 +22,8 @@ const examplePics = [{
 }]
 const allPics = [
   // {url:'',name:''},
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/862d88bf-d1fb-457d-a856-e7bf0eae4241.jpg', name: '彦侧脸微笑' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/1b44565f-55df-434f-bf9a-7b708d6d5d3d.jpg', name: '彦爵士' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9a0a8820-5044-4b58-8e78-8165052b9616.jpg', name: '鹤熙生日海报' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/002b770b-f187-4d4b-93cd-0fb690fd86b9.png', name: '最后的蕾娜（老版建模）' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/4b4e9c52-b017-41a6-8a79-a44dddc87a23.jpg', name: '台阶微笑彦' },

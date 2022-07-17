@@ -88,117 +88,179 @@
 </template>
 
 <script >
-import { ref } from 'vue'
-import pageTop from '../components/pageTop'
+import { ref } from "vue";
+import pageTop from "../components/pageTop";
 export default {
-    name: 'xiongThree',
-    components: {
-        pageTop
-    },
-    setup() {
-        //video的dom
-        const v = ref()
-        //视频封面
-        const poster = ref('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/a3ab6ff0-27da-4dce-baaf-a709961e4fb5.png')
-        //哔哩哔哩电视图标
-        const icon = "https://s1.hdslb.com/bfs/static/bangumi/h5/asserts/player-play-tv-icon.png"
-        //视频播放状态
-        const videoPlayState = ref(false)
-        //视频地址
-        const videoAddress = ref('http://42.192.47.115:16880/xs01.mp4')
-        //视频长度
-        const videoDuraction = ref(0)
-        //格式处理后的时间总长度 00：00
-        const TimeD = ref('')
-        //进度条的value
-        const RangeValue = ref(0)
-        //格式处理后的正在播放的时间
-        const playCurrentTime = ref('00 : 00')
-        //剧集详情
-        const eps = ref([{ id: 1, name: '第1话', videoAddress: 'http://42.192.47.115:16880/xs01.mp4' },
-        { id: 2, name: '第2话', videoAddress: 'http://42.192.47.115:16880/xs02.mp4' },
-        { id: 3, name: '第3话', videoAddress: 'http://42.192.47.115:16880/xs03.mp4' },
-        { id: 4, name: '第4话', videoAddress: 'http://42.192.47.115:16880/xs04.mp4' },
-        { id: 5, name: '第5话', videoAddress: 'http://42.192.47.115:16880/xs05.mp4' },
-        { id: 6, name: '第6话', videoAddress: 'http://42.192.47.115:16880/xs06.mp4' },
-        { id: 7, name: '第7话', videoAddress: 'http://42.192.47.115:16880/xs07.mp4' },
-        { id: 9, name: '第9话', videoAddress: 'http://42.192.47.115:16880/xs09.mp4' },
-        { id: 10, name: '第10话', videoAddress: 'http://42.192.47.115:16880/xs10.mp4' }
-               { id: 10, name: '第11话', videoAddress: 'http://42.192.47.115:16880/xs11.mp4' }
-            // { id: 3, name: '第3话' }, 
-            // { id: 4, name: '第4话' }, 
-            // { id: 5, name: '第5话' }
-        ])
-        //选中的剧集
-        const choosedEp = ref(1)
-        //选中剧集时视频地址重加载 播放状态改为false
-        const changeEp = function (i) {
-            choosedEp.value = i.id
-            videoAddress.value = i.videoAddress
-            console.log(videoAddress.value)
-            videoPlayState.value = false
-        }
-        //开始播放
-        let play = function () {
-            v.value.play();
-            videoPlayState.value = true
-            console.log(v.value)
-            // v.value.webkitRequestFullscreen()
-        }
-        //暂停播放
-        let pause = function () {
-            v.value.pause();
-            videoPlayState.value = false
-        }
-        //视频全屏
-        let fullScreen = function () {
-            v.value.webkitRequestFullscreen()
-        }
-        //播放结束
-        let videoEnd = function () {
-            videoPlayState.value = false
-        }
-        //视频资源加载后获取视频长度
-        let timeW = function () {
-            console.log(v.value.duration)
-            TimeD.value = TimeHandle(v.value.duration)
-            videoDuraction.value = v.value.duration
-        }
-        let timeC = function () {
-            v.value.currentTime = RangeValue.value
-        }
-        let timeU = function () {
-            RangeValue.value = v.value.currentTime
-            playCurrentTime.value = TimeHandle(v.value.currentTime)
-        }
-        const menu = function () {
-            v.value.pause()
-            videoPlayState.value = false
-            console.log('pause')
-        }
-        let TimeHandle = function (time) {
-            // 转换为式分秒
-            let h = parseInt(time / 60 / 60 % 24)
-            h = h < 10 ? '0' + h : h
-            let m = parseInt(time / 60 % 60)
-            m = m < 10 ? '0' + m : m
-            let s = parseInt(time % 60)
-            s = s < 10 ? '0' + s : s
-            // 作为返回值返回
-            if (h == "00") {
-                return m + ':' + s
-            } else {
-                return h + ':' + m + ':' + s
-            }
+  name: "xiongThree",
+  components: {
+    pageTop,
+  },
+  setup() {
+    //video的dom
+    const v = ref();
+    //视频封面
+    const poster = ref(
+      "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/a3ab6ff0-27da-4dce-baaf-a709961e4fb5.png"
+    );
+    //哔哩哔哩电视图标
+    const icon =
+      "https://s1.hdslb.com/bfs/static/bangumi/h5/asserts/player-play-tv-icon.png";
+    //视频播放状态
+    const videoPlayState = ref(false);
+    //视频地址
+    const videoAddress = ref("http://42.192.47.115:16880/xs01.mp4");
+    //视频长度
+    const videoDuraction = ref(0);
+    //格式处理后的时间总长度 00：00
+    const TimeD = ref("");
+    //进度条的value
+    const RangeValue = ref(0);
+    //格式处理后的正在播放的时间
+    const playCurrentTime = ref("00 : 00");
+    //剧集详情
+    const eps = ref([
+      {
+        id: 1,
+        name: "第1话",
+        videoAddress: "http://42.192.47.115:16880/xs01.mp4",
+      },
+      {
+        id: 2,
+        name: "第2话",
+        videoAddress: "http://42.192.47.115:16880/xs02.mp4",
+      },
+      {
+        id: 3,
+        name: "第3话",
+        videoAddress: "http://42.192.47.115:16880/xs03.mp4",
+      },
+      {
+        id: 4,
+        name: "第4话",
+        videoAddress: "http://42.192.47.115:16880/xs04.mp4",
+      },
+      {
+        id: 5,
+        name: "第5话",
+        videoAddress: "http://42.192.47.115:16880/xs05.mp4",
+      },
+      {
+        id: 6,
+        name: "第6话",
+        videoAddress: "http://42.192.47.115:16880/xs06.mp4",
+      },
+      {
+        id: 7,
+        name: "第7话",
+        videoAddress: "http://42.192.47.115:16880/xs07.mp4",
+      },
+      {
+        id: 9,
+        name: "第9话",
+        videoAddress: "http://42.192.47.115:16880/xs09.mp4",
+      },
+      {
+        id: 10,
+        name: "第10话",
+        videoAddress: "http://42.192.47.115:16880/xs10.mp4",
+      },
+      {
+        id: 10,
+        name: "第11话",
+        videoAddress: "http://42.192.47.115:16880/xs11.mp4",
+      },
+      // { id: 3, name: '第3话' },
+      // { id: 4, name: '第4话' },
+      // { id: 5, name: '第5话' }
+    ]);
+    //选中的剧集
+    const choosedEp = ref(1);
+    //选中剧集时视频地址重加载 播放状态改为false
+    const changeEp = function (i) {
+      choosedEp.value = i.id;
+      videoAddress.value = i.videoAddress;
+      console.log(videoAddress.value);
+      videoPlayState.value = false;
+    };
+    //开始播放
+    let play = function () {
+      v.value.play();
+      videoPlayState.value = true;
+      console.log(v.value);
+      // v.value.webkitRequestFullscreen()
+    };
+    //暂停播放
+    let pause = function () {
+      v.value.pause();
+      videoPlayState.value = false;
+    };
+    //视频全屏
+    let fullScreen = function () {
+      v.value.webkitRequestFullscreen();
+    };
+    //播放结束
+    let videoEnd = function () {
+      videoPlayState.value = false;
+    };
+    //视频资源加载后获取视频长度
+    let timeW = function () {
+      console.log(v.value.duration);
+      TimeD.value = TimeHandle(v.value.duration);
+      videoDuraction.value = v.value.duration;
+    };
+    let timeC = function () {
+      v.value.currentTime = RangeValue.value;
+    };
+    let timeU = function () {
+      RangeValue.value = v.value.currentTime;
+      playCurrentTime.value = TimeHandle(v.value.currentTime);
+    };
+    const menu = function () {
+      v.value.pause();
+      videoPlayState.value = false;
+      console.log("pause");
+    };
+    let TimeHandle = function (time) {
+      // 转换为式分秒
+      let h = parseInt((time / 60 / 60) % 24);
+      h = h < 10 ? "0" + h : h;
+      let m = parseInt((time / 60) % 60);
+      m = m < 10 ? "0" + m : m;
+      let s = parseInt(time % 60);
+      s = s < 10 ? "0" + s : s;
+      // 作为返回值返回
+      if (h == "00") {
+        return m + ":" + s;
+      } else {
+        return h + ":" + m + ":" + s;
+      }
+    };
 
-        }
-
-        return {
-            icon, videoPlayState, videoAddress, eps, choosedEp, changeEp, poster, v, play, pause, timeW, timeU,
-            playCurrentTime, videoDuraction, timeC, TimeHandle, TimeD, videoEnd, RangeValue, fullScreen, menu
-        }
-    }
-}
+    return {
+      icon,
+      videoPlayState,
+      videoAddress,
+      eps,
+      choosedEp,
+      changeEp,
+      poster,
+      v,
+      play,
+      pause,
+      timeW,
+      timeU,
+      playCurrentTime,
+      videoDuraction,
+      timeC,
+      TimeHandle,
+      TimeD,
+      videoEnd,
+      RangeValue,
+      fullScreen,
+      menu,
+    };
+  },
+};
 </script>
 
 <style  scoped lang="less">
