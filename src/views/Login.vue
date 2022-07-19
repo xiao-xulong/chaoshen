@@ -170,7 +170,7 @@ svg {
 .bg {
   width: 100%;
   height: 100vh;
-  background-image: url('../../img/sky.jpg');
+  background-image: url('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/c1770555-2e64-4fb4-b632-9058aa685443.jpg');
   background-repeat: no-repeat;
   background-color: white;
   background-size: 100% 100%;
