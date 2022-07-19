@@ -1,33 +1,22 @@
 <template>
   <div class="bg">
-    <center>
-      <img src="../assets/login_logo.png" style="margin-top: 20px" />
+    <center style="height: 305px;">
+      <img :src="wave" class="i" />
+
+      <img src="../../img/loginText.png" class="logoText" />
+
     </center>
 
     <div class="pwd">
-      <van-field
-        ref="input"
-        v-model="userId"
-        label="账号"
-        left-icon="user-o"
-        placeholder="请输入账号"
-        :rules="[{ required: true, message: '请填写用户名' }]"
-      />
-      <van-field
-        v-model="password"
-        label="密码"
-        left-icon="lock"
-        placeholder="请输入密码"
-        :rules="[{ required: true, message: '请填写用户名' }]"
-        type="password"
-      />
+      <van-field ref="input" v-model="userId" label="账号" left-icon="user-o" placeholder="请输入账号"
+        :rules="[{ required: true, message: '请填写用户名' }]" />
+      <van-field v-model="password" label="密码" left-icon="lock" placeholder="请输入密码"
+        :rules="[{ required: true, message: '请填写用户名' }]" type="password" />
     </div>
 
-    <van-button type="success" native-type="submit" @click="login"
-      >Sign In</van-button
-    >
+    <van-button type="success" native-type="submit" @click="login">Sign In</van-button>
     <!-- <img :src="wave" class="i" /> -->
-    <img src="../../img/c.gif" class="i" />
+    <!-- <img src="../../img/wing.gif" class="i" /> -->
   </div>
 </template>
 
@@ -43,7 +32,8 @@ export default {
   setup() {
     const router = useRouter();
     const wave = ref(
-      "https://wimg.588ku.com/gif620/20/09/18/8a9bbe9b029179e4d4560eea7618e4b3.gif"
+      "https://wimg.588ku.com/gif620/21/09/09/e13b08c1818f78d3b302c5ec85acf5e7.gif"
+      // "https://wimg.588ku.com/gif620/20/09/18/8a9bbe9b029179e4d4560eea7618e4b3.gif"
     );
     let { proxy } = getCurrentInstance();
     const onSubmit = (values) => {
@@ -68,28 +58,28 @@ export default {
       });
     });
     const login = function () {
-        testInfo.value = undefined
+      testInfo.value = undefined
       const map1 = new Map();
 
       users.forEach((item) => {
         map1.set(item.qq, item.pwd);
       });
-      if(map1.get(Number(userId.value))){
-     if(map1.get(Number(userId.value))== password.value){
-              sessionStorage.setItem("angle", "Yan");
-              localStorage.setItem('userId', userId.value);
-              localStorage.setItem('wingKey', password.value);
-              Notify({ type: 'success', message: '欢迎进入梅洛天庭' });
-              proxy.$router.push({
-                  path: '/Home'
-              })
-     }else{
-        Notify({ type: 'danger', message: '密码错误,请联系Q2431694726' });
-     }
-      }else{
+      if (map1.get(Number(userId.value))) {
+        if (map1.get(Number(userId.value)) == password.value) {
+          sessionStorage.setItem("angle", "Yan");
+          localStorage.setItem('userId', userId.value);
+          localStorage.setItem('wingKey', password.value);
+          Notify({ type: 'success', message: '欢迎进入梅洛天庭' });
+          proxy.$router.push({
+            path: '/Home'
+          })
+        } else {
+          Notify({ type: 'danger', message: '密码错误,请联系Q2431694726' });
+        }
+      } else {
         Notify({ type: 'danger', message: '账号不存在' });
       }
-    
+
       // testInfo.value = undefined
       // const r = users.forEach((item) => {
       //     if (item.qq === Number(userId.value)) {
@@ -180,9 +170,13 @@ svg {
 .bg {
   width: 100%;
   height: 100vh;
+  background-image: url('../../img/sky.jpg');
+  background-repeat: no-repeat;
   background-color: white;
+  background-size: 100% 100%;
   overflow: hidden;
   z-index: 2;
+  /* opacity: 0.9; */
 }
 
 .pwd {
@@ -224,12 +218,21 @@ svg {
 }
 
 .i {
-  width: 100%;
+  width: 50%;
   position: relative;
-  bottom: 250px;
+
+  /* position: relative;
+  bottom: 100px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%); */
   /* height: 100px; */
   z-index: 1;
+}
+
+.logoText {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 270px;
 }
 </style>
