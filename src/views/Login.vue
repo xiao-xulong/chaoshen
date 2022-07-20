@@ -183,6 +183,7 @@ svg {
   width: 90%;
   margin-left: 5%;
   margin-top: 50px;
+  opacity: 0.8;
 }
 
 :deep(.van-field) {
