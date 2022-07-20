@@ -64,8 +64,8 @@ export default {
       users.forEach((item) => {
         map1.set(item.qq, item.pwd);
       });
-      if (map1.get(Number(userId.value))) {
-        if (map1.get(Number(userId.value)) == password.value) {
+      if (map1.get(Number(userId.value.trim()))) {
+        if (map1.get(Number(userId.value.trim())) == password.value.trim()) {
           sessionStorage.setItem("angle", "Yan");
           localStorage.setItem('userId', userId.value);
           localStorage.setItem('wingKey', password.value);
