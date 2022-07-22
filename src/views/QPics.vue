@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="fb">
     <pageTop></pageTop>
     <center>
       <article>

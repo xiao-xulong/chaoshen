@@ -5,7 +5,8 @@
     <img class="title_img" src="../assets/wallPicBackGround.png">
     <img class="pic" :src="picAddress" @click="preView">
 
-    <a id="bottom-1" class="downLoadBtn" :href="picAddress + '?response-content-type=application/octet-stream'" download>
+    <a id="bottom-1" class="downLoadBtn" :href="picAddress + '?response-content-type=application/octet-stream'"
+      download>
 
       壁纸下载</a>
 
@@ -53,6 +54,10 @@ export default {
   background-color: #10171A;
   width: 100%;
   height: auto;
+  background-image: url('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/16822a8c-4b1b-4490-bcc1-bbdd744d5fa2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
 
   .title_img {
     margin-top: 10px;

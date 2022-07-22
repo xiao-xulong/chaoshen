@@ -1,5 +1,5 @@
 <template>
-  <div class="root">
+  <div class="root" v-infinite-scroll="addShowPic" :infinite-scroll-disabled="noMorePic" infinite-scroll-distance="200">
     <pageTop></pageTop>
     <img class="title_img" src="../assets/wallPicBackGround.png">
     <div v-for="item in showPic" :key="item" class="itemContain">
@@ -56,9 +56,10 @@ export default {
 
 <style scoped lang="less">
 .root {
-  background-color: #10171A;
+
   width: 100%;
   height: auto;
+
 }
 
 .title_img {
