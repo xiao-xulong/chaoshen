@@ -6,53 +6,30 @@
 
     <div class="video">
       <img :src="icon" v-if="!videoPlayState" class="icon" @click="play" />
-      <video
-        ref="v"
-        crossorigin="anonymous"
-        x5-video-player-type="h5"
-        :src="videoAddress"
-        :poster="poster"
-        @click="pause"
-        @timeupdate="timeU"
-        @canplay="timeW"
-        @ended="videoEnd"
-      ></video>
+      <video ref="v" crossorigin="anonymous" x5-video-player-type="h5" :src="videoAddress" :poster="poster"
+        @click="pause" @timeupdate="timeU" @canplay="timeW" @ended="videoEnd"></video>
       <div class="control-bar">
         <span class="times"> {{ playCurrentTime }} / {{ TimeD }}</span>
 
-        <van-slider
-          active-color="#fb7299"
-          v-model="RangeValue"
-          @change="timeC"
-          :max="videoDuraction"
-        />
-        <i @click="fullScreen" class="fullScreenIcon"
-          ><svg
-            viewBox="0 0 22 22"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-          >
+        <van-slider active-color="#fb7299" v-model="RangeValue" @change="timeC" :max="videoDuraction" />
+        <i @click="fullScreen" class="fullScreenIcon"><svg viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
             <defs>
               <path
                 d="M17.262 9.995a.75.75 0 01.75.75v6.585a.75.75 0 01-.75.75h-6.515a.75.75 0 010-1.5h5.765v-5.835a.75.75 0 01.75-.75zm-6-6a.75.75 0 110 1.5H5.497v5.835a.75.75 0 01-1.5 0V4.745a.75.75 0 01.75-.75h6.515z"
-                id="pid-2-svgo-a"
-              ></path>
+                id="pid-2-svgo-a"></path>
             </defs>
             <g fill="none" fill-rule="evenodd">
               <path d="M0 0h22v22H0z"></path>
               <mask id="pid-2-svgo-b" fill="#fff">
                 <use xlink:href="#pid-2-svgo-a"></use>
               </mask>
-              <use
-                fill="#979797"
-                fill-rule="nonzero"
-                xlink:href="#pid-2-svgo-a"
-              ></use>
+              <use fill="#979797" fill-rule="nonzero" xlink:href="#pid-2-svgo-a"></use>
               <g mask="url(#pid-2-svgo-b)" fill="#FFF" fill-rule="nonzero">
                 <path d="M0 0h22v22H0z"></path>
               </g>
-            </g></svg
-        ></i>
+            </g>
+          </svg></i>
       </div>
     </div>
     <div class="info">
@@ -71,15 +48,11 @@
     <div class="ep-list">
       <div class="ep-list-header">
         <span class="ep-title"> 选集</span>
-        <span class="ep-last">更新至第11话</span>
+        <span class="ep-last">更新至第12话</span>
       </div>
       <div class="ep-list-body">
-        <div
-          :class="['ep-item', choosedEp == item.id ? 'ep-item-active' : '']"
-          v-for="item in eps"
-          :key="item"
-          @click="changeEp(item)"
-        >
+        <div :class="['ep-item', choosedEp == item.id ? 'ep-item-active' : '']" v-for="item in eps" :key="item"
+          @click="changeEp(item)">
           {{ item.name }}
         </div>
       </div>
@@ -168,6 +141,11 @@ export default {
         id: 11,
         name: "第11话",
         videoAddress: "http://42.192.47.115:16880/xs11.mp4",
+      },
+      {
+        id: 12,
+        name: "第12话",
+        videoAddress: "http://42.192.47.115:16880/xs12.mp4",
       },
       // { id: 3, name: '第3话' },
       // { id: 4, name: '第4话' },
