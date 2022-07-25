@@ -74,16 +74,21 @@
         <span>&emsp;&emsp;赞助{{ item.money }}元 </span>
       </div>
     </div>
+
   </div>
 
 </template>
 
 <script setup>
-
+import QrcodeVue from 'qrcode.vue'
 import pageTop from '../components/pageTop';
 import { vips } from '../../http/vips'
-import { ref, reactive } from "vue";
+import { ref, reactive, onMounted } from "vue";
 import { ImagePreview } from 'vant';
+// let Socket = new WebSocket('ws://121.40.165.18:8800')
+// Socket.onopen(() => {
+//   console.log(123)
+// })
 const vxImg = ref('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/31230ac8-ad14-4403-a698-fce394bc4da5.jpg')
 const zfbImg = ref('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/cc7446b0-e0d1-48f2-b6fa-219d0f7da47a.jpg')
 
@@ -94,6 +99,7 @@ const c = function () {
 const fullView = function (url) {
   ImagePreview([url]);
 }
+
 // console.log(Vips)
 </script>
 
