@@ -30,13 +30,7 @@ import { users } from "../../http/user";
 export default {
   name: "Login",
   setup() {
-    // let Socket = new WebSocket('ws://121.40.165.18:8800')
-    // Socket.addEventListener('open', function () {
-    //   Socket.send("My name is John");
-    // })
-    // Socket.addEventListener('message', function (event) {
-    //   console.log(event.data);
-    // })
+
 
     const router = useRouter();
     const wave = ref(
