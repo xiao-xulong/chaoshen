@@ -147,6 +147,11 @@ export default {
         name: "第12话",
         videoAddress: "http://42.192.47.115:16880/xs12.mp4",
       },
+      {
+        id: 13,
+        name: "第13话",
+        videoAddress: "http://42.192.47.115:16880/xs13.mp4",
+      },
       // { id: 3, name: '第3话' },
       // { id: 4, name: '第4话' },
       // { id: 5, name: '第5话' }
