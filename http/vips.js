@@ -67,6 +67,7 @@ const vips = [
     { qq: '524233683', name: '      ', money: '5' },
     { qq: '2074143020', name: '贪财好色一身正气', money: '5' },
     { qq: '2428276554', name: '仿生obi会梦到电子ani吗', money: '5' },
+    { qq: '3186743216', name: '念', money: '5' },
     { qq: '2664140619', name: '笺中诗', money: '5' },
     { qq: '3195239296', name: '依旧ZQ', money: '4' },
     { qq: '2720898486', name: '人生QAQ', money: '4' },
