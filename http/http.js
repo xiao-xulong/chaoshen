@@ -22,6 +22,8 @@ const examplePics = [{
 }]
 const allPics = [
   // {url:'',name:''},
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/31a6d284-5fc3-4994-b079-e85ad3c4b578.png', name: '雄四PV海报' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/2cf5deff-2c53-4de7-bb19-1ae7a2c56f1c.jpg', name: '雄四海报凉冰' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/1e03a5e2-934e-463e-bddf-7b9682bce2f7.png', name: '蕾娜生日海报' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/ca1ea300-5271-4234-a322-a4f2ea50c21d.jpg', name: '七夕舞照' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/f0d6b42e-dd70-479a-bbdb-4523f4297925.jpg', name: '七夕赵信炙心' },
