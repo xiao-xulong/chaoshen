@@ -1,6 +1,6 @@
 const vips = [
     { qq: '280001088', name: '零落白夜', money: '100' },
-    { qq: '2592526921', name: '靜', money: '50' },
+    { qq: '2592526921', name: '生活不是战斗番', money: '50' },
     { qq: '3428550100', name: '葛小伦', money: '22' },
     { qq: '430841254', name: '北宸', money: '20' }, { qq: '1834727719', name: '茶杯', money: '20' },
     { qq: '947062775', name: 'Waneefan', money: '18' },
