@@ -94,7 +94,8 @@ const vips = [
     { qq: '1240959351', name: 'zytyyds', money: '3' },
     { qq: '3288676911', name: '猫不吃鱼', money: '3' },
     { qq: '3027222579', name: '清风', money: '3' },
-    { qq: '2109684452', name: 'vae', money: '3' }
+    { qq: '2109684452', name: 'vae', money: '3' },
+    { qq: '2608088722', name: '云棋水镜弋龙君', money: '3' }
 
 ]
 export { vips }
