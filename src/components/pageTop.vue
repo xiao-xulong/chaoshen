@@ -36,7 +36,7 @@ export default {
     { name: 'QPics', text: 'Q版雄兵连' },
     //  { name: 'xiongThree', text: '雄三在线' },
     { name: 'activePics', text: '动态壁纸' },
-    { name: 'Us', text: '支持我们' }
+      // { name: 'Us', text: '支持我们' }
     ]
     const show = ref(false);
     const act = ref(0)
