@@ -28,6 +28,7 @@ let route = useRoute();
 onMounted(() => {
     videoAddress.value = route.query.url.videoAddress
     videoName.value = route.query.url.name
+    console.log(route.query.url)
 })
 const play = function () {
     videoState.value = false

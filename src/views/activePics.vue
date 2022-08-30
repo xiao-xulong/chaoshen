@@ -3,7 +3,7 @@
         <page-top></page-top>
         <h1>动态专区</h1>
         <div :class="['video', 'gradient-border']" v-for="item in activePics" :key="item.videoAddress">
-            <div class="icon" @click="goDownload(item.videoAddress)"></div>
+            <div class="icon" @click="goDownload(item)"></div>
             <video :poster="item.videoAddress + '?x-oss-process=video/snapshot,t_0,f_jpg,w_0,h_0,ar_auto'"
                 @click="goDownload(item)">
                 <source :src="item.videoAddress" type="video/mp4" />您的浏览器不支持 mp4文件。
