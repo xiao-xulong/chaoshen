@@ -1,7 +1,7 @@
 <template>
     <div>
         <page-top></page-top>
-        <h1>动态壁纸下载</h1>
+        <h1>{{  videoName  }}</h1>
         <div :class="['video', 'gradient-border']">
             <div v-show="videoState" class="icon" @click="play"></div>
             <video :poster="videoAddress + '?x-oss-process=video/snapshot,t_0,f_jpg,w_0,h_0,ar_auto'" ref="v"
@@ -23,10 +23,11 @@ import { onMounted, ref } from 'vue'
 let videoAddress = ref()
 const videoState = ref(false)
 let v = ref('v')
-
+let videoName = ref('')
 let route = useRoute();
 onMounted(() => {
-    videoAddress.value = route.query.url
+    videoAddress.value = route.query.url.videoAddress
+    videoName.value = route.query.url.name
 })
 const play = function () {
     videoState.value = false
