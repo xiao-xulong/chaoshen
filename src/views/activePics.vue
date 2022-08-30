@@ -17,6 +17,7 @@ import { ref, getCurrentInstance } from 'vue';
 import pageTop from '../components/pageTop'
 const { proxy } = getCurrentInstance()
 const activePics = ref([
+    { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/222d615c-1671-470b-9440-46c30ead6b16.mp4', name: '帅琪琳' },
     { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9d1b96bb-fa80-4972-b47c-0568882f294a.mp4', name: '蔷薇机甲动态' }
     ,
     { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/48d06cad-9ea7-4981-908f-324803541ade.mp4', name: '悟空动态' }

@@ -22,6 +22,7 @@ const examplePics = [{
 }]
 const allPics = [
   // {url:'',name:''},
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/4da23093-cb75-4a5c-8635-8df612b06d9d.jpg', name: '抚剑天使彦' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/7d38f29b-b64d-4b1b-8fcb-6b1099f47551.jpg', name: '雪伊严肃' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/abac6d0f-d420-40b9-9723-e32507a9f09e.jpg', name: '烈阳组合' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/8115528e-4f8f-4e69-a05b-954e18e9664f.jpg', name: '虚空组合' },
