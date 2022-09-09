@@ -2,9 +2,7 @@
   <div class="bg">
     <center style="height: 305px;">
       <img :src="wave" class="i" />
-
       <img src="../../img/loginText.png" class="logoText" />
-
     </center>
 
     <div class="pwd">
