@@ -48,7 +48,7 @@
     <div class="ep-list">
       <div class="ep-list-header">
         <span class="ep-title"> 选集</span>
-        <span class="ep-last">更新至第19话</span>
+        <span class="ep-last">更新至第20话</span>
       </div>
       <div class="ep-list-body">
         <div :class="['ep-item', choosedEp == item.id ? 'ep-item-active' : '']" v-for="item in eps" :key="item"
@@ -173,6 +173,7 @@ export default {
       },
       { id: 18, name: '第18话', videoAddress: "http://42.192.47.115:16880/xs18.mp4" },
       { id: 19, name: '第19话', videoAddress: "http://42.192.47.115:16880/xs19.mp4" },
+      { id: 20, name: '第20话', videoAddress: "http://42.192.47.115:16880/xs20.mp4" },
       // { id: 3, name: '第3话' },
       // { id: 4, name: '第4话' },
       // { id: 5, name: '第5话' }
