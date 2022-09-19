@@ -4,6 +4,7 @@ const vips = [
     { qq: '3428550100', name: '葛小伦', money: '22' },
     { qq: '430841254', name: '北宸', money: '20' }, { qq: '1834727719', name: '茶杯', money: '20' },
     { qq: '947062775', name: 'Waneefan', money: '18' },
+    { qq: '274333000', name: '穿越', money: '16.8' },
     { qq: '1305968573', name: '老姑妈', money: '16' },
     { qq: '3170119613', name: '༺星河如梦༺', money: '15' },
     { qq: '2235106255', name: '彦', money: '13' },
