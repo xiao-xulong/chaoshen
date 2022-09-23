@@ -3,12 +3,15 @@
     <pageTop></pageTop>
     <center>
       <article>
-        <img style="width: 110px; height: 35px; margin-top: 5px;" src="../../img/QpicLogo.png">
+        <img
+          style="width: 110px; height: 35px; margin-top: 5px"
+          src="../../img/QpicLogo.png"
+        />
       </article>
     </center>
     <div class="allQcontain">
       <div v-for="item in QPics" :key="item" class="itemContain">
-        <img class="backImg" v-lazy="item.url" @click="goDownload(item.url)">
+        <img class="backImg" v-lazy="item.url" @click="goDownload(item.url)" />
         <center class="imgName">{{ item.name }}</center>
       </div>
     </div>
@@ -16,28 +19,30 @@
 </template>
 
 <script>
-import { QPics } from '../../http/http'
-import { getCurrentInstance } from 'vue'
-import pageTop from '../components/pageTop.vue'
+import { QPics } from "../../http/http";
+import { getCurrentInstance } from "vue";
+import pageTop from "../components/pageTop.vue";
 export default {
-  name: 'QPics',
+  name: "QPics",
   components: {
-    pageTop
+    pageTop,
   },
   setup() {
-    const { proxy } = getCurrentInstance()
+    const { proxy } = getCurrentInstance();
     let goDownload = function (url) {
       proxy.$router.push({
-        path: '/PicDownload', query: {
-          url: url
-        }
-      })
-    }
+        path: "/PicDownload",
+        query: {
+          url: url,
+        },
+      });
+    };
     return {
-      goDownload, QPics
-    }
-  }
-}
+      goDownload,
+      QPics,
+    };
+  },
+};
 </script>
 
 <style  scoped lang="less">
