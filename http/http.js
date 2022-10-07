@@ -209,7 +209,7 @@ const allPics = [
     url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/20ebf5c9-6f00-4583-9468-4fb4308729f4.png'
     , name: '捧花炙心'
   }, {
-    url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/a52c71f9-4739-4b0a-bf3e-9c4e323d0b12.png'
+    url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/21334087-8f9d-4402-9718-6aadfb623b54.jpg'
     , name: '帅琪琳'
   }, {
     url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/99e0b202-50e1-4756-92fa-d2c639e0adfe.png'
