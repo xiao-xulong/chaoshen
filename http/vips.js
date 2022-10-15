@@ -45,6 +45,7 @@ const vips = [
     { qq: '568977941', name: '戒烟', money: '10' },
     { qq: '1591420879', name: '帅出宇宙', money: '10' },
     { qq: '2636507191', name: '.', money: '10' },
+    { qq: '1782162735', name: '青争', money: '10' },
     { qq: '2578516756', name: 'Faye Valentine', money: '7' },
     { qq: '1123638862', name: '墨心', money: '6.66' },
     { qq: '3282873514', name: 'Fletcher.X', money: '6.66' },
