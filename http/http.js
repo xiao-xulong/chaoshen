@@ -22,7 +22,7 @@ const examplePics = [{
 }]
 const allPics = [
   // {url:'',name:''},
-  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/91778e1f-70e1-4871-b261-479d5c0f857e.jpg', name: '炙心生日海报' },
+  { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/6d135794-e100-482e-b673-dbc7bac61bdc.jpg', name: '炙心生日海报' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/4ce98787-72c1-4797-9a63-511d9b3521d2.jpg', name: '小狸生日海报' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/496a82cc-4b39-43d3-8915-9590ae9635c3.jpg', name: '琪琳生日海报' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/0d0c436e-4dd0-4272-9758-9ea5b1ac788d.jpg', name: '中秋群像' },
