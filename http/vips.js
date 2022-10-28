@@ -84,6 +84,7 @@ const vips = [
     { qq: '2776795815', name: '尘风暮影', money: '5' },
     { qq: '2985958396', name: '蔷薇花下.', money: '5' },
     { qq: '1441854515', name: '蓝色的回忆', money: '5' },
+    { qq: '821190025', name: 'Mu', money: '5' },
     { qq: '3195239296', name: '依旧ZQ', money: '4' },
     { qq: '2720898486', name: '人生QAQ', money: '4' },
     { qq: '1732253807', name: '天逸', money: '3' },
