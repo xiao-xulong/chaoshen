@@ -22,6 +22,8 @@ const examplePics = [{
 }]
 const allPics = [
   // {url:'',name:''},
+  { url: ' https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/1e196f2d-f6eb-46b4-8e83-88196f5f4636.png', name: '雄三群像海报' },
+
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/6c146a95-15e7-4a09-aa31-41631042fee3.jpg', name: '蔷薇生日海报' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/6d135794-e100-482e-b673-dbc7bac61bdc.jpg', name: '炙心生日海报' },
   { url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/4ce98787-72c1-4797-9a63-511d9b3521d2.jpg', name: '小狸生日海报' },
