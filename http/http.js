@@ -24,6 +24,10 @@ const examplePics = [
 const allPics = [
   // {url:'',name:''},
   {
+    url: "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/01744943-ee98-450c-8bed-efbc9f07eeb6.jpg",
+    name: "葛彦元旦海报",
+  },
+  {
     url: "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/fafb602f-220a-4819-a41d-e1d0d0d1bf32.jpg",
     name: "舞照降临日海报",
   },

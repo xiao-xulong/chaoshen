@@ -1,23 +1,18 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
-import { chaoshen } from './routerInfo/routerInfo'
-const routes = [...chaoshen]
+import { createRouter, createWebHashHistory } from "vue-router";
+import chaoshen from "./routerInfo/routerInfo";
+const routes = [
+  {
+    path: "/",
+    name: "Login",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/Login.vue"),
+  },
+  ...chaoshen,
+];
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes
-})
-router.beforeEach((to, from, next) => {
+  routes,
+});
 
-  if (to.path === '/') {
-
-    return next()
-  } else {
-    const token = window.sessionStorage.getItem('angle')
-    if (token === null || '') {
-      return next({ name: 'Login' })
-    } else {
-      return next()
-    }
-  }
-})
-export default router
+export default router;
