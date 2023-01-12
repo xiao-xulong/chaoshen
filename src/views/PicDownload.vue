@@ -2,59 +2,59 @@
   <div class="root">
     <page-top></page-top>
 
-    <img class="title_img" src="../assets/wallPicBackGround.png">
-    <img class="pic" :src="picAddress" @click="preView">
+    <img class="title_img" src="../assets/wallPicBackGround.png" />
+    <img class="pic" :src="picAddress" @click="preView" />
 
-    <a id="bottom-1" class="downLoadBtn" :href="picAddress + '?response-content-type=application/octet-stream'"
-      download>
-
-      壁纸下载</a>
-
-
+    <a id="bottom-1" class="downLoadBtn" @click="down"> 壁纸下载</a>
   </div>
 </template>
 
 <script>
-import pageTop from '../components/pageTop'
-import { ImagePreview } from 'vant';
-import { useRoute } from 'vue-router'
-import { onMounted, ref } from 'vue'
+import exportFile from "@/utils/downFiles";
+import pageTop from "../components/pageTop";
+import { ImagePreview } from "vant";
+import { useRoute } from "vue-router";
+import { onMounted, ref } from "vue";
 export default {
-  name: 'PicDownload',
+  name: "PicDownload",
   components: {
-    pageTop
+    pageTop,
   },
   setup() {
     let route = useRoute();
     onMounted(() => {
-      picAddress.value = route.query.url
-    })
-    let picAddress = ref('')
+      const data = JSON.parse(route.query.data);
+      console.log(data);
+      picAddress.value = data.url;
+    });
+    let picAddress = ref("");
 
-    let fileList = ref([])
+    let fileList = ref([]);
     let preView = function () {
-      ImagePreview([
-        route.query.url
-      ]);
+      const data = JSON.parse(route.query.data);
+      ImagePreview([JSON.parse(data.url)]);
+    };
+    const down = function () {
+      const data = JSON.parse(route.query.data);
 
-    }
-
-
-
-
+      exportFile.getImgURLs(picAddress.value, data.name);
+    };
     return {
-      fileList, picAddress, preView
-    }
-  }
-}
+      fileList,
+      picAddress,
+      preView,
+      down,
+    };
+  },
+};
 </script>
 
 <style scoped lang="less">
 .root {
-  background-color: #10171A;
+  background-color: #10171a;
   width: 100%;
   height: auto;
-  background-image: url('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/16822a8c-4b1b-4490-bcc1-bbdd744d5fa2.jpg');
+  background-image: url("https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/16822a8c-4b1b-4490-bcc1-bbdd744d5fa2.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
@@ -79,29 +79,27 @@ export default {
 .downLoadBtn {
   display: inline-block;
   text-align: center;
-  margin-top: 10Px;
+  margin-top: 10px;
   margin-left: 5%;
   width: 45%;
-  height: 40Px;
-  color: #40D7F7;
+  height: 40px;
+  color: #40d7f7;
   border: #01e7ff solid 1px;
-  line-height: 40Px;
-  font-size: 22Px;
+  line-height: 40px;
+  font-size: 22px;
   margin-bottom: 10px;
 }
 
 .downLoadBtn::before {
   content: "";
   display: inline-block;
-  width: 24Px;
-  height: 22Px;
+  width: 24px;
+  height: 22px;
   background: url("../assets/download.png") no-repeat;
-  background-size: 24Px 22Px;
+  background-size: 24px 22px;
   background-position: center;
   position: relative;
-  top: 4Px;
+  top: 4px;
   margin-right: 10px;
-
-
 }
 </style>

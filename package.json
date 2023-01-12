@@ -11,6 +11,7 @@
     "animate.css": "^3.5.1",
     "axios": "^0.24.0",
     "core-js": "^3.6.5",
+    "file-saver": "^2.0.5",
     "lib-flexible": "^0.3.2",
     "postcss-px2rem": "^0.3.0",
     "qrcode.vue": "^3.3.3",

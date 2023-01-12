@@ -20,8 +20,15 @@
     <!--      <button @click="fullScreen">123</button>-->
     <div class="video">
       <div v-if="!videoPlayState" class="icon" @click="play"></div>
-      <video poster="../assets/post.jpg" id="v" @click="pause" @timeupdate="timeU" @canplay="timeW">
-        <source :src="videoAddress" type="video/mp4" />您的浏览器不支持 mp4文件。
+      <video
+        poster="../assets/post.jpg"
+        id="v"
+        @click="pause"
+        @timeupdate="timeU"
+        @canplay="timeW"
+      >
+        <source :src="videoAddress" type="video/mp4" />
+        您的浏览器不支持 mp4文件。
       </video>
     </div>
 
@@ -30,7 +37,7 @@
       <h5>DOWNLOAD WALLPAPER</h5>
     </article>
     <div v-for="item in backPics" :key="item">
-      <img @click="goDownload(item.url)" class="backImg" :src="item.url" />
+      <img @click="goDownload(item)" class="backImg" :src="item.url" />
       <center class="imgName">{{ item.name }}</center>
     </div>
     <button @click="morePic">更多无水印壁纸</button>
@@ -41,55 +48,59 @@
 // import s1 from '../assets/swiper1.jpg';
 // import s2 from '../assets/swiper2.jpg';
 // import s3 from '../assets/swiper3.jpg';
-import { examplePics, allPics, shootreq } from '../../http/http'
-import { onMounted, ref, getCurrentInstance } from 'vue'
+import { examplePics, allPics, shootreq } from "../../http/http";
+import { onMounted, ref, getCurrentInstance } from "vue";
 import { useRouter } from "vue-router";
-import pageTop from '../components/pageTop'
-import { Dialog } from 'vant';
+import pageTop from "../components/pageTop";
+import { Dialog } from "vant";
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    pageTop
+    pageTop,
   },
   setup() {
     onMounted(async () => {
-
       // backPics.value=res.data
-
-    })
+    });
     const router = useRouter();
-    let { proxy } = getCurrentInstance()
-    let backPics = ref(examplePics)
+    let { proxy } = getCurrentInstance();
+    let backPics = ref(examplePics);
     // const images = [s1, s2, s3]
-    const images = ['https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/c4f816cf-4f76-4a67-9010-ba53590b17eb.jpg', 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/1a81d7e1-9049-4274-8f4a-248ad6d024f9.jpg', 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/0d302c95-6bcb-4bbf-ac19-6e5355644d0c.jpg']
+    const images = [
+      "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/c4f816cf-4f76-4a67-9010-ba53590b17eb.jpg",
+      "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/1a81d7e1-9049-4274-8f4a-248ad6d024f9.jpg",
+      "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/0d302c95-6bcb-4bbf-ac19-6e5355644d0c.jpg",
+    ];
 
-    let videoPlayState = ref(false)
-    let videoAddress = ref('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b5a06f88-fb89-4b85-8d58-960f4cb33c73.mp4')
+    let videoPlayState = ref(false);
+    let videoAddress = ref(
+      "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b5a06f88-fb89-4b85-8d58-960f4cb33c73.mp4"
+    );
     // let videoTimeWidth=ref(0)
     //   let videoCurrentTime=ref(0)
     let play = function () {
-      let v = document.getElementById('v')
+      let v = document.getElementById("v");
       v.play();
-      videoPlayState.value = true
-
-    }
+      videoPlayState.value = true;
+    };
     let pause = function () {
-      let v = document.getElementById('v')
+      let v = document.getElementById("v");
       v.pause();
-      videoPlayState.value = false
-    }
+      videoPlayState.value = false;
+    };
     let morePic = function () {
-      sessionStorage.setItem('i', 1)
+      sessionStorage.setItem("i", 1);
 
-      proxy.$router.push({ name: 'WallPaper' })
-    }
-    let goDownload = function (url) {
+      proxy.$router.push({ name: "WallPaper" });
+    };
+    let goDownload = function (data) {
       proxy.$router.push({
-        path: '/PicDownload', query: {
-          url: url
-        }
-      })
-    }
+        path: "/PicDownload",
+        query: {
+          data: JSON.stringify(data),
+        },
+      });
+    };
     // let vc=function () {
     //   let v= document.getElementById('v')
     //  let range = document.getElementById('range');
@@ -115,9 +126,18 @@ export default {
     //         v.style.objectFit="fill"
     //         console.log(v.style)
     //       }
-    return { images, play, videoPlayState, pause, videoAddress, backPics, morePic, goDownload };
-  }
-}
+    return {
+      images,
+      play,
+      videoPlayState,
+      pause,
+      videoAddress,
+      backPics,
+      morePic,
+      goDownload,
+    };
+  },
+};
 </script>
 <style>
 .van-notify {
