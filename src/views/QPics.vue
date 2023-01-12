@@ -11,7 +11,7 @@
     </center>
     <div class="allQcontain">
       <div v-for="item in QPics" :key="item" class="itemContain">
-        <img class="backImg" v-lazy="item.url" @click="goDownload(item.url)" />
+        <img class="backImg" v-lazy="item.url" @click="goDownload(item)" />
         <center class="imgName">{{ item.name }}</center>
       </div>
     </div>
@@ -29,11 +29,12 @@ export default {
   },
   setup() {
     const { proxy } = getCurrentInstance();
-    let goDownload = function (url) {
+    let goDownload = function (data) {
       proxy.$router.push({
         path: "/PicDownload",
+
         query: {
-          url: url,
+          data: JSON.stringify(data),
         },
       });
     };
@@ -45,7 +46,7 @@ export default {
 };
 </script>
 
-<style  scoped lang="less">
+<style scoped lang="less">
 .allQcontain {
   width: 100%;
   display: flex;
