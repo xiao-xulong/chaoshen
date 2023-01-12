@@ -82,21 +82,21 @@ export default {
   margin-top: 10px;
   margin-left: 5%;
   width: 45%;
-  height: 40px;
+  height: 80px;
   color: #40d7f7;
   border: #01e7ff solid 1px;
-  line-height: 40px;
-  font-size: 22px;
+  line-height: 80px;
+  font-size: 30px;
   margin-bottom: 10px;
 }
 
 .downLoadBtn::before {
   content: "";
   display: inline-block;
-  width: 24px;
-  height: 22px;
+  width: 30px;
+  height: 28px;
   background: url("../assets/download.png") no-repeat;
-  background-size: 24px 22px;
+  background-size: 30px 28px;
   background-position: center;
   position: relative;
   top: 4px;

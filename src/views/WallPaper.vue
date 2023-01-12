@@ -28,6 +28,9 @@ export default {
     pageTop,
   },
   setup() {
+    const wid = ref({ imgHei: 0 });
+    wid.value.imgHei = document.documentElement.clientWidth * 0.8 + "px";
+    console.log(wid.value.imgHei);
     let { proxy } = getCurrentInstance();
     onMounted(() => {
       document.documentElement.scrollTo(0, 0);
@@ -56,7 +59,15 @@ export default {
         },
       });
     };
-    return { allPics, showPic, showPicNum, addShowPic, noMorePic, goDownload };
+    return {
+      allPics,
+      showPic,
+      showPicNum,
+      addShowPic,
+      noMorePic,
+      goDownload,
+      wid,
+    };
   },
 };
 </script>
@@ -82,7 +93,7 @@ export default {
   .backImg {
     width: 94%;
     margin-left: 3%;
-    height: 328px;
+    height: v-bind("wid.imgHei");
     object-fit: cover;
     object-position: 50% 15%;
     border: 1px solid #01e7ff;
