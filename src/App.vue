@@ -1,6 +1,6 @@
 <template>
   <router-view v-slot="{ Component }">
-    <keep-alive include="WallPaper">
+    <keep-alive include="WallPaper,QPics">
       <component :is="Component" />
     </keep-alive>
   </router-view>

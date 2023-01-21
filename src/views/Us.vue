@@ -9,8 +9,8 @@
     <section>
       <div class="pay">
 
-        <img class="payImg" @click="fullView(vxImg)" :src="vxImg">
-        <img class="payImg" @click="fullView(zfbImg)" :src="zfbImg">
+        <img class="payImg" src="../../img/wx.jpg">
+        <img class="payImg"  src="../../img/zfb.jpg">
         <span class="payImgText">微信打赏</span>
         <span class="payImgText">支付宝赞助</span>
       </div>
@@ -87,8 +87,8 @@ import { ref, reactive, onMounted } from "vue";
 import { ImagePreview } from 'vant';
 
 
-const vxImg = ref('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/31230ac8-ad14-4403-a698-fce394bc4da5.jpg')
-const zfbImg = ref('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/cc7446b0-e0d1-48f2-b6fa-219d0f7da47a.jpg')
+const vxImg = ref('../../img/wx.jpg')
+const zfbImg = ref('../../img/zfb.jpg')
 
 const backC = reactive({ co: "red" })
 const c = function () {

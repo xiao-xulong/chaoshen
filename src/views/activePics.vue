@@ -4,7 +4,7 @@
         <h1>动态专区</h1>
         <div :class="['video', 'gradient-border']" v-for="item in activePics" :key="item.videoAddress">
             <div class="icon" @click="goDownload(item)"></div>
-            <video :poster="item.videoAddress + '?x-oss-process=video/snapshot,t_0,f_jpg,w_0,h_0,ar_auto'"
+            <video :poster="item.post"
                 @click="goDownload(item)">
                 <source :src="item.videoAddress" type="video/mp4" />您的浏览器不支持 mp4文件。
             </video>
@@ -17,19 +17,19 @@ import { ref, getCurrentInstance } from 'vue';
 import pageTop from '../components/pageTop'
 const { proxy } = getCurrentInstance()
 const activePics = ref([
-    { videoAddress: 'https://vkceyugu-backup.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/222d615c-1671-470b-9440-46c30ead6b16.mp4', name: '帅琪琳' },
-    { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/9d1b96bb-fa80-4972-b47c-0568882f294a.mp4', name: '蔷薇机甲动态' }
+    { videoAddress: require('../../video/帅琪琳.mp4'), name: '帅琪琳',post: require("../../img/帅琪琳poster.jpg") },
+    { videoAddress: require('../../video/蔷薇机甲动态.mp4'), name: '蔷薇机甲动态',post:require("../../img/蔷薇机甲动态poster.jpg") }
     ,
-    { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/48d06cad-9ea7-4981-908f-324803541ade.mp4', name: '悟空动态' }
+    { videoAddress: require('../../video/悟空动态.mp4'), name: '悟空动态',post:require("../../img/悟空动态poster.jpg") }
     ,
-    { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/d0b8d62f-af18-411c-9a74-d2c22beca20f.mp4', name: '蔷薇短发星命动态' }
+    { videoAddress: require('../../video/蔷薇短发星命动态.mp4'), name: '蔷薇短发星命动态' ,post:require("../../img/蔷薇短发星命动态poster.jpg")}
     ,
-    { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/5123c26e-fe10-45d5-8b26-c860fa5014d1.mp4', name: '鹤熙樱花唯美动态壁纸' },
-    { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/720528f9-8e7f-41cc-a2a8-c761cb7340ed.mp4', name: '凉薇展翼动态壁纸' },
-    { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/6b16823b-ca04-4508-a584-e6ab5af23236.mp4', name: '凯莎动态壁纸' },
-    { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/84b387eb-9d59-481e-b794-0616487b9104.mp4', name: '阿狸动态壁纸' },
-    { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/75ef0ced-b946-46e1-afc6-54cfa728c430.mp4', name: '凉薇牵手动态壁纸' },
-    { videoAddress: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/e3912a2c-33b6-480b-86d8-c4f9d93ea40a.mp4', name: '凯莎持剑动态' }
+    { videoAddress: require('../../video/鹤熙樱花唯美动态壁纸.mp4'), name: '鹤熙樱花唯美动态壁纸' ,post:require("../../img/鹤熙樱花唯美动态壁纸poster.jpg")},
+    { videoAddress: require('../../video/凉薇展翼动态壁纸.mp4'), name: '凉薇展翼动态壁纸' ,post:require("../../img/凉薇展翼动态壁纸poster.jpg")},
+    { videoAddress: require('../../video/凯莎动态.mp4'), name: '凯莎动态壁纸' ,post:require("../../img/凯莎动态poster.jpg")},
+    { videoAddress: require('../../video/阿狸动态.mp4'), name: '阿狸动态壁纸' ,post:require("../../img/阿狸动态poster.jpg")},
+    { videoAddress: require('../../video/凉薇牵手动态壁纸.mp4'), name: '凉薇牵手动态壁纸' ,post:require("../../img/凉薇牵手动态壁纸poster.jpg")},
+    { videoAddress: require('../../video/凯莎持剑动态.mp4'), name: '凯莎持剑动态',post:require("../../img/凯莎持剑动态poster.jpg" )}
 
 ])
 
