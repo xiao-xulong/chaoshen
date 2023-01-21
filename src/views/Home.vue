@@ -67,9 +67,9 @@ export default {
     let backPics = ref(examplePics);
     // const images = [s1, s2, s3]
     const images = [
-      "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/c4f816cf-4f76-4a67-9010-ba53590b17eb.jpg",
-      "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/1a81d7e1-9049-4274-8f4a-248ad6d024f9.jpg",
-      "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/0d302c95-6bcb-4bbf-ac19-6e5355644d0c.jpg",
+      require("../../img/swiper1.4f9f0e27.jpg"),
+      require("../../img/swiper1.4f9f0e27.jpg"),
+      require("../../img/swiper1.4f9f0e27.jpg")
     ];
 
     let videoPlayState = ref(false);
