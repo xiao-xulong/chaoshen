@@ -9,15 +9,15 @@ import axios from "axios";
 
 const examplePics = [
   {
-    url: "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/57d8fd3d-0460-4609-8953-29118ba55a75.png",
+    url: "https://angel-yan.oss-cn-hangzhou.aliyuncs.com/%E5%BD%A6%20-%20%E6%84%9F%E6%81%A9%E8%8A%82%E6%B5%B7%E6%8A%A5.jpg",
     name: "彦 - 感恩节海报",
   },
   {
-    url: "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/8b7c1a68-acfa-4697-8ae5-da3c2095878d.png",
+    url: "https://angel-yan.oss-cn-hangzhou.aliyuncs.com/%E6%8C%81%E5%89%91%E9%B9%A4%E7%86%99.jpg",
     name: "持剑鹤熙",
   },
   {
-    url: "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/30ac91ab-5011-46be-8bd3-1970b0b11bb6.png",
+    url: "https://angel-yan.oss-cn-hangzhou.aliyuncs.com/%E5%87%89%E5%86%B0%E9%99%8D%E4%B8%B4.jpg",
     name: "凉冰降临",
   },
 ];
