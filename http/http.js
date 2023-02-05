@@ -23,8 +23,9 @@ const examplePics = [
 ];
 const allPics = [
   // {url:'',name:''},
-  {url:'https://angel-yan.oss-cn-hangzhou.aliyuncs.com/%E7%90%AA%E7%90%B3%E6%98%A5%E8%8A%82%E6%B5%B7%E6%8A%A5.jpg',name:'琪琳春节海报'},
-  {url:'https://angel-yan.oss-cn-hangzhou.aliyuncs.com/%E4%B8%89%E7%8E%8B%E9%99%A4%E5%A4%95%E6%B5%B7%E6%8A%A5.jpg',name:'三王除夕海报'},
+  { url: 'https://angel-yan.oss-cn-hangzhou.aliyuncs.com/%E5%85%83%E5%AE%B5%E6%B5%B7%E6%8A%A5.jpg', name: '元宵海报' },
+  { url: 'https://angel-yan.oss-cn-hangzhou.aliyuncs.com/%E7%90%AA%E7%90%B3%E6%98%A5%E8%8A%82%E6%B5%B7%E6%8A%A5.jpg', name: '琪琳春节海报' },
+  { url: 'https://angel-yan.oss-cn-hangzhou.aliyuncs.com/%E4%B8%89%E7%8E%8B%E9%99%A4%E5%A4%95%E6%B5%B7%E6%8A%A5.jpg', name: '三王除夕海报' },
   {
     url: "https://angel-yan.oss-cn-hangzhou.aliyuncs.com/%E8%91%9B%E5%BD%A6%E5%85%83%E6%97%A6%E6%B5%B7%E6%8A%A5.jpg",
     name: "葛彦元旦海报",
