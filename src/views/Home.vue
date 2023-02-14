@@ -68,8 +68,8 @@ export default {
     // const images = [s1, s2, s3]
     const images = [
       require("../../img/swiper1.4f9f0e27.jpg"),
-      require("../../img/swiper1.4f9f0e27.jpg"),
-      require("../../img/swiper1.4f9f0e27.jpg")
+      require("../../img/swiper2.34fad73b.jpg"),
+      require("../../img/swiper3.7e5a0168.jpg")
     ];
 
     let videoPlayState = ref(false);

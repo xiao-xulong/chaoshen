@@ -23,6 +23,7 @@ const examplePics = [
 ];
 const allPics = [
   // {url:'',name:''},
+  { url: 'https://angel-yan.oss-cn-hangzhou.aliyuncs.com/%E8%94%B7%E8%96%87%E6%83%85%E4%BA%BA%E8%8A%82%E6%B5%B7%E6%8A%A5.jpg', name: '蔷薇情人节海报' },
   { url: 'https://angel-yan.oss-cn-hangzhou.aliyuncs.com/%E5%85%83%E5%AE%B5%E6%B5%B7%E6%8A%A5.jpg', name: '元宵海报' },
   { url: 'https://angel-yan.oss-cn-hangzhou.aliyuncs.com/%E7%90%AA%E7%90%B3%E6%98%A5%E8%8A%82%E6%B5%B7%E6%8A%A5.jpg', name: '琪琳春节海报' },
   { url: 'https://angel-yan.oss-cn-hangzhou.aliyuncs.com/%E4%B8%89%E7%8E%8B%E9%99%A4%E5%A4%95%E6%B5%B7%E6%8A%A5.jpg', name: '三王除夕海报' },
@@ -897,6 +898,877 @@ const QPics = [
     name: "Q双女王",
   },
 ];
+
+// const allPic = [
+//   // {url:'',name:''},
+//   { url: require('../img/mainIng/元宵海报.jpg'), name: '元宵海报' },
+//   { url: require('../img/mainIng/琪琳春节海报.jpg'), name: '琪琳春节海报' },
+//   { url: require('../img/mainIng/三王除夕海报.jpg'), name: '三王除夕海报' },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "葛彦元旦海报",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "舞照降临日海报",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "琪琳建军节海报",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "雄三收官群像",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "雄三群像海报",
+//   },
+
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "蔷薇生日海报",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "炙心生日海报",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "小狸生日海报",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "琪琳生日海报",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "中秋群像",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "彦与蝴蝶",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "雄兵连新兵韩菲",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "抚剑天使彦",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "雪伊严肃",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "烈阳组合",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "虚空组合",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "天使彦生日海报",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "雄四PV海报",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "雄四海报凉冰",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "蕾娜生日海报",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "七夕舞照",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "七夕赵信炙心",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "琪琳诧异",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "赏花鹤熙",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "草地凯莎",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "彦侧脸微笑",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "彦爵士",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "鹤熙生日海报",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "最后的蕾娜（老版建模）",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "台阶微笑彦",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "雄二全员群像",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "琪琳破亿海报",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "老版凉薇夕阳海报",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "老版54青年节海报",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "琪琳与蔷薇",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "雄三琪琳微笑",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "618凉薇海报精修版",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "5周年海报彦单人照",
+//   },
+
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "追忆雄二阿追妆容照",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "雄三青卿",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "灵溪",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "雄三凉冰降临日海报",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "阿狸端午",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "凉薇睡觉",
+//   },
+
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "凉薇红酒",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "雄三天使彦2",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "雄三双刃炙心",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "雄三天使彦",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "雄三蔚",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "雄三鹤熙唯美",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "雄三彦海报",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "雄三彦严肃",
+//   },
+//   {
+//     url: require('../img/mainIng/元宵海报.jpg'),
+//     name: "雄三彦忧愁",
+//   },
+//   {
+//     url: require('../img/mainIng/雄三彦仰望.jpg'),
+//     name: "雄三彦仰望",
+//   },
+//   {
+//     url: require('../img/mainIng/凉冰比基尼.jpg'),
+//     name: "凉冰比基尼",
+//   },
+//   {
+//     url: require('../img/mainIng/蔷薇海报超清修复版.jpg'),
+//     name: "蔷薇海报超清修复版",
+//   },
+//   {
+//     url: require('../img/mainIng/视觉新时空-凉冰.jpg'),
+//     name: "视觉新时空-凉冰",
+//   },
+//   {
+//     url: require('../img/mainIng/视觉新时空-雄一盔甲彦.jpg'),
+//     name: "视觉新时空-雄一盔甲彦",
+//   },
+//   {
+//     url: require('../img/mainIng/比耶琪琳.jpg'),
+//     name: "比耶琪琳",
+//   },
+//   {
+//     url: require('../img/mainIng/妇女节群像 高清修复版.jpg'),
+//     name: "妇女节群像 高清修复版",
+//   },
+//   {
+//     url: require('../img/mainIng/视觉新时空-华服彦.jpg'),
+//     name: "视觉新时空-华服彦",
+//   },
+//   {
+//     url: require('../img/mainIng/视觉新时空-微笑盔甲彦.jpg'),
+//     name: "视觉新时空-微笑盔甲彦",
+//   },
+//   {
+//     url: require('../img/mainIng/视觉新时空-雄3举剑彦修复版.jpg'),
+//     name: "视觉新时空-雄3举剑彦修复版",
+//   },
+//   {
+//     url: require('../img/mainIng/视觉新时空-雄三雷霆彦.jpg'),
+//     name: "视觉新时空-雄三雷霆彦",
+//   },
+//   {
+//     url: require('../img/mainIng/视觉新时空-现代装凉冰.jpg'),
+//     name: "视觉新时空-现代装凉冰",
+//   },
+//   {
+//     url: require('../img/mainIng/视觉新时空-凯莎现代照.jpg'),
+//     name: "视觉新时空-凯莎现代照",
+//   },
+//   {
+//     url: require('../img/mainIng/视觉新时空-鹤熙现代照(紧身包臀裙).jpg'),
+//     name: "视觉新时空-鹤熙现代照(紧身包臀裙)",
+//   },
+//   {
+//     url: require('../img/mainIng/视觉新时空-鹤熙现代装（露肩）.jpg'),
+//     name: "视觉新时空-鹤熙现代装（露肩）",
+//   },
+//   {
+//     url: require('../img/mainIng/视觉新时空-现代装彦（白衣牛仔裤.jpg'),
+//     name: "视觉新时空-现代装彦（白衣牛仔裤",
+//   },
+//   {
+//     url: require('../img/mainIng/视觉新时空-雄二盔甲彦.jpg'),
+//     name: "视觉新时空-雄二盔甲彦",
+//   },
+//   {
+//     url: require('../img/mainIng/视觉新时空-琪琳.png'),
+//     name: "视觉新时空-琪琳",
+//   },
+//   {
+//     url: require('../img/mainIng/雄三海报群像.jpg'),
+//     name: "雄三海报群像",
+//   },
+//   {
+//     url: require('../img/mainIng/雄三天使彦正面形象.jpg'),
+//     name: "雄三天使彦正面形象",
+//   },
+//   {
+//     url: require('../img/mainIng/雄三凯莎海报.jpg'),
+//     name: "雄三凯莎海报",
+//   },
+//   {
+//     url: require('../img/mainIng/母亲节-青卿海报.jpg'),
+//     name: "母亲节-青卿海报",
+//   },
+//   {
+//     url: require('../img/mainIng/雄三彦模型.png'),
+//     name: "雄三彦模型",
+//   },
+//   {
+//     url: require('../img/mainIng/墨倾池凉冰.jpg'),
+//     name: "墨倾池凉冰",
+//   },
+//   {
+//     url: require('../img/mainIng/墨倾池琪琳.jpg'),
+//     name: "墨倾池琪琳",
+//   },
+//   {
+//     url: require('../img/mainIng/墨倾池鹤熙.jpg'),
+//     name: "墨倾池鹤熙",
+//   },
+//   {
+//     url: require('../img/mainIng/雄三海报.jpg'),
+//     name: "雄三海报",
+//   },
+//   {
+//     url: require('../img/mainIng/冷清明海报.jpg'),
+//     name: "冷清明海报",
+//   },
+//   {
+//     url: require('../img/mainIng/_天使凉冰玫瑰.jpg'),
+//     name: "天使凉冰玫瑰",
+//   },
+
+//   {
+//     url: require('../img/mainIng/2022新年三王海报.jpg'),
+//     name: "2022新年三王海报",
+//   },
+//   {
+//     url: require('../img/mainIng/鹤熙三八妇女节海报.jpg'),
+//     name: "鹤熙三八妇女节海报",
+//   },
+//   {
+//     url: require('../img/mainIng/除夕合照精修版.jpg'),
+//     name: "除夕合照精修版",
+//   },
+//   {
+//     url: require('../img/mainIng/蕾娜战悟空.jpg'),
+//     name: "蕾娜战悟空",
+//   },
+//   {
+//     url: require('../img/mainIng/蕾娜烈阳海报.jpg'),
+//     name: "蕾娜烈阳海报",
+//   },
+//   {
+//     url: require('../img/mainIng/怜风诸天降临.jpg'),
+//     name: "怜风诸天降临",
+//   },
+//   {
+//     url: require('../img/mainIng/圣诞蕾娜.jpg'),
+//     name: "圣诞蕾娜",
+//   },
+//   {
+//     url: require('../img/mainIng/圣诞树蕾娜.jpg'),
+//     name: "圣诞树蕾娜",
+//   },
+//   {
+//     url: require('../img/mainIng/彦降临.jpg'),
+//     name: "彦降临",
+//   },
+//   {
+//     url: require('../img/mainIng/小狸 - 烈阳2.jpg'),
+//     name: "小狸 - 烈阳2",
+//   },
+//   {
+//     url: require('../img/mainIng/舞照.jpg'),
+//     name: "舞照",
+//   },
+//   {
+//     url: require('../img/mainIng/蔷薇夜摩托.jpg'),
+//     name: "蔷薇夜摩托",
+//   },
+//   {
+//     url: require('../img/mainIng/琪琳生日.jpg'),
+//     name: "琪琳生日",
+//   },
+//   {
+//     url: require('../img/mainIng/凉冰降临.jpg'),
+//     name: "凉冰降临",
+//   },
+//   {
+//     url: require('../img/mainIng/凯莎降临.jpg'),
+//     name: "凯莎降临",
+//   },
+//   {
+//     url: require('../img/mainIng/鹤熙.jpg'),
+//     name: "鹤熙 ",
+//   },
+//   {
+//     url: require('../img/mainIng/琪琳白警服.jpg'),
+//     name: "琪琳白警服",
+//   },
+//   {
+//     url: require('../img/mainIng/琪琳连衣裙.jpg'),
+//     name: "琪琳连衣裙",
+//   },
+//   {
+//     url: require('../img/mainIng/持剑鹤熙.jpg'),
+//     name: "持剑鹤熙",
+//   },
+//   {
+//     url: require('../img/mainIng/风衣凉冰.jpg'),
+//     name: "风衣凉冰",
+//   },
+//   {
+//     url: require('../img/mainIng/月光炙心.jpg'),
+//     name: "月光炙心",
+//   },
+//   {
+//     url: require('../img/mainIng/蔷薇夕阳摩托.jpg'),
+//     name: "蔷薇夕阳摩托",
+//   },
+//   {
+//     url: require('../img/mainIng/礼物炙心.jpg'),
+//     name: "礼物炙心",
+//   },
+//   {
+//     url: require('../img/mainIng/拄剑鹤熙.jpg'),
+//     name: "拄剑鹤熙",
+//   },
+//   {
+//     url: require('../img/mainIng/团队（赵信，小伦，琪琳）.jpg'),
+//     name: "团队（赵信，小伦，琪琳）",
+//   },
+//   {
+//     url: require('../img/mainIng/彦 - 感恩节海报.jpg'),
+//     name: "彦 - 感恩节海报",
+//   },
+//   {
+//     url: require('../img/mainIng/凯莎 - 冬至海报.jpg'),
+//     name: "凯莎 - 冬至海报",
+//   },
+//   {
+//     url: require('../img/mainIng/鹤熙生日海报2.jpg'),
+//     name: "鹤熙生日海报2",
+//   },
+//   {
+//     url: require('../img/mainIng/彦-端午节海报.jpg'),
+//     name: "彦-端午节海报",
+//   },
+//   {
+//     url: require('../img/mainIng/小狸-新春祝福海报.jpg'),
+//     name: "小狸-新春祝福海报",
+//   },
+//   {
+//     url: require('../img/mainIng/阿追-六一海报.jpg'),
+//     name: "阿追-六一海报",
+//   },
+//   {
+//     url: require('../img/mainIng/怜风降临海报.png'),
+//     name: "怜风降临海报",
+//   },
+//   {
+//     url: require('../img/mainIng/劳动节海报.jpg'),
+//     name: "劳动节海报",
+//   },
+//   {
+//     url: require('../img/mainIng/萌萌生日海报.jpg'),
+//     name: "萌萌生日海报",
+//   },
+//   {
+//     url: require('../img/mainIng/凉薇展翼.jpg'),
+//     name: "凉薇展翼",
+//   },
+//   {
+//     url: require('../img/mainIng/捧花炙心.jpg'),
+//     name: "捧花炙心",
+//   },
+//   {
+//     url: require('../img/mainIng/帅琪琳.jpg'),
+//     name: "帅琪琳",
+//   },
+//   {
+//     url: require('../img/mainIng/战斗悟空.jpg'),
+//     name: "战斗悟空",
+//   },
+//   {
+//     url: require('../img/mainIng/战斗天使彦.jpg'),
+//     name: "战斗天使彦",
+//   },
+//   {
+//     url: require('../img/mainIng/蔷薇战斗装.jpg'),
+//     name: "蔷薇战斗装",
+//   },
+//   {
+//     url: require('../img/mainIng/凉冰恶魔装.jpg'),
+//     name: "凉冰恶魔装",
+//   },
+//   {
+//     url: require('../img/mainIng/挥剑天使彦.jpg'),
+//     name: "挥剑天使彦",
+//   },
+//   {
+//     url: require('../img/mainIng/战斗蕾娜.jpg'),
+//     name: "战斗蕾娜",
+//   },
+//   {
+//     url: require('../img/mainIng/万圣节合照.jpg'),
+//     name: "万圣节合照",
+//   },
+//   {
+//     url: require('../img/mainIng/万圣节凉冰.jpg'),
+//     name: "万圣节凉冰",
+//   },
+//   {
+//     url: require('../img/mainIng/坠落彦.jpg'),
+//     name: "坠落彦",
+//   },
+//   {
+//     url: require('../img/mainIng/对峙-彦 凉冰.jpg'),
+//     name: "对峙-彦 凉冰",
+//   },
+//   {
+//     url: require('../img/mainIng/从天而降蔷薇.jpg'),
+//     name: "从天而降蔷薇",
+//   },
+//   {
+//     url: require('../img/mainIng/火剑彦.jpg'),
+//     name: "火剑彦",
+//   },
+//   {
+//     url: require('../img/mainIng/微笑琪琳.jpg'),
+//     name: "微笑琪琳",
+//   },
+//   {
+//     url: require('../img/mainIng/怜风降临海报2.jpg'),
+//     name: "怜风降临海报2",
+//   },
+//   {
+//     url: require('../img/mainIng/天使彦降临日海报.jpg'),
+//     name: "天使彦降临日海报 ",
+//   },
+//   {
+//     url: require('../img/mainIng/赤凤天护.jpg'),
+//     name: "赤凤天护",
+//   },
+//   {
+//     url: require('../img/mainIng/凯莎三姐妹.jpg'),
+//     name: "凯莎三姐妹",
+//   },
+//   {
+//     url: require('../img/mainIng/军装怜风.jpg'),
+//     name: "军装怜风",
+//   },
+//   {
+//     url: require('../img/mainIng/皇冠凉冰.jpg'),
+//     name: "皇冠凉冰",
+//   },
+//   {
+//     url: require('../img/mainIng/团队（琪琳怜风悟空）.jpg'),
+//     name: "团队（琪琳怜风悟空）",
+//   },
+// ];
+// const QPic = [
+//   // { url: '', name: '' },
+
+//   {
+//     url: require('../img/Qimg/神所不顾鹤熙.jpg'),
+//     name: "神所不顾鹤熙",
+//   },
+//   {
+//     url: require('../img/Qimg/Q凉薇礼物盒.jpg'),
+//     name: "Q凉薇礼物盒",
+//   },
+//   {
+//     url: require('../img/Qimg/Qt恤天使彦.jpg'),
+//     name: "Qt恤天使彦",
+//   },
+//   {
+//     url: require('../img/Qimg/Q凉薇大腿抱.jpg'),
+//     name: "Q凉薇大腿抱",
+//   },
+//   {
+//     url: require('../img/Qimg/Q恶魔凉冰.jpg'),
+//     name: "Q恶魔凉冰",
+//   },
+//   {
+//     url: require('../img/Qimg/Q凯莎头像.jpg'),
+//     name: "Q凯莎头像",
+//   },
+//   {
+//     url: require('../img/Qimg/Q鹤熙头像.jpg'),
+//     name: "Q鹤熙头像",
+//   },
+//   {
+//     url: require('../img/Qimg/冬日凉薇.jpg'),
+//     name: "冬日凉薇",
+//   },
+//   {
+//     url: require('../img/Qimg/窗台彦.png'),
+//     name: "窗台彦",
+//   },
+//   {
+//     url: require('../img/Qimg/PLA天河战役田野.png'),
+//     name: "PLA天河战役田野",
+//   },
+//   {
+//     url: require('../img/Qimg/PLA天河战役城市.png'),
+//     name: "PLA天河战役城市",
+//   },
+//   {
+//     url: require('../img/Qimg/海航蔷薇.png'),
+//     name: "海航蔷薇",
+//   },
+//   {
+//     url: require('../img/Qimg/战火琪琳.png'),
+//     name: "战火琪琳",
+//   },
+//   {
+//     url: require('../img/Qimg/与子同袍.jpg'),
+//     name: "与子同袍",
+//   },
+//   {
+//     url: require('../img/Qimg/蔷薇天河战役竖版.png'),
+//     name: "蔷薇天河战役竖版",
+//   },
+//   {
+//     url: require('../img/Qimg/蔷薇天河战役横版.png'),
+//     name: "蔷薇天河战役横版",
+//   },
+//   {
+//     url: require('../img/Qimg/蔷薇坦克.jpg'),
+//     name: "蔷薇坦克",
+//   },
+//   {
+//     url: require('../img/Qimg/烈阳天道.png'),
+//     name: "烈阳天道",
+//   },
+//   {
+//     url: require('../img/Qimg/巨峡市蔷薇琪琳蕾娜.jpg'),
+//     name: "巨峡市蔷薇琪琳蕾娜",
+//   },
+//   {
+//     url: require('../img/Qimg/空战饕餮1.png'),
+//     name: "空战饕餮1",
+//   },
+//   {
+//     url: require('../img/Qimg/空战饕餮2.png'),
+//     name: "空战饕餮2",
+//   },
+//   {
+//     url: require('../img/Qimg/空战饕餮3.png'),
+//     name: "空战饕餮3",
+//   },
+//   {
+//     url: require('../img/Qimg/Q天使冷.jpg'),
+//     name: "Q天使冷",
+//   },
+//   {
+//     url: require('../img/Qimg/Q彦爱心.jpg'),
+//     name: "Q彦爱心",
+//   },
+//   {
+//     url: require('../img/Qimg/q凉冰吧唧嘴.jpg'),
+//     name: "q凉冰吧唧嘴",
+//   },
+//   {
+//     url: require('../img/Qimg/三王油画.jpg'),
+//     name: "三王油画",
+//   },
+//   {
+//     url: require('../img/Qimg/q群像红毯.jpg'),
+//     name: "q群像红毯",
+//   },
+//   {
+//     url: require('../img/Qimg/q彦国旗.jpg'),
+//     name: "q彦国旗",
+//   },
+//   {
+//     url: require('../img/Qimg/q蔷薇生日.jpg'),
+//     name: "q蔷薇生日",
+//   },
+//   {
+//     url: require('../img/Qimg/q彦生日.jpg'),
+//     name: "q彦生日",
+//   },
+//   {
+//     url: require('../img/Qimg/Q琪琳警服.jpg'),
+//     name: "Q琪琳警服",
+//   },
+//   {
+//     url: require('../img/Qimg/Q凉薇结婚.jpg'),
+//     name: "Q凉薇结婚",
+//   },
+//   {
+//     url: require('../img/Qimg/凯鹤Q.jpg'),
+//     name: "凯鹤Q",
+//   },
+//   {
+//     url: require('../img/Qimg/雄三凉薇手绘.jpg'),
+//     name: "雄三凉薇手绘",
+//   },
+//   {
+//     url: require('../img/Qimg/凯莎手绘.jpg'),
+//     name: "凯莎手绘",
+//   },
+//   {
+//     url: require('../img/Qimg/鹤熙手绘.jpg'),
+//     name: "鹤熙手绘",
+//   },
+//   {
+//     url: require('../img/Qimg/凉薇漫画.jpg'),
+//     name: "凉薇漫画",
+//   },
+//   {
+//     url: require('../img/Qimg/凉薇摩托篝火.jpg'),
+//     name: "凉薇摩托篝火",
+//   },
+//   {
+//     url: require('../img/Qimg/凉薇摩托篝火.jpg'),
+//     name: "三王漫画",
+//   },
+//   {
+//     url: require('../img/Qimg/凉薇婚纱照.jpg'),
+//     name: "凉薇婚纱照",
+//   },
+//   {
+//     url: require('../img/Qimg/鹤熙油画.jpg'),
+//     name: "鹤熙油画",
+//   },
+//   {
+//     url: require('../img/Qimg/鹤熙 彦油画.jpg'),
+//     name: "鹤熙 彦油画",
+//   },
+
+//   {
+//     url: require('../img/Qimg/凉薇漫画 (1).jpg'),
+//     name: "凉薇漫画2",
+//   },
+//   {
+//     url: require('../img/Qimg/Q追.jpg'),
+//     name: "Q追",
+//   },
+//   {
+//     url: require('../img/Qimg/Q彦哭泣.jpg'),
+//     name: "Q彦哭泣",
+//   },
+//   {
+//     url: require('../img/Qimg/Q凯莎-凉冰.jpg'),
+//     name: "Q凯莎-凉冰",
+//   },
+//   // { url: '', name: '' },
+//   // { url: '', name: '' },
+//   {
+//     url: require('../img/Qimg/Q凉薇风筝.jpg'),
+//     name: "Q凉薇风筝",
+//   },
+//   {
+//     url: require('../img/Qimg/追与冷.jpg'),
+//     name: "追与冷",
+//   },
+//   {
+//     url: require('../img/Qimg/老版Q锐雯.jpg'),
+//     name: "老版Q锐雯",
+//   },
+//   {
+//     url: require('../img/Qimg/老版Q蕾娜.jpg'),
+//     name: "老版Q蕾娜",
+//   },
+//   {
+//     url: require('../img/Qimg/老版Q女王.jpg'),
+//     name: "老版Q女王",
+//   },
+//   {
+//     url: require('../img/Qimg/老版Q阿狸.jpg'),
+//     name: "老版Q阿狸",
+//   },
+//   {
+//     url: require('../img/Qimg/老版Q悟空.jpg'),
+//     name: "老版Q悟空",
+//   },
+//   {
+//     url: require('../img/Qimg/老版Q刘闯.jpg'),
+//     name: "老版Q刘闯",
+//   },
+//   {
+//     url: require('../img/Qimg/汤圆凉冰.jpg'),
+//     name: "汤圆凉冰",
+//   },
+//   {
+//     url: require('../img/Qimg/Q彦立正.jpeg'),
+//     name: "Q彦立正",
+//   },
+//   {
+//     url: require('../img/Qimg/Q彦惊讶.jpeg'),
+//     name: "Q彦惊讶",
+//   },
+//   {
+//     url: require('../img/Qimg/Q彦持剑全身照.jpeg'),
+//     name: "Q彦持剑全身照",
+//   },
+//   {
+//     url: require('../img/Qimg/彦仰望漫画.jpg'),
+//     name: "彦仰望漫画",
+//   },
+//   {
+//     url: require('../img/Qimg/抽象彦.jpg'),
+//     name: "抽象彦",
+//   },
+//   {
+//     url: require('../img/Qimg/抽象刘闯.jpg'),
+//     name: "抽象刘闯",
+//   },
+//   {
+//     url: require('../img/Qimg/抽象莫甘娜.jpg'),
+//     name: "抽象莫甘娜",
+//   },
+//   {
+//     url: require('../img/Qimg/抽象瑞文.jpg'),
+//     name: "抽象瑞文",
+//   },
+//   {
+//     url: require('../img/Qimg/抽象蕾娜.jpg'),
+//     name: "抽象蕾娜",
+//   },
+//   {
+//     url: require('../img/Qimg/抽象蔷薇.jpg'),
+//     name: "抽象蔷薇",
+//   },
+//   {
+//     url: require('../img/Qimg/抽象凉冰.jpg'),
+//     name: "抽象凉冰",
+//   },
+//   {
+//     url: require('../img/Qimg/抽象赵信.jpg'),
+//     name: "抽象赵信",
+//   },
+//   {
+//     url: require('../img/Qimg/抽象琪琳.jpg'),
+//     name: "抽象琪琳",
+//   },
+//   {
+//     url: require('../img/Qimg/Q凉薇.jpg'),
+//     name: "Q凉薇",
+//   },
+//   {
+//     url: require('../img/Qimg/Q元旦.jpg'),
+//     name: "Q元旦",
+//   },
+//   {
+//     url: require('../img/Qimg/Q双女王.jpg'),
+//     name: "Q双女王",
+//   },
+// ];
+const actp = [{ videoAddress: require('../video/帅琪琳.mp4'), name: '帅琪琳', post: require("../img/帅琪琳poster.jpg") },
+{ videoAddress: require('../video/蔷薇机甲动态.mp4'), name: '蔷薇机甲动态', post: require("../img/蔷薇机甲动态poster.jpg") }
+  ,
+{ videoAddress: require('../video/悟空动态.mp4'), name: '悟空动态', post: require("../img/悟空动态poster.jpg") }
+  ,
+{ videoAddress: require('../video/蔷薇短发星命动态.mp4'), name: '蔷薇短发星命动态', post: require("../img/蔷薇短发星命动态poster.jpg") }
+  ,
+{ videoAddress: require('../video/鹤熙樱花唯美动态壁纸.mp4'), name: '鹤熙樱花唯美动态壁纸', post: require("../img/鹤熙樱花唯美动态壁纸poster.jpg") },
+{ videoAddress: require('../video/凉薇展翼动态壁纸.mp4'), name: '凉薇展翼动态壁纸', post: require("../img/凉薇展翼动态壁纸poster.jpg") },
+{ videoAddress: require('../video/凯莎动态.mp4'), name: '凯莎动态壁纸', post: require("../img/凯莎动态poster.jpg") },
+{ videoAddress: require('../video/阿狸动态.mp4'), name: '阿狸动态壁纸', post: require("../img/阿狸动态poster.jpg") },
+{ videoAddress: require('../video/凉薇牵手动态壁纸.mp4'), name: '凉薇牵手动态壁纸', post: require("../img/凉薇牵手动态壁纸poster.jpg") },
+{ videoAddress: require('../video/凯莎持剑动态.mp4'), name: '凯莎持剑动态', post: require("../img/凯莎持剑动态poster.jpg") }]
 // const allPics=[{url:'http://r.photo.store.qq.com/psc?/V5291Pt944vGI6035cbU234hz53UycII/45NBuzDIW489QBoVep5mccsKENyzo0A5T*SfoYTsnXD5HEZqq0bq45Jg4Yx6HHn.uO7LdvRI2Ff4HEbsxttxZKJRa0xboNAaLsBYDmOD5eY!/r',
 //   name:'彦降临'},{url:'http://r.photo.store.qq.com/psc?/V5291Pt944vGI6035cbU234hz53UycII/45NBuzDIW489QBoVep5mcQZaos6QrklqM3SW*dY8Q6Fs*MLQ*4bas1dN8m9VmmXjXVJlJWkUqfhBrk1TqKJf72C7LBwfFYUOPG5.YAAQJOQ!/r',
 //   name:'小狸 - 烈阳2'},{url:'http://r.photo.store.qq.com/psc?/V5291Pt944vGI6035cbU234hz53UycII/45NBuzDIW489QBoVep5mcQZaos6QrklqM3SW*dY8Q6Ez4SdrDpLunC4NvhIH5Ir5CP8q6RwIa.Y0Gh1W38JnbeCOT54WeuQCokxr3WhJwyc!/r',
@@ -945,4 +1817,4 @@ const QPics = [
 //   ,name:'皇冠凉冰'},{url:'http://r.photo.store.qq.com/psc?/V5291Pt944vGI6035cbU234hz53UycII/45NBuzDIW489QBoVep5mcT27e*DZIXc5IswTbWMd5bORn8VzLKJKR*woNbssh6yeTpcmUczRMXFXH1L4Q1.I0fvuJCmZqE300rZ3dDEQkuQ!/r'
 //   ,name:'除夕合照'},{url:'http://r.photo.store.qq.com/psc?/V5291Pt944vGI6035cbU234hz53UycII/45NBuzDIW489QBoVep5mcYSuXjv0uPEwcvju8YZ*scI11nPuyYfDW*Gi0qlpu5yGxH28Scy6OnzI7kjxwU1hE0*06N3uMr3uz9e8AMV*3RM!/r',name:'团队（琪琳怜风悟空）'}]
 
-export { allPics, examplePics, sharePics, QPics };
+export { allPics, examplePics, sharePics, QPics, actp };

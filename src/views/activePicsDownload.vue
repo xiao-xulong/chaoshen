@@ -4,7 +4,7 @@
         <h1>{{  videoName  }}</h1>
         <div :class="['video', 'gradient-border']">
             <div v-show="videoState" class="icon" @click="play"></div>
-            <video :poster="videoAddress + '?x-oss-process=video/snapshot,t_0,f_jpg,w_0,h_0,ar_auto'" ref="v"
+            <video  ref="v"
                 @click="pause" autoplay @ended="pause">
                 <source :src="videoAddress" type="video/mp4" />您的浏览器不支持 mp4文件。
             </video>
