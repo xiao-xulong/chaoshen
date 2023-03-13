@@ -23,6 +23,7 @@ const examplePics = [
 ];
 const allPics = [
   // {url:'',name:''},
+  { url: ' https://angel-yan.oss-cn-hangzhou.aliyuncs.com/%E7%90%AA%E7%90%B3%E6%A4%8D%E6%A0%91%E8%8A%82%E6%B5%B7%E6%8A%A5.jpg', name: '琪琳植树节海报' },
   { url: 'https://angel-yan.oss-cn-hangzhou.aliyuncs.com/%E9%9B%AA%E4%BC%8A%E5%A6%87%E5%A5%B3%E8%8A%82%E6%B5%B7%E6%8A%A5.jpg', name: '雪伊妇女节海报' },
   { url: 'https://angel-yan.oss-cn-hangzhou.aliyuncs.com/%E8%94%B7%E8%96%87%E6%83%85%E4%BA%BA%E8%8A%82%E6%B5%B7%E6%8A%A5.jpg', name: '蔷薇情人节海报' },
   { url: 'https://angel-yan.oss-cn-hangzhou.aliyuncs.com/%E5%85%83%E5%AE%B5%E6%B5%B7%E6%8A%A5.jpg', name: '元宵海报' },
