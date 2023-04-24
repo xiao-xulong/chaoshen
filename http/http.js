@@ -903,6 +903,11 @@ const examplePics = [
 
 const allPics = [
   // {url:'',name:''},
+  { url: require('AI彦(1)'), name: 'AI彦(1)' },
+  { url: require('AI彦(2)'), name: 'AI彦(2)' },
+  { url: require('AI彦(3)'), name: 'AI彦(3)' },
+  { url: require('AI彦(4)'), name: 'AI彦(4)' },
+  { url: require('AI彦(5)'), name: 'AI彦(5)' },
   { url: require('../img/mainIng/琪琳植树节海报.jpg'), name: '琪琳植树节海报' },
   { url: require('../img/mainIng/雪伊妇女节海报.jpg'), name: '雪伊妇女节海报' },
   { url: require('../img/mainIng/蔷薇情人节海报.jpg'), name: '蔷薇情人节海报' },
