@@ -913,6 +913,8 @@ const allPics = [
   { url: require('../img/mainIng/AI彦(4).jpg'), name: 'AI彦(4)' },
   { url: require('../img/mainIng/AI彦(5).jpg'), name: 'AI彦(5)' },
   { url: require('../img/mainIng/AI彦(6).jpg'), name: 'AI彦(6)' },
+  { url: require('../img/mainIng/AI彦(7).jpg'), name: 'AI彦(7)' },
+  { url: require('../img/mainIng/AI彦(8).jpg'), name: 'AI彦(8)' },
   { url: require('../img/mainIng/琪琳植树节海报.jpg'), name: '琪琳植树节海报' },
   { url: require('../img/mainIng/雪伊妇女节海报.jpg'), name: '雪伊妇女节海报' },
   { url: require('../img/mainIng/蔷薇情人节海报.jpg'), name: '蔷薇情人节海报' },
