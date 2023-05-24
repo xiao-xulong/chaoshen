@@ -1777,19 +1777,21 @@ const QPics = [
     name: "Q双女王",
   },
 ];
-const actp = [{ videoAddress: require('../video/帅琪琳.mp4'), name: '帅琪琳', post: require("../img/帅琪琳poster.jpg") },
-{ videoAddress: require('../video/蔷薇机甲动态.mp4'), name: '蔷薇机甲动态', post: require("../img/蔷薇机甲动态poster.jpg") }
+const actp = [
+  { videoAddress: require('../video/彦叉腰动态.mp4'), name: '彦叉腰', post: require("../img/彦叉腰动态_poster.jpg") },
+  { videoAddress: require('../video/帅琪琳.mp4'), name: '帅琪琳', post: require("../img/帅琪琳poster.jpg") },
+  { videoAddress: require('../video/蔷薇机甲动态.mp4'), name: '蔷薇机甲动态', post: require("../img/蔷薇机甲动态poster.jpg") }
   ,
-{ videoAddress: require('../video/悟空动态.mp4'), name: '悟空动态', post: require("../img/悟空动态poster.jpg") }
+  { videoAddress: require('../video/悟空动态.mp4'), name: '悟空动态', post: require("../img/悟空动态poster.jpg") }
   ,
-{ videoAddress: require('../video/蔷薇短发星命动态.mp4'), name: '蔷薇短发星命动态', post: require("../img/蔷薇短发星命动态poster.jpg") }
+  { videoAddress: require('../video/蔷薇短发星命动态.mp4'), name: '蔷薇短发星命动态', post: require("../img/蔷薇短发星命动态poster.jpg") }
   ,
-{ videoAddress: require('../video/鹤熙樱花唯美动态壁纸.mp4'), name: '鹤熙樱花唯美动态壁纸', post: require("../img/鹤熙樱花唯美动态壁纸poster.jpg") },
-{ videoAddress: require('../video/凉薇展翼动态壁纸.mp4'), name: '凉薇展翼动态壁纸', post: require("../img/凉薇展翼动态壁纸poster.jpg") },
-{ videoAddress: require('../video/凯莎动态.mp4'), name: '凯莎动态壁纸', post: require("../img/凯莎动态poster.jpg") },
-{ videoAddress: require('../video/阿狸动态.mp4'), name: '阿狸动态壁纸', post: require("../img/阿狸动态poster.jpg") },
-{ videoAddress: require('../video/凉薇牵手动态壁纸.mp4'), name: '凉薇牵手动态壁纸', post: require("../img/凉薇牵手动态壁纸poster.jpg") },
-{ videoAddress: require('../video/凯莎持剑动态.mp4'), name: '凯莎持剑动态', post: require("../img/凯莎持剑动态poster.jpg") }]
+  { videoAddress: require('../video/鹤熙樱花唯美动态壁纸.mp4'), name: '鹤熙樱花唯美动态壁纸', post: require("../img/鹤熙樱花唯美动态壁纸poster.jpg") },
+  { videoAddress: require('../video/凉薇展翼动态壁纸.mp4'), name: '凉薇展翼动态壁纸', post: require("../img/凉薇展翼动态壁纸poster.jpg") },
+  { videoAddress: require('../video/凯莎动态.mp4'), name: '凯莎动态壁纸', post: require("../img/凯莎动态poster.jpg") },
+  { videoAddress: require('../video/阿狸动态.mp4'), name: '阿狸动态壁纸', post: require("../img/阿狸动态poster.jpg") },
+  { videoAddress: require('../video/凉薇牵手动态壁纸.mp4'), name: '凉薇牵手动态壁纸', post: require("../img/凉薇牵手动态壁纸poster.jpg") },
+  { videoAddress: require('../video/凯莎持剑动态.mp4'), name: '凯莎持剑动态', post: require("../img/凯莎持剑动态poster.jpg") }]
 // const allPics=[{url:'http://r.photo.store.qq.com/psc?/V5291Pt944vGI6035cbU234hz53UycII/45NBuzDIW489QBoVep5mccsKENyzo0A5T*SfoYTsnXD5HEZqq0bq45Jg4Yx6HHn.uO7LdvRI2Ff4HEbsxttxZKJRa0xboNAaLsBYDmOD5eY!/r',
 //   name:'彦降临'},{url:'http://r.photo.store.qq.com/psc?/V5291Pt944vGI6035cbU234hz53UycII/45NBuzDIW489QBoVep5mcQZaos6QrklqM3SW*dY8Q6Fs*MLQ*4bas1dN8m9VmmXjXVJlJWkUqfhBrk1TqKJf72C7LBwfFYUOPG5.YAAQJOQ!/r',
 //   name:'小狸 - 烈阳2'},{url:'http://r.photo.store.qq.com/psc?/V5291Pt944vGI6035cbU234hz53UycII/45NBuzDIW489QBoVep5mcQZaos6QrklqM3SW*dY8Q6Ez4SdrDpLunC4NvhIH5Ir5CP8q6RwIa.Y0Gh1W38JnbeCOT54WeuQCokxr3WhJwyc!/r',
