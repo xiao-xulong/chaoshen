@@ -18,6 +18,7 @@ import { actp } from "../../http/http";
 import pageTop from '../components/pageTop'
 const { proxy } = getCurrentInstance()
 const activePics = ref([
+{ videoAddress: require('../../video/彦叉腰动态.mp4'), name: '彦叉腰',post: require("../../img/彦叉腰动态_poster.jpg") },
     { videoAddress: require('../../video/帅琪琳.mp4'), name: '帅琪琳',post: require("../../img/帅琪琳poster.jpg") },
     { videoAddress: require('../../video/蔷薇机甲动态.mp4'), name: '蔷薇机甲动态',post:require("../../img/蔷薇机甲动态poster.jpg") }
     ,
