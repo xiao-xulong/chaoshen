@@ -1,5 +1,4 @@
 const users = [
-  { qq: 1529836290, pwd: "star" },
   { qq: 2830871721, pwd: "undergraduate" },
   { qq: 3224583424, pwd: "3224583424" },
   { qq: 1057717745, pwd: "" },
