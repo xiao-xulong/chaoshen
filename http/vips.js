@@ -120,6 +120,6 @@ const vips = [
   { qq: "1666232557", name: "归远", money: "3" },
   { qq: "2056636227", name: "拾柒", money: "3" },
   { qq: "2250596902", name: "Dunk", money: "3" },
-
+  { qq: "2632172039", name: "哦吼", money: "3" },
 ];
 export { vips };
