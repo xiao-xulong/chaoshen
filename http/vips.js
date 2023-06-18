@@ -90,6 +90,7 @@ const vips = [
   { qq: "1441854515", name: "蓝色的回忆", money: "5" },
   { qq: "821190025", name: "Mu", money: "5" },
   { qq: "2992792663", name: "钨咚", money: "5" },
+  { qq: "460105974", name: "Kevon_Jiang", money: "5" },
   { qq: "1397529960", name: "白蝶", money: "4.5" },
 
   { qq: "3195239296", name: "依旧ZQ", money: "4" },
