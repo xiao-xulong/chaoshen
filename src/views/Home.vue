@@ -27,7 +27,7 @@
         @timeupdate="timeU"
         @canplay="timeW"
       >
-        <source src="../../video/home.mp4" type="video/mp4" />
+        <!-- <source src="../../video/home.mp4" type="video/mp4" /> -->
         您的浏览器不支持 mp4文件。
       </video>
     </div>
