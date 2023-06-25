@@ -335,6 +335,8 @@ const examplePics = [
 
 const allPics = [
   // {url:'',name:''},
+  { url: require('../img/mainIng/AI蔷薇.jpg'), name: 'AI蔷薇' },
+  { url: require('../img/mainIng/AI彦(15).jpg'), name: 'AI彦(15)' },
   { url: require('../img/mainIng/AI鹤熙(11).jpg'), name: 'AI鹤熙(11)' },
   { url: require('../img/mainIng/AI鹤熙(12).jpg'), name: 'AI鹤熙(12)' },
   { url: require('../img/mainIng/AI鹤熙(13).jpg'), name: 'AI鹤熙(13)' },
@@ -344,6 +346,7 @@ const allPics = [
   { url: require('../img/mainIng/AI鹤熙(17).jpg'), name: 'AI鹤熙(17)' },
   { url: require('../img/mainIng/AI鹤熙(18).jpg'), name: 'AI鹤熙(18)' },
   { url: require('../img/mainIng/AI鹤熙(19).jpg'), name: 'AI鹤熙(19)' },
+  { url: require('../img/mainIng/AI鹤熙(20).jpg'), name: 'AI鹤熙(20)' },
   { url: require('../img/mainIng/AI琪琳(6).jpg'), name: 'AI琪琳(6)' },
   { url: require('../img/mainIng/AI琪琳(7).jpg'), name: 'AI琪琳(7)' },
   { url: require('../img/mainIng/AI琪琳(8).jpg'), name: 'AI琪琳(8)' },
@@ -351,6 +354,8 @@ const allPics = [
   { url: require('../img/mainIng/AI琪琳(10).jpg'), name: 'AI琪琳(10)' },
   { url: require('../img/mainIng/AI琪琳(11).jpg'), name: 'AI琪琳(11)' },
   { url: require('../img/mainIng/AI彦(12).jpg'), name: 'AI彦(12)' },
+  { url: require('../img/mainIng/AI彦(13).jpg'), name: 'AI彦(13)' },
+  { url: require('../img/mainIng/AI彦(14).jpg'), name: 'AI彦(14)' },
   { url: require('../img/mainIng/AI鹤熙(8).jpg'), name: 'AI鹤熙(8)' },
   { url: require('../img/mainIng/AI鹤熙(9).jpg'), name: 'AI鹤熙(9)' },
   { url: require('../img/mainIng/AI鹤熙(10).jpg'), name: 'AI鹤熙(10)' },
