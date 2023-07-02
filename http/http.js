@@ -334,7 +334,21 @@ const examplePics = [
 // ];
 
 const allPics = [
+
   // {url:'',name:''},
+  { url: require('../img/mainIng/AI彦(26).jpg'), name: 'AI彦(26)' },
+  { url: require('../img/mainIng/AI彦(27).jpg'), name: 'AI彦(27)' },
+  { url: require('../img/mainIng/AI彦(28).jpg'), name: 'AI彦(28)' },
+  { url: require('../img/mainIng/AI彦(29).jpg'), name: 'AI彦(29)' },
+  { url: require('../img/mainIng/AI彦(30).jpg'), name: 'AI彦(30)' },
+  { url: require('../img/mainIng/AI彦(31).jpg'), name: 'AI彦(31)' },
+  { url: require('../img/mainIng/AI彦(32).jpg'), name: 'AI彦(32)' },
+  { url: require('../img/mainIng/AI彦(33).jpg'), name: 'AI彦(33)' },
+  { url: require('../img/mainIng/AI彦(34).jpg'), name: 'AI彦(34)' },
+  { url: require('../img/mainIng/AI彦(35).jpg'), name: 'AI彦(35)' },
+  { url: require('../img/mainIng/AI彦(36).jpg'), name: 'AI彦(36)' },
+  { url: require('../img/mainIng/AI凉冰.jpg'), name: 'AI凉冰' },
+  { url: require('../img/mainIng/AI凉冰(2).jpg'), name: 'AI凉冰(2)' },
   { url: require('../img/mainIng/AI彦(16).jpg'), name: 'AI彦(16)' },
   { url: require('../img/mainIng/AI彦(17).jpg'), name: 'AI彦(17)' },
   { url: require('../img/mainIng/AI彦(18).jpg'), name: 'AI彦(18)' },
