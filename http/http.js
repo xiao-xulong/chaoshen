@@ -345,6 +345,8 @@ const allPics = [
   { url: require('../img/mainIng/AI鹤熙(26).jpg'), name: 'AI鹤熙(26)' },
   { url: require('../img/mainIng/AI鹤熙(27).jpg'), name: 'AI鹤熙(27)' },
   { url: require('../img/mainIng/AI鹤熙(28).jpg'), name: 'AI鹤熙(28)' },
+  { url: require('../img/mainIng/AI鹤熙(29).jpg'), name: 'AI鹤熙(29)' },
+  { url: require('../img/mainIng/AI鹤熙(30).jpg'), name: 'AI鹤熙(30)' },
   { url: require('../img/mainIng/AI雪伊(2).jpg'), name: 'AI雪伊(2)' },
   { url: require('../img/mainIng/AI凉冰(3).jpg'), name: 'AI凉冰(3)' },
   { url: require('../img/mainIng/AI凉冰(4).jpg'), name: 'AI凉冰(4)' },
