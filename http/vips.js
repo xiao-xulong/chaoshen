@@ -10,6 +10,8 @@ const vips = [
   { qq: "430841254", name: "北宸", money: "20" },
   { qq: "1834727719", name: "茶杯", money: "20" },
   { qq: "2367879248", name: "风", money: "20" },
+  { qq: "839638821", name: "universe", money: "20" },
+  { qq: "2358622202", name: "一顿五个孩er", money: "20" },
   { qq: "947062775", name: "Waneefan", money: "18" },
   { qq: "274333000", name: "穿越", money: "16.8" },
   { qq: "3170119613", name: "༺星河如梦༺", money: "15" },
@@ -56,6 +58,7 @@ const vips = [
   { qq: "3224336280", name: "羽渡渡渡渡", money: "10" },
   { qq: "873159564", name: "拼图", money: "10" },
   { qq: "582457255", name: "不负圣吉列斯之血", money: "10" },
+  { qq: "2574173398", name: "Zephyr", money: "10" },
   { qq: "2578516756", name: "Faye Valentine", money: "7" },
   { qq: "1123638862", name: "墨心", money: "6.66" },
   { qq: "3282873514", name: "Fletcher.X", money: "6.66" },
@@ -128,5 +131,7 @@ const vips = [
   { qq: "2056636227", name: "拾柒", money: "3" },
   { qq: "2250596902", name: "Dunk", money: "3" },
   { qq: "2632172039", name: "哦吼", money: "3" },
+  { qq: "3437153883", name: "嗨嗨嗨", money: "3" },
+
 ];
 export { vips };
