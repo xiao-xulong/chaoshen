@@ -103,6 +103,7 @@ const vips = [
   { qq: "2992792663", name: "钨咚", money: "5" },
   { qq: "460105974", name: "Kevon_Jiang", money: "5" },
   { qq: "2804431165", name: "果壳老总陈汉生", money: "5" },
+  { qq: "2756267075", name: "，，", money: "5" },
   { qq: "1397529960", name: "白蝶", money: "4.5" },
   { qq: "3195239296", name: "依旧ZQ", money: "4" },
   { qq: "2720898486", name: "人生QAQ", money: "4" },
