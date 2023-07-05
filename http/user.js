@@ -312,6 +312,7 @@ const users = [
   { qq: 962920047, pwd: "962920047" },
   { qq: 2932629862, pwd: "abc8866" },
   { qq: 2859807979, pwd: "231150gr718" },
+  { qq: 339121481, pwd: "password007" },
 ];
 
 export { users };
