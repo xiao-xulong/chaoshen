@@ -116,6 +116,7 @@ const vips = [
   { qq: "3146450186", name: "囧熊囧事", money: "5" },
   { qq: "2665147190", name: "齐天", money: "5" },
   { qq: "962920047", name: "ZFB专业理财亏钱选手小A", money: "5" },
+  { qq: "1285296460", name: "噫吁嚱", money: "5" },
   { qq: "1397529960", name: "白蝶", money: "4.5" },
   { qq: "3195239296", name: "依旧ZQ", money: "4" },
   { qq: "2720898486", name: "人生QAQ", money: "4" },
