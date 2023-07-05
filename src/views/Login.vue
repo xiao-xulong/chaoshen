@@ -76,7 +76,7 @@ export default {
             path: '/Home'
           })
         } else {
-          Notify({ type: 'danger', message: '密码错误,请联系Q2431694726' });
+          Notify({ type: 'danger', message: '密码错误,请联系Q1529836290' });
         }
       } else {
         Notify({ type: 'danger', message: '账号不存在' });
