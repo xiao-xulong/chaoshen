@@ -126,6 +126,7 @@ const vips = [
   { qq: "3195239296", name: "依旧ZQ", money: "4" },
   { qq: "2720898486", name: "人生QAQ", money: "4" },
   { qq: "3156564190", name: "子龙传说", money: "4" },
+  { qq: "2930731271", name: "真爱必将永恒", money: "4" },
   { qq: "1732253807", name: "天逸", money: "3" },
   { qq: "2334385343", name: "Stronger", money: "3" },
   { qq: "450008868", name: "求求你不要在秀啦", money: "3" },
