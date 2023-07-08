@@ -159,5 +159,6 @@ const vips = [
   { qq: "3437153883", name: "嗨嗨嗨", money: "3" },
   { qq: "2095437603", name: "七天银爵", money: "3" },
   { qq: "1978899728", name: "拾忆最初的梦想", money: "3" },
+  { qq: "2901074652", name: "若木", money: "3" },
 ];
 export { vips };
