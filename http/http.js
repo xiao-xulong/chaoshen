@@ -338,6 +338,7 @@ const allPics = [
   // {url:'',name:''},
   { url: require('../img/mainIng/AI彦(47).jpg'), name: 'AI彦(47)' },
   { url: require('../img/mainIng/AI琪琳(19).jpg'), name: 'AI琪琳(19)' },
+  { url: require('../img/mainIng/AI琪琳(20).jpg'), name: 'AI琪琳(20)' },
   { url: require('../img/mainIng/AI琪琳(13).jpg'), name: 'AI琪琳(13)' },
   { url: require('../img/mainIng/AI琪琳(14).jpg'), name: 'AI琪琳(14)' },
   { url: require('../img/mainIng/AI琪琳(15).jpg'), name: 'AI琪琳(15)' },
