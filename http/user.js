@@ -348,6 +348,8 @@ const users = [
   { qq: 2313198272, pwd: "babyQ" },
   { qq: 1392284402, pwd: "qd105646" },
   { qq: 2026064327, pwd: "pc12138" },
+  { qq: 2806271304, pwd: "liangweiyouwo" },
+  { qq: 3474781359, pwd: "moonbyul1222" },
 ];
 
 export { users };
