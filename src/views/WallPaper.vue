@@ -75,7 +75,7 @@ export default {
         if (newPic.value[showPicNum.value - 1] != undefined) {
         showPic.value = newPic.value.slice(0, showPicNum.value);
       } else {
-        showPic.value = allPics;
+        showPic.value = newPic.value;
         noMorePic.value = true;
       }
       }
