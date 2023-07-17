@@ -91,8 +91,8 @@ export default {
       });
     };
     let  change= function (data) {
-console.log(data);
 if (data!=='默认排序') {
+  newPic.value=[]
   allPics.forEach((item)=>{
 if(item.name.indexOf(data) !==-1){
 newPic.value.push(item)
@@ -104,7 +104,7 @@ showPic.value =newPic.value.slice(0, showPicNum.value);
   location.reload()
 }
 
-console.log(showPic.value);
+console.log(newPic.value);
     }
     return {
       newPic,
