@@ -487,9 +487,9 @@ const allPics = [
   { url: require('../img/mainIng/琪琳植树节海报.jpg'), name: '琪琳植树节海报' },
   { url: require('../img/mainIng/雪伊妇女节海报.jpg'), name: '雪伊妇女节海报' },
   { url: require('../img/mainIng/蔷薇情人节海报.jpg'), name: '蔷薇情人节海报' },
-  { url: require('../img/mainIng/元宵海报.jpg'), name: '元宵海报' },
+  { url: require('../img/mainIng/元宵群像海报.jpg'), name: '元宵群像海报' },
   { url: require('../img/mainIng/琪琳春节海报.jpg'), name: '琪琳春节海报' },
-  { url: require('../img/mainIng/三王除夕海报.jpg'), name: '三王除夕海报' },
+  { url: require('../img/mainIng/三王除夕群像海报.jpg'), name: '三王除夕群像海报' },
   {
     url: require('../img/mainIng/葛彦元旦海报.jpg'),
     name: "葛彦元旦海报",
@@ -520,8 +520,8 @@ const allPics = [
     name: "炙心生日海报",
   },
   {
-    url: require('../img/mainIng/小狸生日海报.jpg'),
-    name: "小狸生日海报",
+    url: require('../img/mainIng/阿狸生日海报.jpg'),
+    name: "阿狸生日海报",
   },
   {
     url: require('../img/mainIng/琪琳生日海报.jpg'),
@@ -548,12 +548,12 @@ const allPics = [
     name: "雪伊严肃",
   },
   {
-    url: require('../img/mainIng/烈阳组合.jpg'),
-    name: "烈阳组合",
+    url: require('../img/mainIng/烈阳群像.jpg'),
+    name: "烈阳群像",
   },
   {
-    url: require('../img/mainIng/虚空组合.jpg'),
-    name: "虚空组合",
+    url: require('../img/mainIng/虚空群像.jpg'),
+    name: "虚空群像",
   },
   {
     url: require('../img/mainIng/天使彦生日海报.jpg'),
@@ -620,8 +620,8 @@ const allPics = [
     name: "琪琳破亿海报",
   },
   {
-    url: require('../img/mainIng/老版凉薇夕阳海报.jpg'),
-    name: "老版凉薇夕阳海报",
+    url: require('../img/mainIng/老版凉冰蔷薇夕阳海报.jpg'),
+    name: "老版凉冰蔷薇夕阳海报",
   },
   {
     url: require('../img/mainIng/老版54青年节海报.jpg'),
@@ -636,8 +636,8 @@ const allPics = [
     name: "雄三琪琳微笑",
   },
   {
-    url: require('../img/mainIng/618凉薇海报精修版.jpg'),
-    name: "618凉薇海报精修版",
+    url: require('../img/mainIng/618凉冰蔷薇海报精修版.jpg'),
+    name: "618凉冰蔷薇海报精修版",
   },
   {
     url: require('../img/mainIng/5周年海报彦单人照.jpg'),
@@ -665,13 +665,13 @@ const allPics = [
     name: "阿狸端午",
   },
   {
-    url: require('../img/mainIng/凉薇睡觉.jpg'),
-    name: "凉薇睡觉",
+    url: require('../img/mainIng/凉冰蔷薇睡觉.jpg'),
+    name: "凉冰蔷薇睡觉",
   },
 
   {
-    url: require('../img/mainIng/凉薇红酒.jpg'),
-    name: "凉薇红酒",
+    url: require('../img/mainIng/凉冰蔷薇红酒.jpg'),
+    name: "凉冰蔷薇红酒",
   },
   {
     url: require('../img/mainIng/雄三天使彦2.jpg'),
@@ -810,8 +810,8 @@ const allPics = [
     name: "墨倾池鹤熙",
   },
   {
-    url: require('../img/mainIng/雄三海报.jpg'),
-    name: "雄三海报",
+    url: require('../img/mainIng/雄三群像.jpg'),
+    name: "雄三群像",
   },
   {
     url: require('../img/mainIng/冷清明海报.jpg'),
@@ -823,16 +823,16 @@ const allPics = [
   },
 
   {
-    url: require('../img/mainIng/2022新年三王海报.jpg'),
-    name: "2022新年三王海报",
+    url: require('../img/mainIng/2022新年三王群像海报.jpg'),
+    name: "2022新年三王群像海报",
   },
   {
     url: require('../img/mainIng/鹤熙三八妇女节海报.jpg'),
     name: "鹤熙三八妇女节海报",
   },
   {
-    url: require('../img/mainIng/除夕合照精修版.jpg'),
-    name: "除夕合照精修版",
+    url: require('../img/mainIng/除夕群像精修版.jpg'),
+    name: "除夕群像精修版",
   },
   {
     url: require('../img/mainIng/蕾娜战悟空.jpg'),
@@ -859,8 +859,8 @@ const allPics = [
     name: "彦降临",
   },
   {
-    url: require('../img/mainIng/小狸 - 烈阳2.jpg'),
-    name: "小狸 - 烈阳2",
+    url: require('../img/mainIng/阿狸 - 烈阳2.jpg'),
+    name: "阿狸 - 烈阳2",
   },
   {
     url: require('../img/mainIng/舞照.jpg'),
@@ -939,8 +939,8 @@ const allPics = [
     name: "彦-端午节海报",
   },
   {
-    url: require('../img/mainIng/小狸-新春祝福海报.jpg'),
-    name: "小狸-新春祝福海报",
+    url: require('../img/mainIng/阿狸-新春祝福海报.jpg'),
+    name: "阿狸-新春祝福海报",
   },
   {
     url: require('../img/mainIng/阿追-六一海报.jpg'),
@@ -959,8 +959,8 @@ const allPics = [
     name: "萌萌生日海报",
   },
   {
-    url: require('../img/mainIng/凉薇展翼.jpg'),
-    name: "凉薇展翼",
+    url: require('../img/mainIng/凉冰蔷薇展翅.jpg'),
+    name: "凉冰蔷薇展翅",
   },
   {
     url: require('../img/mainIng/捧花炙心.jpg'),
@@ -995,8 +995,8 @@ const allPics = [
     name: "战斗蕾娜",
   },
   {
-    url: require('../img/mainIng/万圣节合照.jpg'),
-    name: "万圣节合照",
+    url: require('../img/mainIng/万圣节群像.jpg'),
+    name: "万圣节群像",
   },
   {
     url: require('../img/mainIng/万圣节凉冰.jpg'),
@@ -1035,8 +1035,8 @@ const allPics = [
     name: "赤凤天护",
   },
   {
-    url: require('../img/mainIng/凯莎三姐妹.jpg'),
-    name: "凯莎三姐妹",
+    url: require('../img/mainIng/三王群像.jpg'),
+    name: "三王群像",
   },
   {
     url: require('../img/mainIng/军装怜风.jpg'),

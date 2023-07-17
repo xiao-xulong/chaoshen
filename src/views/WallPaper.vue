@@ -44,7 +44,9 @@ export default {
       { text: '凉冰', value: '凉冰' },
       { text: '琪琳', value: '琪琳' },
       { text: '炙心', value: '炙心' },
-      { text: '蔷薇', value: '蔷薇' },
+      { text: '阿狸', value: '阿狸' },
+      { text: '蕾娜', value: '蕾娜' },
+      { text: '怜风', value: '怜风' },
       { text: '群像', value: '群像' },
     ];
     let show = ref(true);
