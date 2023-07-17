@@ -959,8 +959,8 @@ const allPics = [
     name: "萌萌生日海报",
   },
   {
-    url: require('../img/mainIng/凉冰蔷薇展翅.jpg'),
-    name: "凉冰蔷薇展翅",
+    url: require('../img/mainIng/凉冰蔷薇展翼.jpg'),
+    name: "凉冰蔷薇展翼",
   },
   {
     url: require('../img/mainIng/捧花炙心.jpg'),
