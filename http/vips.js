@@ -5,6 +5,7 @@ const vips = [
   { qq: "2592526921", name: "生活不是战斗番", money: "50" },
   { qq: "3085548744", name: "琳琅ジ天上べ", money: "50" },
   { qq: "283793051", name: "子不语", money: "50" },
+  { qq: "1067184578", name: "心", money: "50" },
   { qq: "506877669", name: "城", money: "35" },
   { qq: "545595756", name: "佳乐", money: "30" },
   { qq: "576566941", name: "The young boy", money: "30" },
