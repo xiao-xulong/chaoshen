@@ -88,6 +88,7 @@ const vips = [
   { qq: "2251270883", name: "文和", money: "10" },
   { qq: "2406839181", name: "凉茶就喝", money: "10" },
   { qq: "1817536188", name: "大超拖", money: "10" },
+  { qq: "2463795367", name: "定个小目标，每日码字2万", money: "10" },
   { qq: "241483228", name: "chi白", money: "8" },
   { qq: "3027222579", name: "清风", money: "8" },
   { qq: "2578516756", name: "Faye Valentine", money: "7" },
