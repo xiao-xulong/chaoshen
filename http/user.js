@@ -356,6 +356,7 @@ const users = [
   { qq: 2182585374, pwd: "kaisha520" },//1.65
   { qq: 1817536188, pwd: "ep853973" },
   { qq: 3182063140, pwd: "wujian" },
+  { qq: 1655761787, pwd: "ZH8001ZH" },
 ];
 
 export { users };
