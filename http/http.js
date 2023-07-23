@@ -336,6 +336,10 @@ const examplePics = [
 const allPics = [
 
   // {url:'',name:''},
+  { url: require('../img/mainIng/AI阿追(6).jpg'), name: 'AI阿追(6)' },
+  { url: require('../img/mainIng/AI阿追(7).jpg'), name: 'AI阿追(7)' },
+  { url: require('../img/mainIng/AI阿追(8).jpg'), name: 'AI阿追(8)' },
+  { url: require('../img/mainIng/AI阿追(9).jpg'), name: 'AI阿追(9)' },
   { url: require('../img/mainIng/AI鹤熙(46).jpg'), name: 'AI鹤熙(46)' },
   { url: require('../img/mainIng/AI鹤熙(47).jpg'), name: 'AI鹤熙(47)' },
   { url: require('../img/mainIng/AI鹤熙(44).jpg'), name: 'AI鹤熙(44)' },
