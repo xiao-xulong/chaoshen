@@ -188,5 +188,6 @@ const vips = [
   { qq: "2026064327", name: "黑夜问白天", money: "3" },
   { qq: "763068657", name: "=昨&天=", money: "3" },
   { qq: "2931429616", name: "，", money: "3" },
+  { qq: "3467756004", name: "晚安猪猪", money: "3" },
 ];
 export { vips };
