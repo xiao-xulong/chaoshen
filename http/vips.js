@@ -102,6 +102,7 @@ const vips = [
   { qq: "2463795367", name: "定个小目标，每日码字2万", money: "10" },
   { qq: "1229450701", name: "浅时光", money: "10" },
   { qq: "944783755", name: "feifei的二傻", money: "10" },
+  { qq: "3443247073", name: "冰皇", money: "10" },
   { qq: "241483228", name: "chi白", money: "8" },
   { qq: "3027222579", name: "清风", money: "8" },
   { qq: "2578516756", name: "Faye Valentine", money: "7" },
