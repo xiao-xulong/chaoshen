@@ -336,6 +336,8 @@ const examplePics = [
 const allPics = [
 
   // {url:'',name:''},
+  { url: require('../img/mainIng/AI凉冰(27).jpg'), name: 'AI凉冰(27)' },
+  { url: require('../img/mainIng/AI凉冰(28).jpg'), name: 'AI凉冰(28)' },
   { url: require('../img/mainIng/AI凉冰(14).jpg'), name: 'AI凉冰(14)' },
   { url: require('../img/mainIng/AI凉冰(15).jpg'), name: 'AI凉冰(15)' },
   { url: require('../img/mainIng/AI凉冰(16).jpg'), name: 'AI凉冰(16)' },
