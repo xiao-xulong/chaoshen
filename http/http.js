@@ -335,7 +335,23 @@ const examplePics = [
 
 const allPics = [
 
-  // {url:'',name:''},
+  // {url:'',name:''},2323舞照降临日海报
+  { url: require('../img/mainIng/AI彦(98).jpg'), name: 'AI彦(98)' },
+  { url: require('../img/mainIng/AI彦(99).jpg'), name: 'AI彦(99)' },
+  { url: require('../img/mainIng/AI彦(100).jpg'), name: 'AI彦(100)' },
+  { url: require('../img/mainIng/AI彦(101).jpg'), name: 'AI彦(101)' },
+  { url: require('../img/mainIng/AI彦(102).jpg'), name: 'AI彦(102)' },
+  { url: require('../img/mainIng/AI彦(103).jpg'), name: 'AI彦(103)' },
+  { url: require('../img/mainIng/AI彦(104).jpg'), name: 'AI彦(104)' },
+  { url: require('../img/mainIng/AI彦(105).jpg'), name: 'AI彦(105)' },
+  { url: require('../img/mainIng/AI彦(106).jpg'), name: 'AI彦(106)' },
+  { url: require('../img/mainIng/AI彦(107).jpg'), name: 'AI彦(107)' },
+  { url: require('../img/mainIng/AI彦(108).jpg'), name: 'AI彦(108)' },
+  { url: require('../img/mainIng/AI彦(109).jpg'), name: 'AI彦(109)' },
+  { url: require('../img/mainIng/AI彦(110).jpg'), name: 'AI彦(110)' },
+  { url: require('../img/mainIng/AI彦(111).jpg'), name: 'AI彦(111)' },
+  { url: require('../img/mainIng/AI彦(112).jpg'), name: 'AI彦(112)' },
+  { url: require('../img/mainIng/2023舞照降临日海报.jpg'), name: '2023舞照降临日海报' },
   { url: require('../img/mainIng/AI彦(88).jpg'), name: 'AI彦(88)' },
   { url: require('../img/mainIng/AI彦(89).jpg'), name: 'AI彦(89)' },
   { url: require('../img/mainIng/AI彦(90).jpg'), name: 'AI彦(90)' },
