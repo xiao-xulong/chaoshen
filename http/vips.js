@@ -14,6 +14,7 @@ const vips = [
   { qq: "576566941", name: "The young boy", money: "30" },
   { qq: "545595756", name: "       .", money: "30" },
   { qq: "1506873161", name: "，  ，", money: "30" },
+  { qq: "359011137", name: "久伤…", money: "30" },
   { qq: "2511010911", name: "金克丝的超级舔狗", money: "25" },
   { qq: "2601350128", name: "幼稚", money: "25" },
   { qq: "2932629862", name: "归零", money: "25" },
