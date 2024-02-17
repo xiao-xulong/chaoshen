@@ -336,6 +336,10 @@ const examplePics = [
 const allPics = [
 
   // {url:'',name:''},2323舞照降临日海报
+
+  { url: require('../img/mainIng/AI彦(193).jpg'), name: 'AI彦(193)' },
+  { url: require('../img/mainIng/AI彦(194).jpg'), name: 'AI彦(194)' },
+  { url: require('../img/mainIng/AI彦(195).jpg'), name: 'AI彦(195)' },
   { url: require('../img/mainIng/AI琪琳(61).jpg'), name: 'AI琪琳(61)' },
   { url: require('../img/mainIng/AI琪琳(62).jpg'), name: 'AI琪琳(62)' },
   { url: require('../img/mainIng/AI琪琳(60).jpg'), name: 'AI琪琳(60)' },
