@@ -1,6 +1,7 @@
 const vips = [
   { qq: "2859807979", name: "清风流音", money: "101" },
   { qq: "280001088", name: "零落白夜", money: "100" },
+  { qq: "2715915006", name: "小丑", money: "100" },
   { qq: "1305968573", name: "老姑妈", money: "51" },
   { qq: "2592526921", name: "生活不是战斗番", money: "50" },
   { qq: "3085548744", name: "琳琅ジ天上べ", money: "50" },
@@ -109,7 +110,7 @@ const vips = [
   { qq: "3443247073", name: "冰皇", money: "10" },
   { qq: "1229183277", name: "獠牙兔", money: "10" },
   { qq: "2065761407", name: "?", money: "10" },
-
+  { qq: "2336510438", name: "凉笙", money: "10" },
   { qq: "241483228", name: "chi白", money: "8" },
   { qq: "3027222579", name: "清风", money: "8" },
   { qq: "2578516756", name: "Faye Valentine", money: "7" },
