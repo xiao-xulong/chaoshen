@@ -1,9 +1,10 @@
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production' ? './' : './',
-  chainWebpack (config) {
+  chainWebpack(config) {
     config.entry('main').add('babel-polyfill')
   },
   css: {
+    extract: false,
     loaderOptions: {
       css: {},
       postcss: {
