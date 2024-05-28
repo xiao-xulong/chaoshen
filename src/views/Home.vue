@@ -131,7 +131,6 @@ export default {
       play,
       videoPlayState,
       pause,
-      videoAddress,
       backPics,
       morePic,
       goDownload,
