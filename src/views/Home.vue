@@ -73,9 +73,9 @@ export default {
     ];
 
     let videoPlayState = ref(false);
-    let videoAddress = ref(
-      "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b5a06f88-fb89-4b85-8d58-960f4cb33c73.mp4"
-    );
+ //   let videoAddress = ref(
+  //    "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-bdbeaf13-95b3-48c4-a13b-687691a23e5f/b5a06f88-fb89-4b85-8d58-960f4cb33c73.mp4"
+   // );
     // let videoTimeWidth=ref(0)
     //   let videoCurrentTime=ref(0)
     let play = function () {
